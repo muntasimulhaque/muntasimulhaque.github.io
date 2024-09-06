@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profile page of Muntasim Ul Haque, Graduate Student with experience in software engineering and skills in JavaScript, Python, SQL, and Git.">
     <title>Muntasim Ul Haque - Profile</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <style>
@@ -12,11 +13,16 @@
             --accent-color: #0077B5;
             --text-color: #000000;
             --background-color: #FFFFFF;
+            --font-size-base: 16px;
+            --font-size-large: 18px;
+            --font-size-heading: 24px;
+            --font-size-subheading: 20px;
+            --line-height: 1.6;
         }
 
         body {
             font-family: 'Open Sans', sans-serif;
-            line-height: 1.6;
+            line-height: var(--line-height);
             color: var(--text-color);
             margin: 0;
             padding: 0;
@@ -42,13 +48,13 @@
 
         h1 {
             color: var(--primary-color);
-            font-size: 28px;
+            font-size: var(--font-size-heading);
             margin-bottom: 10px;
             font-weight: 600;
         }
 
         p {
-            font-size: 18px;
+            font-size: var(--font-size-large);
             font-weight: 600;
             color: var(--secondary-color);
         }
@@ -63,7 +69,7 @@
         .contact-info a {
             color: var(--text-color);
             text-decoration: none;
-            font-size: 16px;
+            font-size: var(--font-size-base);
             transition: color 0.3s ease;
         }
 
@@ -79,7 +85,7 @@
 
         h2 {
             color: var(--primary-color);
-            font-size: 24px;
+            font-size: var(--font-size-heading);
             border-bottom: 2px solid var(--primary-color);
             padding-bottom: 5px;
             margin-top: 30px;
@@ -87,7 +93,7 @@
         }
 
         h3 {
-            font-size: 20px;
+            font-size: var(--font-size-subheading);
             color: var(--secondary-color);
             font-weight: 600;
         }
@@ -98,7 +104,7 @@
         }
 
         li {
-            font-size: 16px;
+            font-size: var(--font-size-base);
             margin-bottom: 10px;
         }
 
@@ -116,10 +122,10 @@
         <h1>Muntasim Ul Haque</h1>
         <p>Graduate Student</p>
         <div class="contact-info">
-            <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-            <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="mailto:muntasim.haque@gmail.com">Email</a>
-            <a href="https://twitter.com/muntasimulhaque" target="_blank" rel="noopener noreferrer">X (Twitter)</a>
+            <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar profile">Google Scholar</a>
+            <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">LinkedIn</a>
+            <a href="mailto:muntasim.haque@gmail.com" aria-label="Email address">Email</a>
+            <a href="https://twitter.com/muntasimulhaque" target="_blank" rel="noopener noreferrer" aria-label="Twitter profile">X (Twitter)</a>
         </div>
     </div>
 
