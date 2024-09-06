@@ -19,10 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Muntasim Ul Haque
-email: muntasim.haque@gmail.com
+email: example@email.com
 description: My professional portfolio, experience, and skills.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://muntasimulhaque.github.io"
+linkedin_username: muntasimulhaque
+google_scholar_username: qsD8a0MAAAAJ
 twitter_username: muntasimulhaque
 github_username:  muntasimulhaque
 
