@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muntasim Ul Haque - Profile</title>
+    <style>
+        :root {
+            --primary-color: #000000;
+            --secondary-color: #333333;
+            --accent-color: #0077B5;
+            --text-color: #000000;
+            --background-color: #FFFFFF;
+            --sidebar-background: #F3F3F3;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: var(--background-color);
+        }
+        .sidebar {
+            width: 300px;
+            background-color: var(--sidebar-background);
+            padding: 20px;
+            box-sizing: border-box;
+            height: 100vh;
+            position: fixed;
+            overflow-y: auto;
+        }
+        .main-content {
+            margin-left: 300px;
+            padding: 40px;
+            max-width: 800px;
+            box-sizing: border-box;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            display: block;
+            border: 3px solid var(--primary-color);
+        }
+        h1 {
+            color: var(--primary-color);
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: var(--primary-color);
+            font-size: 24px;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 20px;
+            color: var(--secondary-color);
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .sidebar p {
+            font-size: 18px;
+            font-weight: 500;
+            color: var(--secondary-color);
+        }
+        .contact-info a {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: static;
+            }
+            .main-content {
+                margin-left: 0;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="/api/placeholder/200/200" alt="Muntasim Ul Haque" class="profile-photo">
+        <h1>Muntasim Ul Haque</h1>
+        <p>Software Engineer | Web Developer</p>
+        <div class="contact-info">
+            <a href="mailto:your.email@example.com">📧 Email</a>
+            <a href="https://www.linkedin.com/in/muntasimulhaque/">🔗 LinkedIn</a>
+            <a href="https://github.com/yourusername">💻 GitHub</a>
+            <a href="https://scholar.google.com/citations?user=YOUR_ID">📚 Google Scholar</a>
+            <a href="https://twitter.com/yourusername">🐦 X (Twitter)</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Experienced software engineer with a passion for creating efficient and scalable web applications. Skilled in full-stack development and always eager to learn new technologies.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>
+                    <h3>Software Engineer at XYZ Company</h3>
+                    <p>June 2020 - Present</p>
+                    <ul>
+                        <li>Developed and maintained web applications using modern JavaScript frameworks</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
+                    </ul>
+                </li>
+                <!-- Add more work experiences as needed -->
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>University Name, Graduation Year</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (React, Node.js)</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Git</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
