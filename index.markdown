@@ -21,14 +21,35 @@ I am an enthusiastic professional with a strong background in [your industry]. P
 
 ### Deputy Manager (SEA-ME-WE 6 Project)
 **Bangladesh Submarine Cables PLC (BSCPLC)** - Dhaka, Bangladesh  
-_ Oct 2022 - Present_
+Oct 2022 - Present
 
 - Brief description of your role and responsibilities.
 - Notable achievements.
 
-### [Previous Job Title]
-**[Company Name]** - [Location]  
-_ [Start Date] - [End Date]_
+### Assistant Manager (Development)
+**Bangladesh Submarine Cables PLC (BSCPLC)** - Dhaka, Bangladesh  
+Oct 2022 - Present
+
+- Brief description of your role and responsibilities.
+- Notable achievements.
+
+### Assistant Manager (IIG NOC)
+**Bangladesh Submarine Cables PLC (BSCPLC)** - Dhaka, Bangladesh  
+Jul 2021 - Oct 2022
+
+- Brief description of your role and responsibilities.
+- Notable achievements.
+
+### Assistant Manager (Operation, Kuakata CLS)
+**Bangladesh Submarine Cables PLC (BSCPLC)** - Kuakata, Bangladesh  
+May 2016 - Jul 2021
+
+- Brief description of your role and responsibilities.
+- Notable achievements.
+
+### Deputy Manager (Maintenance, Kuakata CLS)
+**Bangladesh Submarine Cables PLC (BSCPLC)** - Kuakata, Bangladesh  
+Oct 2020 - Mar 2021
 
 - Brief description of your role and responsibilities.
 - Notable achievements.
