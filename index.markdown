@@ -56,6 +56,22 @@ Oct 2020 - Mar 2021
 
 ---
 
+## Education
+
+### Islamic University of Technology
+**Bachelor of Science in Electrical and Electronic Engineering**
+2011 - 2014
+
+### Dhaka Residential Model College
+**Higher Secondary Certificate**
+2008 - 2010
+
+### Bangladesh Railway High School, Bhairab
+**Secondary School Certificate**
+2006 - 2008
+
+---
+
 ## Skills
 
 - Skill 1
