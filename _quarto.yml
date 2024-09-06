@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Muntasim Ul Haque"
+  google-analytics: ""
+  search: false
+
+  # Without this, the page footer will not display. It is removed in index.qmd
+  navbar:
+    background: dark
+
+  page-footer:
+    center:
+      - text: <ins>Made with Quarto</ins>
+        href: https://quarto.org
+      - text: <ins>Source</ins>
+        href: https://github.com/muntasimulhaque/muntasimulhaque.github.io
+      - text: <ins>License</ins>
+        href: https://raw.githubusercontent.com/muntasimulhaque/muntasimulhaque.github.io/master/LICENSE
+
+format:
+  html:
+    theme:
+      light: [simplex, custom.scss]
+      dark: [cyborg, custom_dark.scss]
+    fontsize: 0.95em
+    linestretch: 1.4
+    mainfont: "sans-serif"
+    toc: true
+    toc-title: "<br><br><br>"
+    link-external-newwindow: false
+    minimal: true
