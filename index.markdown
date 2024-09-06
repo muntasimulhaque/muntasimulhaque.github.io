@@ -19,9 +19,9 @@ I am an enthusiastic professional with a strong background in [your industry]. P
 
 ## Experience
 
-### [Current Job Title]
-**[Company Name]** - [Location]  
-_ [Start Date] - Present_
+### Deputy Manager (SEA-ME-WE 6 Project)
+**Bangladesh Submarine Cables PLC (BSCPLC)** - Dhaka, Bangladesh  
+_ Oct 2022 - Present_
 
 - Brief description of your role and responsibilities.
 - Notable achievements.
