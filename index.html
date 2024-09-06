@@ -15,9 +15,10 @@
             --background-color: #FFFFFF;
             --font-size-base: 16px;
             --font-size-large: 18px;
-            --font-size-heading: 24px;
-            --font-size-subheading: 20px;
-            --line-height: 1.6;
+            --font-size-heading: 28px;
+            --font-size-subheading: 22px;
+            --line-height: 1.8;
+            --spacing: 20px;
         }
 
         body {
@@ -34,7 +35,8 @@
 
         .profile-section {
             text-align: center;
-            margin-top: 40px;
+            margin-top: var(--spacing);
+            padding: var(--spacing);
         }
 
         .profile-photo {
@@ -42,7 +44,7 @@
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
-            margin: 0 auto 20px;
+            margin: 0 auto var(--spacing);
             border: none;
         }
 
@@ -57,29 +59,33 @@
             font-size: var(--font-size-large);
             font-weight: 600;
             color: var(--secondary-color);
+            margin-bottom: var(--spacing);
         }
 
         .contact-info {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin: 15px 0 40px;
+            gap: var(--spacing);
+            margin: var(--spacing) 0;
         }
 
         .contact-info a {
             color: var(--text-color);
             text-decoration: underline;
             font-size: var(--font-size-base);
-            transition: color 0.3s ease;
+            transition: color 0.3s ease, background-color 0.3s ease;
+            padding: 5px;
         }
 
         .contact-info a:hover {
-            color: var(--accent-color);
+            color: var(--background-color);
+            background-color: var(--accent-color);
+            border-radius: 4px;
         }
 
         .main-content {
             max-width: 800px;
-            padding: 40px;
+            padding: var(--spacing);
             box-sizing: border-box;
         }
 
@@ -88,7 +94,7 @@
             font-size: var(--font-size-heading);
             border-bottom: 2px solid var(--primary-color);
             padding-bottom: 5px;
-            margin-top: 30px;
+            margin-top: var(--spacing);
             font-weight: 600;
         }
 
@@ -96,11 +102,13 @@
             font-size: var(--font-size-subheading);
             color: var(--secondary-color);
             font-weight: 600;
+            margin-bottom: var(--spacing);
         }
 
         ul {
             padding-left: 20px;
             list-style: disc;
+            margin-bottom: var(--spacing);
         }
 
         li {
