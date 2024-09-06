@@ -6,9 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+  Portfolio site of Muntasim Ul Haque.
 
 # Build settings
 
@@ -54,8 +52,8 @@ minima:
   # Generate social links in footer.
   #social_links:
  #  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qsD8a0MAAAAJ" }
-  #  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/muntasimulhaque" }
-  #  - { platform: github,         user_url: "https://github.com/muntasimulhaque" }
-  #  - { platform: x,              user_url: "https://x.com/muntasimulhaque" }
+  #  - { platform: linkedin, user_url: "https://www.linkedin.com/in/muntasimulhaque" }
+  #  - { platform: github, user_url: "https://github.com/muntasimulhaque" }
+  #  - { platform: x, user_url: "https://x.com/muntasimulhaque" }
 
 
