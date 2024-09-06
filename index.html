@@ -12,7 +12,6 @@
             --accent-color: #0077B5;
             --text-color: #000000;
             --background-color: #FFFFFF;
-            --sidebar-background: #F3F3F3;
         }
         body {
             font-family: 'Open Sans', sans-serif;
@@ -21,37 +20,54 @@
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
+            align-items: center;
             background-color: var(--background-color);
         }
-        .sidebar {
-            width: 300px;
-            background-color: var(--sidebar-background);
-            padding: 20px;
-            box-sizing: border-box;
-            height: 100vh;
-            position: fixed;
-            overflow-y: auto;
-        }
-        .main-content {
-            margin-left: 300px;
-            padding: 40px;
-            max-width: 800px;
-            box-sizing: border-box;
+        .profile-section {
+            text-align: center;
+            margin-top: 40px;
         }
         .profile-photo {
             width: 200px;
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
-            margin: 0 auto 20px;
             display: block;
             border: none;
+            margin-bottom: 20px;
         }
         h1 {
             color: var(--primary-color);
             font-size: 28px;
             margin-bottom: 10px;
             font-weight: 600;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+            margin-bottom: 40px;
+        }
+        .contact-info a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .contact-info a:hover {
+            color: var(--accent-color);
+        }
+        .main-content {
+            max-width: 800px;
+            padding: 40px;
+            box-sizing: border-box;
         }
         h2 {
             color: var(--primary-color);
@@ -66,29 +82,6 @@
             color: var(--secondary-color);
             font-weight: 600;
         }
-        p {
-            font-size: 16px;
-            margin-bottom: 15px;
-        }
-        .sidebar p {
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--secondary-color);
-        }
-        .contact-info a {
-            display: block;
-            margin-bottom: 10px;
-            color: var(--text-color);
-            text-decoration: none;
-            font-size: 16px;
-            transition: color 0.3s ease;
-        }
-        .contact-info a:hover {
-            color: var(--accent-color);
-        }
-        section {
-            margin-bottom: 30px;
-        }
         ul {
             padding-left: 20px;
         }
@@ -96,40 +89,22 @@
             font-size: 16px;
             margin-bottom: 10px;
         }
-        a {
-            color: var(--accent-color);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: var(--primary-color);
-            text-decoration: underline;
-        }
         @media (max-width: 768px) {
-            body {
+            .contact-info {
                 flex-direction: column;
-            }
-            .sidebar {
-                width: 100%;
-                height: auto;
-                position: static;
-            }
-            .main-content {
-                margin-left: 0;
-                padding: 20px;
             }
         }
     </style>
 </head>
 <body>
-    <div class="sidebar">
+    <div class="profile-section">
         <img src="/8.png" alt="Muntasim Ul Haque" class="profile-photo">
         <h1>Muntasim Ul Haque</h1>
         <p>Graduate Student</p>
         <div class="contact-info">
-	    <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ">Google Scholar</a>
+            <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ">Google Scholar</a>
             <a href="https://www.linkedin.com/in/muntasimulhaque/">LinkedIn</a>
-	    <a href="mailto:muntasim.haque@gmail.com">Email</a>
+            <a href="mailto:muntasim.haque@gmail.com">Email</a>
             <a href="https://twitter.com/muntasimulhaque">X (Twitter)</a>
         </div>
     </div>
@@ -151,7 +126,6 @@
                         <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
                     </ul>
                 </li>
-                <!-- Add more work experiences as needed -->
             </ul>
         </section>
 
@@ -172,7 +146,6 @@
                 <li>Python</li>
                 <li>SQL</li>
                 <li>Git</li>
-                <!-- Add more skills as needed -->
             </ul>
         </section>
     </div>
