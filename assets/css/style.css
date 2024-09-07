@@ -45,22 +45,48 @@ a:visited {
   color: #540099;  /* Purple for visited, similar to Apple's style */
 }
 
-.wrapper {
-  max-width: 860px; /* Keeps the max width */
-  margin: 0 auto;  /* Centers the wrapper */
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+header {
+  text-align: center; /* Center-align all content in header */
+  margin-bottom: 20px; /* Space below header */
 }
 
-.left-column {
-  width: 270px; /* Fixed width for the left column */
-  padding: 20px;
-  box-sizing: border-box;
+header img {
+  max-width: 100%; /* Ensure logo does not exceed the container width */
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header li a {
+  font-size: 14px;
+  color: #676767;
+  text-decoration: none;
+}
+
+header li a:hover, header li a:focus {
+  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  font-weight: bold;
+}
+
+header li a:active {
+  background-color: #f0f0f0;
+}
+
+strong {
+  color: #222;
+  font-weight: 700;
 }
 
 .main-content {
-  flex: 1; /* Takes up the remaining space */
+  max-width: 860px; /* Keep the max width */
+  margin: 0 auto;  /* Center the content */
   padding: 20px;
   box-sizing: border-box;
 }
@@ -118,24 +144,14 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-  .wrapper {
-    width: 100%; /* Adjusted width to be responsive */
-    margin: 0;
-    flex-direction: column;
-  }
-
-  .left-column, .main-content {
-    width: 100%; /* Full width for both columns */
+  .main-content {
+    width: 100%; /* Full width for main content */
   }
 }
 
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
-  }
-
-  .left-column, .main-content {
-    width: 100%; /* Full width for both columns */
   }
 
   pre, code {
@@ -148,8 +164,8 @@ footer {
     padding: 15px;
   }
 
-  .left-column, .main-content {
-    width: 100%; /* Full width for both columns */
+  .main-content {
+    width: 100%; /* Full width for main content */
   }
 }
 
