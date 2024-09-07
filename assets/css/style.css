@@ -46,6 +46,13 @@ a:visited {
   color: #540099;  /* Purple for visited */
 }
 
+header, .main-content {
+  max-width: 860px; /* Consistent max-width for header and main content */
+  margin: 0 auto;  /* Center the content */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 header {
   text-align: center; /* Center-align all content in header */
   margin-bottom: 20px; /* Space below header */
@@ -99,13 +106,6 @@ header li a:active {
 strong {
   color: #222;
   font-weight: 700;
-}
-
-.main-content {
-  max-width: 860px; /* Keep the max width */
-  margin: 0 auto;  /* Center the content */
-  padding: 20px;
-  box-sizing: border-box;
 }
 
 blockquote {
