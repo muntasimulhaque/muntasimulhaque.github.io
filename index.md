@@ -22,12 +22,14 @@ October 2020 - March 2021
 
 ---
 
+
 ## Education
 
 **Bachelor of Science in Electrical and Electronic Engineering** <br>
 Islamic University of Technology, 2014
 
 ---
+
 
 ## Publications
 
