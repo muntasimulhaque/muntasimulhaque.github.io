@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  color: blue;
 }
 
 .wrapper {
@@ -131,11 +131,10 @@ header ul a {
   text-align: center;
   padding-top: 6px;
   height: 34px;
-  text-decoration: none;
 }
 
 header ul a:hover, header ul a:focus {
-  color: #675C5C;
+  color: blue;
   font-weight: bold;
 }
 
@@ -256,29 +255,4 @@ footer {
     font-size: 12pt;
     color: #444;
   }
-}
-
-/* Custom styles for centering title and styling links */
-header h1 {
-  text-align: center;
-}
-
-a {
-  color: inherit;
-  text-decoration: underline;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-/* If you want to exclude certain links from this styling (e.g., navigation links) */
-header a, 
-footer a {
-  text-decoration: none;
-}
-
-header a:hover,
-footer a:hover {
-  text-decoration: underline;
 }
