@@ -56,6 +56,18 @@ header img {
   border-radius: 50%; /* Make it circular if the image is square */
 }
 
+header h1 {
+  margin-top: 0;
+}
+
+header p {
+  text-align: center; /* Center-align the description */
+  margin: 10px 0; /* Space around the description */
+  max-width: 600px; /* Limit the width for better readability */
+  margin: 10px auto; /* Center-align paragraph */
+  text-align: justify; /* Justify the text */
+}
+
 header ul {
   list-style: none;
   padding: 0;
