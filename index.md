@@ -12,7 +12,6 @@ October 2022 - Present
 ### Assistant Manager (Development)  
 
 Bangladesh Submarine Cables PLC (BSCPLC) 
-
 October 2022 - Present
 
 ---
