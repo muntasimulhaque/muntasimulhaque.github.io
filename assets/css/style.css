@@ -33,16 +33,16 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #1a0dab;  /* Google-like blue color for links */
+  color: #0066cc;  /* Apple-like blue color for links */
   text-decoration: underline;
 }
 
 a:hover {
-  color: #1a0dab;  /* Same color on hover, following Google's style */
+  color: #0066cc;  /* Same color on hover */
 }
 
 a:visited {
-  color: #609;  /* Google-like purple for visited links */
+  color: #0066cc;  /* Same color for visited links */
 }
 
 .wrapper {
@@ -103,12 +103,12 @@ header {
 }
 
 header h1 a {
-  color: inherit;  /* Inherit color from parent */
+  color: #222 !important;  /* Force color to remain unchanged */
   text-decoration: none;
 }
 
-header h1 a:hover {
-  color: inherit;  /* Keep the same color on hover */
+header h1 a:hover, header h1 a:visited {
+  color: #222 !important;  /* Force color to remain unchanged on hover and when visited */
   text-decoration: none;
 }
 
@@ -149,7 +149,7 @@ header ul a {
 }
 
 header ul a:hover, header ul a:focus {
-  color: #1a0dab;  /* Google-like blue color for header links on hover */
+  color: #0066cc;  /* Apple-like blue color for header links on hover */
   font-weight: bold;
 }
 
