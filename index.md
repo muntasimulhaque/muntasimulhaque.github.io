@@ -1,7 +1,7 @@
 ## Experience
 
 **Deputy Manager (SEA-ME-WE 6 Project)** <br>
-Bangladesh Submarine Cables PLC (BSCPLC) - Dhaka, Bangladesh <br>
+Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Dhaka, Bangladesh <br>
 October 2022 - Present
 <br><br>
 **Assistant Manager (Development)** <br>
