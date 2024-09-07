@@ -35,7 +35,6 @@ h3, h4, h5, h6 {
 a {
   color: #0066cc;  /* Keep the current link color */
   text-decoration: underline;
-  text-align: center;
 }
 
 a:hover {
