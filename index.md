@@ -1,6 +1,6 @@
 ### Experience
 
-**Deputy Manager (SEA-ME-WE 6 Project)** 
+**Deputy Manager (SEA-ME-WE 6 Project)** <br>
 Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
 <br><br>
