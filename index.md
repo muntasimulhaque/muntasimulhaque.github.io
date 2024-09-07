@@ -1,11 +1,11 @@
-## Experience
+### Experience
 
-### Deputy Manager (SEA-ME-WE 6 Project) 
+**Deputy Manager (SEA-ME-WE 6 Project)** 
 
 Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
 <br><br>
-### Assistant Manager (Development)  
+**Assistant Manager (Development)**  
 
 Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
@@ -16,7 +16,7 @@ October 2022 - Present
 
 ---
 
-### Bachelor of Science in Electrical and Electronic Engineering 
+### Bachelor of Science in Electrical and Electronic Engineering
 
 Islamic University of Technology, 2014
 
