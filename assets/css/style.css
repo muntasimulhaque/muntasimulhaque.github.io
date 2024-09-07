@@ -96,9 +96,12 @@ img {
 }
 
 header {
-  width: 270px;
-  float: left;
-  position: fixed;
+  width: 100%; /* Full width */
+  float: none; /* Remove float */
+  position: static; /* Reset position */
+  text-align: center; /* Center content */
+  padding: 0 15px; /* Add padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -119,12 +122,12 @@ header ul {
   background: #f4f4f4;
   border-radius: 5px;
   border: 1px solid #e0e0e0;
-  width: 270px;
+  width: 100%; /* Full width */
+  text-align: center; /* Center content */
 }
 
 header li {
-  width: 89px;
-  float: left;
+  display: inline-block; /* Align items in a row */
   border-right: 1px solid #e0e0e0;
   height: 40px;
 }
@@ -164,7 +167,6 @@ strong {
 
 header ul li + li + li {
   border-right: none;
-  width: 89px;
 }
 
 header ul a strong {
@@ -173,10 +175,19 @@ header ul a strong {
   color: #222;
 }
 
+/* Style for the profile photo */
+header img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Ensure height matches width for round shape */
+  border-radius: 50%; /* Make the image round */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
 section {
-  width: 500px;
-  float: right;
+  width: 100%; /* Full width */
   padding-bottom: 50px;
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 small {
@@ -191,9 +202,12 @@ hr {
 }
 
 footer {
-  width: 270px;
-  float: left;
-  position: fixed;
+  width: 100%; /* Full width */
+  float: none; /* Remove float */
+  position: static; /* Reset position */
+  text-align: center; /* Center content */
+  padding: 0 15px; /* Add padding */
+  box-sizing: border-box; /* Ensure padding is included in width */
   bottom: 50px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
