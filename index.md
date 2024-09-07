@@ -23,5 +23,5 @@ Islamic University of Technology, 2014
 Islamic University of Technology, 2014
 
 ---
-<p style="font-size:11px">Go ahead and fork this page from <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">here</a></p>
+<p style="font-size:11px">Fork this page from <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">here</a></p>
 <!-- Remove above link if you don't want to attibute -->
