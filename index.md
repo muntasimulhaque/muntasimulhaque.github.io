@@ -19,8 +19,10 @@ Islamic University of Technology, 2014
 
 ## Publications
 
-**Name** <br>
-Islamic University of Technology, 2014
+**Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)** <br>
+Raqqib Bin Kadir, Muntasim Ul Haque, Ahmed Selim Anwar <br>
+2016 International Conference on Innovations in Science, Engineering and Technology (ICISET) <br>
+IEEE
 
 ---
 <p style="font-size:11px">Fork this page from <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">here</a></p>
