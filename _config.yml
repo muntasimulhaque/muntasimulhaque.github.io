@@ -2,9 +2,12 @@ title: Muntasim Ul Haque # your name (or website title) here
 logo: "/images/8.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>  
-  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> <br> 
-  <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> <br>
-  <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> <br>
+  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> 
+  <br> 
+  <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> 
+  <br>
+  <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> 
+  <br>
   <a href="mailto:muntasim.haque@gmail.com" target="_blank">Email</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
