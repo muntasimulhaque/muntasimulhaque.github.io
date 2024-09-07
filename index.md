@@ -1,5 +1,4 @@
 # My Portfolio
----
 
 ## Experience
 
@@ -23,14 +22,10 @@ May 2016 - July 2021
 Bangladesh Submarine Cables PLC (BSCPLC) — Kuakata, Bangladesh  
 October 2020 - March 2021
 
----
-
 ## Education
 
 **Bachelor of Science in Electrical and Electronic Engineering**  
 Islamic University of Technology, 2014
-
----
 
 ## Publications
 
@@ -38,8 +33,7 @@ Islamic University of Technology, 2014
 Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque  
 2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)  
 Publisher: IEEE  
-DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490)  
-[PDF](https://mega.nz/file/7IAGwRgA#IUDTS7mYArwtloYyYOpVU6hfhNQrHJ4xFYuz8BCQ3sE)
+DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"}  
+[PDF](https://mega.nz/file/7IAGwRgA#IUDTS7mYArwtloYyYOpVU6hfhNQrHJ4xFYuz8BCQ3sE){:target="_blank"}
 
----
 <p style="font-size:11px">Fork this page from <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">here</a></p>
