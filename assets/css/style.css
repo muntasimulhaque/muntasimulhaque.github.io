@@ -51,7 +51,9 @@ header {
 }
 
 header img {
-  max-width: 100%; /* Ensure logo does not exceed the container width */
+  max-width: 150px; /* Limit the maximum width of the logo */
+  height: auto;     /* Maintain aspect ratio */
+  border-radius: 50%; /* Make it circular if the image is square */
 }
 
 header ul {
