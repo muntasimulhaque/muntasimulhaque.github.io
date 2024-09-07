@@ -4,6 +4,7 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
+  margin: 0; /* Ensure no margin around the body */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,11 +39,11 @@ a {
 }
 
 a:hover {
-  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  color: #004499;  /* Darker blue for hover */
 }
 
 a:visited {
-  color: #540099;  /* Purple for visited, similar to Apple's style */
+  color: #540099;  /* Purple for visited */
 }
 
 header {
@@ -54,6 +55,8 @@ header img {
   max-width: 150px; /* Limit the maximum width of the logo */
   height: auto;     /* Maintain aspect ratio */
   border-radius: 50%; /* Make it circular if the image is square */
+  display: block; /* Ensure it's centered in header */
+  margin: 0 auto; /* Center the image horizontally */
 }
 
 header h1 {
@@ -62,15 +65,15 @@ header h1 {
 
 header p {
   text-align: center; /* Center-align the description */
-  margin: 10px 0; /* Space around the description */
-  max-width: 600px; /* Limit the width for better readability */
   margin: 10px auto; /* Center-align paragraph */
+  max-width: 600px; /* Limit the width for better readability */
   text-align: justify; /* Justify the text */
 }
 
 header ul {
   list-style: none;
   padding: 0;
+  text-align: center; /* Center-align the list items */
 }
 
 header li {
@@ -85,7 +88,7 @@ header li a {
 }
 
 header li a:hover, header li a:focus {
-  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  color: #004499;  /* Darker blue for hover */
   font-weight: bold;
 }
 
@@ -108,7 +111,7 @@ strong {
 blockquote {
   border-left: 1px solid #e5e5e5;
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 0 20px; /* Ensure padding is symmetric */
   font-style: italic;
 }
 
@@ -133,7 +136,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 5px 10px;
+  padding: 10px; /* Increase padding for better spacing */
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -148,6 +151,8 @@ th {
 
 img {
   max-width: 100%;
+  display: block;
+  margin: 0 auto; /* Center-align images */
 }
 
 footer {
@@ -155,6 +160,7 @@ footer {
   text-align: center; /* Center-align text in footer */
   padding: 20px;
   box-sizing: border-box;
+  margin-top: 20px; /* Add space above footer */
 }
 
 @media print, screen and (max-width: 960px) {
