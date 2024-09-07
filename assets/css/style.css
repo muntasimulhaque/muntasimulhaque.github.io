@@ -80,12 +80,14 @@ header p {
 header ul {
   list-style: none;
   padding: 0;
-  text-align: center; /* Center-align the list items */
+  margin: 20px auto; /* Center-align the list items and add spacing */
+  max-width: 860px; /* Match the width of the main content */
+  display: flex;
+  justify-content: center; /* Center the list items horizontally */
 }
 
 header li {
-  display: inline-block;
-  margin-right: 10px;
+  margin: 0 10px; /* Spacing between list items */
 }
 
 header li a {
