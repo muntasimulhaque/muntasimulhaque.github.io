@@ -33,16 +33,16 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #0066cc;  /* Apple-like blue color for links */
+  color: #0066cc;  /* Keep the current link color */
   text-decoration: underline;
 }
 
 a:hover {
-  color: #0066cc;  /* Same color on hover */
+  color: #004499;  /* Darker blue for hover, similar to Apple's style */
 }
 
 a:visited {
-  color: #0066cc;  /* Same color for visited links */
+  color: #540099;  /* Purple for visited, similar to Apple's style */
 }
 
 .wrapper {
@@ -149,7 +149,7 @@ header ul a {
 }
 
 header ul a:hover, header ul a:focus {
-  color: #0066cc;  /* Apple-like blue color for header links on hover */
+  color: #004499;  /* Darker blue for hover, similar to Apple's style */
   font-weight: bold;
 }
 
