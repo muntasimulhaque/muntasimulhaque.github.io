@@ -5,19 +5,19 @@ Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Dhaka, Bangladesh <br>
 October 2022 - Present
 <br><br>
 **Assistant Manager (Development)** <br>
-Bangladesh Submarine Cables PLC (BSCPLC) - Dhaka, Bangladesh <br>
+Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Dhaka, Bangladesh <br>
 October 2022 - Present
 <br><br>
 **Assistant Manager (IIG NOC)** <br>
-Bangladesh Submarine Cables PLC (BSCPLC) - Dhaka, Bangladesh <br>
+Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Dhaka, Bangladesh <br>
 July 2021 - October 2022
 <br><br>
 **Assistant Manager (Operation, Kuakata CLS)** <br>
-Bangladesh Submarine Cables PLC (BSCPLC) - Kuakata, Bangladesh <br>
+Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Kuakata, Bangladesh <br>
 May 2016 - July 2021
 <br><br>
 **Deputy Manager (Maintenance, Kuakata CLS)** <br>
-Bangladesh Submarine Cables PLC (BSCPLC) - Kuakata, Bangladesh <br>
+Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Kuakata, Bangladesh <br>
 October 2020 - March 2021
 
 ---
