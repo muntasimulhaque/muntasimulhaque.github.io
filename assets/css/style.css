@@ -4,7 +4,6 @@ body {
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #727272;
   font-weight: 400;
-  margin: 0; /* Ensure no margin around the body */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,81 +38,24 @@ a {
 }
 
 a:hover {
-  color: #004499;  /* Darker blue for hover */
+  color: #004499;  /* Darker blue for hover, similar to Apple's style */
 }
 
 a:visited {
-  color: #540099;  /* Purple for visited */
+  color: #540099;  /* Purple for visited, similar to Apple's style */
 }
 
-header, .main-content {
-  max-width: 860px; /* Consistent max-width for header and main content */
-  margin: 0 auto;  /* Center the content */
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-header {
-  text-align: center; /* Center-align all content in header */
-  margin-bottom: 20px; /* Space below header */
-}
-
-header img {
-  max-width: 150px; /* Limit the maximum width of the logo */
-  height: auto;     /* Maintain aspect ratio */
-  border-radius: 50%; /* Make it circular if the image is square */
-  display: block; /* Ensure it's centered in header */
-  margin: 0 auto; /* Center the image horizontally */
-}
-
-header h1 {
-  margin-top: 0;
-}
-
-header p {
-  text-align: center; /* Center-align the description */
-  margin: 10px auto; /* Center-align paragraph */
-  max-width: 860px; /* Match the width of the main content */
-  text-align: justify; /* Justify the text */
-}
-
-header ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px auto; /* Center-align the list items and add spacing */
-  max-width: 860px; /* Match the width of the main content */
-  display: flex;
-  justify-content: center; /* Center the list items horizontally */
-}
-
-header li {
-  margin: 0 10px; /* Spacing between list items */
-}
-
-header li a {
-  font-size: 14px;
-  color: #676767;
-  text-decoration: none;
-}
-
-header li a:hover, header li a:focus {
-  color: #004499;  /* Darker blue for hover */
-  font-weight: bold;
-}
-
-header li a:active {
-  background-color: #f0f0f0;
-}
-
-strong {
-  color: #222;
-  font-weight: 700;
+.wrapper {
+  width: 100%; /* Adjusted width to be responsive */
+  max-width: 860px; /* Keeps the max width */
+  margin: 0 auto;
+  overflow: auto; /* Allows scrolling */
 }
 
 blockquote {
   border-left: 1px solid #e5e5e5;
   margin: 0;
-  padding: 0 20px; /* Ensure padding is symmetric */
+  padding: 0 0 0 20px;
   font-style: italic;
 }
 
@@ -138,7 +80,7 @@ table {
 
 th, td {
   text-align: left;
-  padding: 10px; /* Increase padding for better spacing */
+  padding: 5px 10px;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -153,27 +95,163 @@ th {
 
 img {
   max-width: 100%;
+}
+
+header {
+  width: 270px;
+  float: left;
+  position: sticky; /* Changed from fixed to sticky */
+  top: 0; /* Sticks to the top of the viewport */
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: #fff; /* Ensure background is solid to avoid transparency issues */
+  height: 100vh; /* Ensure it covers full height */
+  overflow-y: auto; /* Allows scrolling if content overflows */
+}
+
+header h1 a {
+  color: #222 !important;  /* Force color to remain unchanged */
+  text-decoration: none;
+}
+
+header h1 a:hover, header h1 a:visited {
+  color: #222 !important;  /* Force color to remain unchanged on hover and when visited */
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  height: auto; /* Adjusted height */
+  padding: 0;
+  background: #f4f4f4;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+  width: 270px;
+}
+
+header li {
+  width: 89px;
+  float: left;
+  border-right: 1px solid #e0e0e0;
+  height: 40px;
+}
+
+header li:first-child a {
+  border-radius: 5px 0 0 5px;
+}
+
+header li:last-child a {
+  border-radius: 0 5px 5px 0;
+}
+
+header ul a {
+  line-height: 1;
+  font-size: 11px;
+  color: #676767;
   display: block;
-  margin: 0 auto; /* Center-align images */
+  text-align: center;
+  padding-top: 6px;
+  height: 34px;
+  text-decoration: none;
+}
+
+header ul a:hover, header ul a:focus {
+  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  font-weight: bold;
+}
+
+header ul a:active {
+  background-color: #f0f0f0;
+}
+
+strong {
+  color: #222;
+  font-weight: 700;
+}
+
+header ul li + li + li {
+  border-right: none;
+  width: 89px;
+}
+
+header ul a strong {
+  font-size: 14px;
+  display: block;
+  color: #222;
+}
+
+section {
+  width: calc(100% - 270px); /* Adjusted width to fill the remaining space */
+  float: right;
+  padding-bottom: 50px;
+}
+
+small {
+  font-size: 11px;
+}
+
+hr {
+  border: 0;
+  background: #e5e5e5;
+  height: 1px;
+  margin: 0 0 20px;
 }
 
 footer {
-  width: 100%; /* Full width for footer */
-  text-align: center; /* Center-align text in footer */
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: 20px; /* Add space above footer */
+  width: 270px;
+  float: left;
+  position: sticky; /* Changed from fixed to sticky */
+  bottom: 0; /* Sticks to the bottom of the viewport */
+  -webkit-font-smoothing: subpixel-antialiased;
+  background: #fff; /* Ensure background is solid to avoid transparency issues */
+  height: 50px; /* Adjust as necessary */
+  overflow-y: auto; /* Allows scrolling if content overflows */
 }
 
 @media print, screen and (max-width: 960px) {
-  .main-content {
-    width: 100%; /* Full width for main content */
+  .wrapper {
+    width: 100%; /* Adjusted width to be responsive */
+    margin: 0;
+  }
+
+  header, section, footer {
+    float: none;
+    position: static;
+    width: 100%; /* Adjusted width */
+  }
+
+  header {
+    padding-right: 0; /* Adjusted padding */
+  }
+
+  section {
+    border: 1px solid #e5e5e5;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
+  }
+
+  header a small {
+    display: inline;
+  }
+
+  header ul {
+    position: static; /* Adjusted positioning */
+    right: auto; /* Reset right positioning */
+    top: auto; /* Reset top positioning */
   }
 }
 
 @media print, screen and (max-width: 720px) {
   body {
     word-wrap: break-word;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  header ul, header p.view {
+    position: static;
   }
 
   pre, code {
@@ -186,8 +264,12 @@ footer {
     padding: 15px;
   }
 
-  .main-content {
-    width: 100%; /* Full width for main content */
+  header ul {
+    width: 99%;
+  }
+
+  header li, header ul li + li + li {
+    width: 33%;
   }
 }
 
