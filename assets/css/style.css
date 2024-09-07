@@ -33,12 +33,16 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: inherit;
+  color: #3366cc;  /* Pleasant blue color */
   text-decoration: underline;
 }
 
 a:hover {
-  color: blue;
+  color: #1a3366;  /* Darker blue on hover */
+}
+
+a:visited {
+  color: #5c85d6;  /* Lighter blue for visited links */
 }
 
 .wrapper {
@@ -98,6 +102,16 @@ header {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
+header h1 a {
+  color: #222;
+  text-decoration: none;
+}
+
+header h1 a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
 header ul {
   list-style: none;
   height: 40px;
@@ -131,10 +145,11 @@ header ul a {
   text-align: center;
   padding-top: 6px;
   height: 34px;
+  text-decoration: none;
 }
 
 header ul a:hover, header ul a:focus {
-  color: blue;
+  color: #3366cc;
   font-weight: bold;
 }
 
