@@ -4,7 +4,7 @@
 
 ### Deputy Manager (SEA-ME-WE 6 Project) 
 
-Bangladesh Submarine Cables PLC (BSCPLC) 
+Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
 
 ---
