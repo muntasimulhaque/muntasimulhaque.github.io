@@ -20,7 +20,7 @@ Islamic University of Technology, 2014
 ## Publications
 
 **Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)** <br>
-Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque <br>
+Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque <br><br>
 2016 International Conference on Innovations in Science, Engineering and Technology (ICISET) <br>
 Publisher: IEEE <br>
 DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"} <br>
