@@ -3,9 +3,10 @@ logo: "/images/8.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Prospective Graduate Student 
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/muntasimulhaque/">LinkedIn</a> 
+  <a href="https://www.linkedin.com/in/muntasimulhaque/">LinkedIn</a>
+  <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ">Google Scholar</a>  
+  <a href="https://x.com/muntasimulhaque">X (Twitter)</a>
+  <a href="mailto:muntasim.haque@gmail.com">Email</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
