@@ -1,34 +1,38 @@
-## Portfolio
+## Experience
 
 ---
 
-### Category Name 1 
+### Deputy Manager (SEA-ME-WE 6 Project) 
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+Bangladesh Submarine Cables PLC (BSCPLC)
+October 2022 - Present
 
 ---
 
-### Category Name 2
+### Assistant Manager (Development) 
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+Bangladesh Submarine Cables PLC (BSCPLC)
+October 2022 - Present
 
 ---
 
+## Education
 
+---
 
+### Bachelor of Science in Electrical and Electronic Engineering 
+
+Islamic University of Technology, 2014
+
+---
+
+## Publications
+
+---
+
+### Name 
+
+Islamic University of Technology, 2014
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
