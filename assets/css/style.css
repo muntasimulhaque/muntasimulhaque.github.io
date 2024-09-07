@@ -53,7 +53,7 @@ a:visited {
 .link-container {
   text-align: center;}
 .link-container a {
-  margin: 0 2px; /* Optional: Adds space between links */}
+  margin: 0 1px; /* Optional: Adds space between links */}
 
 blockquote {
   border-left: 1px solid #e5e5e5;
