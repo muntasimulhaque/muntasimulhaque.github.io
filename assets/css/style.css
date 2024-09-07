@@ -173,6 +173,15 @@ header ul a strong {
   color: #222;
 }
 
+/* Style for the profile photo */
+header img {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Ensure height matches width for round shape */
+  border-radius: 50%; /* Make the image round */
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
 section {
   width: 500px;
   float: right;
