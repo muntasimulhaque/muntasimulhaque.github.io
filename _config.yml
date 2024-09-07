@@ -3,7 +3,10 @@ logo: "/images/8.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Muntasim Ul Haque is a dedicated professional with extensive experience in the telecommunications industry, currently serving as Deputy Manager for the SEA-ME-WE 6 Project at Bangladesh Submarine Cables PLC (BSCPLC) in Dhaka, Bangladesh. He has held various roles at BSCPLC, including Assistant Manager in Development, IIG NOC, and Operations at Submarine Kuakata Cable Landing Station, showcasing his versatility and expertise. Muntasim holds a Bachelor of Science in Electrical and Electronic Engineering from the Islamic University of Technology. He has contributed to the field through his co-authored publication on high-speed ternary content addressable memory (TCAM), presented at the 2016 International Conference on Innovations in Science, Engineering and Technology (ICISET) and published by IEEE. 
   <br><br>
-  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> <a href="mailto:muntasim.haque@gmail.com" target="_blank">Email</a>
+  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> 
+  <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> 
+  <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> 
+  <a href="mailto:muntasim.haque@gmail.com" target="_blank">Email</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
