@@ -4,8 +4,7 @@
 Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
 <br><br>
-**Assistant Manager (Development)**  
-
+**Assistant Manager (Development)** <br>
 Bangladesh Submarine Cables PLC (BSCPLC) <br>
 October 2022 - Present
 
