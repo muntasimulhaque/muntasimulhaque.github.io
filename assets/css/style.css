@@ -73,7 +73,7 @@ header h1 {
 header p {
   text-align: center; /* Center-align the description */
   margin: 10px auto; /* Center-align paragraph */
-  max-width: 600px; /* Limit the width for better readability */
+  max-width: 860px; /* Match the width of the main content */
   text-align: justify; /* Justify the text */
 }
 
