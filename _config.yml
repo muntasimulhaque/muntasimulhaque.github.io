@@ -2,9 +2,7 @@ title: # your name (or website title) here
 logo: "/images/8.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>  
-  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> | <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> 
-  <br><br>
-  📧 muntasim.haque (at) gmail.com 
+  <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> | <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> | <a href="https://x.com/muntasimulhaque" target="_blank">X (Twitter)</a> | <a href="mailto:muntasim.haque@gmail.com">Email</a>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
