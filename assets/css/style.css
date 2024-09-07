@@ -50,6 +50,11 @@ a:visited {
   margin: 0 auto;
 }
 
+.link-container {
+  text-align: center;}
+.link-container a {
+  margin: 0 10px; /* Optional: Adds space between links */}
+
 blockquote {
   border-left: 1px solid #e5e5e5;
   margin: 0;
