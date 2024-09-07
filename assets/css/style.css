@@ -33,16 +33,16 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #0066cc;  /* Keep the current link color */
+  color: #0066cc;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  color: #004499;
 }
 
 a:visited {
-  color: #540099;  /* Purple for visited, similar to Apple's style */
+  color: #540099;
 }
 
 .wrapper {
@@ -50,20 +50,22 @@ a:visited {
   margin: 0 auto;
 }
 
+.header-container {
+  text-align: center;
+}
+
 .link-container {
-  text-align: center;}
-.link-container a {
-  margin: 0 1px; /* Optional: Adds space between links */}
+  text-align: center;
+}
 
 blockquote {
   border-left: 1px solid #e5e5e5;
-  margin: 0;
   padding: 0 0 0 20px;
   font-style: italic;
 }
 
 code, pre {
-  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family: Monaco, Consolas, Liberation Mono, Courier New, monospace;
   color: #333;
   font-size: 12px;
 }
@@ -87,17 +89,12 @@ th, td {
   border-bottom: 1px solid #e5e5e5;
 }
 
-dt {
-  color: #444;
-  font-weight: 700;
-}
-
-th {
-  color: #444;
-}
-
-img {
-  max-width: 100%;
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 header {
@@ -108,12 +105,12 @@ header {
 }
 
 header h1 a {
-  color: #222 !important;  /* Force color to remain unchanged */
+  color: #222 !important;
   text-decoration: none;
 }
 
 header h1 a:hover, header h1 a:visited {
-  color: #222 !important;  /* Force color to remain unchanged on hover and when visited */
+  color: #222 !important;
   text-decoration: none;
 }
 
@@ -154,7 +151,7 @@ header ul a {
 }
 
 header ul a:hover, header ul a:focus {
-  color: #004499;  /* Darker blue for hover, similar to Apple's style */
+  color: #004499;
   font-weight: bold;
 }
 
@@ -176,15 +173,6 @@ header ul a strong {
   font-size: 14px;
   display: block;
   color: #222;
-}
-
-/* Style for the profile photo */
-header img {
-  width: 200px; /* Adjust size as needed */
-  height: 200px; /* Ensure height matches width for round shape */
-  border-radius: 50%; /* Make the image round */
-  display: block;
-  margin: 0 auto; /* Center the image */
 }
 
 section {
@@ -213,7 +201,7 @@ footer {
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
+  .wrapper {
     width: auto;
     margin: 0;
   }
