@@ -21,16 +21,14 @@ Bangladesh Submarine Cables PLC (BSCPLC) &mdash; Kuakata, Bangladesh <br>
 October 2020 - March 2021
 
 ---
-
-
+<br>
 ## Education
 
 **Bachelor of Science in Electrical and Electronic Engineering** <br>
 Islamic University of Technology, 2014
 
 ---
-
-
+<br>
 ## Publications
 
 **Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)** <br>
