@@ -3,9 +3,7 @@
 ---
 
 ## About Me
-<div class="about-me">
-I am a seasoned telecommunications professional with a strong focus on submarine cable systems and network operations. Since 2016, I have been a key contributor at Bangladesh Submarine Cables PLC, playing pivotal roles in major projects like SEA-ME-WE 5 and SEA-ME-WE 62. My academic background in Electrical and Electronic Engineering from the Islamic University of Technology has equipped me with the technical expertise to excel in this field. I am passionate about advancing global connectivity and driving innovation in telecommunications.
-</div>
+<div class="about-me">I am a seasoned telecommunications professional with a strong focus on submarine cable systems and network operations. Since 2016, I have been a key contributor at Bangladesh Submarine Cables PLC, playing pivotal roles in major projects like SEA-ME-WE 5 and SEA-ME-WE 62. My academic background in Electrical and Electronic Engineering from the Islamic University of Technology has equipped me with the technical expertise to excel in this field. I am passionate about advancing global connectivity and driving innovation in telecommunications.</div>
 
 ## Experience
 
