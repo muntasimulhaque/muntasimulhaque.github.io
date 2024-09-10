@@ -27,6 +27,10 @@ May 2016 - July 2021
 Bangladesh Submarine Cables PLC (BSCPLC) — Kuakata, Bangladesh  
 October 2020 - March 2021
 
+**Engineer (Turbine and Boilers)**  
+United Ashuganj Energy Limited (UAEL) — Ashuganj, Bangladesh  
+March 2015 - April 2016
+
 ## Education
 
 **Bachelor of Science in Electrical and Electronic Engineering**  
