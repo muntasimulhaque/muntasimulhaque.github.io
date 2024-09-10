@@ -3,10 +3,10 @@ logo: "/images/12-webp.webp?raw=true" # Your photo (or logo) here
 description: >
   <br><br>
   <div class="link-container">
-    <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a> |
-    <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">Google Scholar</a> |
-    <a href="https://x.com/muntasimulhaque" target="_blank">Twitter</a> |
-    <a href="mailto:muntasim.haque@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">💼 LinkedIn</a> |
+    <a href="https://scholar.google.com/citations?user=qsD8a0MAAAAJ" target="_blank">🎓 Google Scholar</a> |
+    <a href="https://x.com/muntasimulhaque" target="_blank">𝕏 Twitter</a> |
+    <a href="mailto:muntasim.haque@gmail.com">📧 Email</a>
   </div>
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
