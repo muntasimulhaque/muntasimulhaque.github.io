@@ -7,29 +7,31 @@ I am a seasoned telecommunications professional with a strong focus on submarine
 
 ## Experience
 
-**Deputy Manager (SEA-ME-WE 6 Project)**  
-Bangladesh Submarine Cables PLC (BSCPLC) — Dhaka, Bangladesh  
-October 2022 - Present
+- Bangladesh Submarine Cables PLC (BSCPLC)
+	- **Deputy Manager (SEA-ME-WE 6 Project)**  
+		Dhaka, Bangladesh  
+		October 2022 - Present
 
-**Assistant Manager (Development)**  
-Bangladesh Submarine Cables PLC (BSCPLC) — Dhaka, Bangladesh  
-October 2022 - Present
+	- **Assistant Manager (Development)**  
+		Dhaka, Bangladesh  
+		October 2022 - Present
 
-**Assistant Manager (IIG NOC)**  
-Bangladesh Submarine Cables PLC (BSCPLC) — Dhaka, Bangladesh  
-July 2021 - October 2022
+	- **Assistant Manager (IIG NOC)**  
+		Dhaka, Bangladesh  
+		July 2021 - October 2022
 
-**Assistant Manager (Operation, Kuakata CLS)**  
-Bangladesh Submarine Cables PLC (BSCPLC) — Kuakata, Bangladesh  
-May 2016 - July 2021
+	- **Assistant Manager (Operation, Kuakata CLS)**  
+		Kuakata, Bangladesh  
+		May 2016 - July 2021
 
-**Deputy Manager (Maintenance, Kuakata CLS)**  
-Bangladesh Submarine Cables PLC (BSCPLC) — Kuakata, Bangladesh  
-October 2020 - March 2021
+	- **Deputy Manager (Maintenance, Kuakata CLS)**  
+		Kuakata, Bangladesh  
+		October 2020 - March 2021
 
-**Engineer (Turbine and Boilers)**  
-United Ashuganj Energy Limited (UAEL) — Ashuganj, Bangladesh  
-March 2015 - April 2016
+- **Engineer (Turbine and Boilers)**  
+	United Ashuganj Energy Limited (UAEL)
+	Ashuganj, Bangladesh  
+	March 2015 - April 2016
 
 ## Education
 
