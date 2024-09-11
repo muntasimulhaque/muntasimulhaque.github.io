@@ -17,7 +17,11 @@ I am a seasoned telecommunications professional with a strong focus on submarine
 - **Assistant Manager (Development)**  
 	October 2022 - Present  
 	Dhaka, Bangladesh  
-
+	
+- **Assistant Manager (Bandwidth Planning)**  
+	May 2024 - July 2024  
+	Dhaka, Bangladesh  
+	
 - **Assistant Manager (IIG NOC)**  
     July 2021 - October 2022  
 	Dhaka, Bangladesh  
