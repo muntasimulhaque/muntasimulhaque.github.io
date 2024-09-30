@@ -7,6 +7,27 @@
 I am a seasoned telecommunications professional with a strong focus on submarine cable systems and network operations. Since 2016, I have been a key contributor at Bangladesh Submarine Cables PLC, playing pivotal roles in major projects like SEA-ME-WE 5 and SEA-ME-WE 6. My academic background in Electrical and Electronic Engineering from the Islamic University of Technology has equipped me with the technical expertise to excel in this field. I am passionate about advancing global connectivity and driving innovation in telecommunications.
 </div><br>
   
+## Publications
+
+- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
+AS Anwar, SK Bhowmik, RB Kadir, MU Haque, S Rahman, IA Badhan  
+International Journal on Recent and Innovation Trends in Computing and Communication  
+[ISSN: 2321-8169 Volume: 12 Issue: 2](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}  
+[PDF](https://ijritcc.org/index.php/ijritcc/article/view/11127/8561){:target="_blank"}
+
+- **Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)**  
+RB Kadir, AS Anwar, MU Haque  
+2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)  
+Publisher: IEEE  
+DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"}  
+[PDF](http://103.82.172.44:8080/xmlui/handle/123456789/1058){:target="_blank"} 
+
+## Education
+
+**Bachelor of Science in Electrical and Electronic Engineering**  
+Islamic University of Technology  
+2011 - 2014
+
 ## Experience
 
 ### Bangladesh Submarine Cables PLC (BSCPLC)
@@ -38,27 +59,6 @@ I am a seasoned telecommunications professional with a strong focus on submarine
 - **Engineer (Turbine and Boilers)**  
 	March 2015 - April 2016  
 	Ashuganj, Bangladesh  
-
-## Education
-
-**Bachelor of Science in Electrical and Electronic Engineering**  
-Islamic University of Technology  
-2011 - 2014
-
-## Publications
-
-- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
-AS Anwar, SK Bhowmik, RB Kadir, MU Haque, S Rahman, IA Badhan  
-International Journal on Recent and Innovation Trends in Computing and Communication  
-[ISSN: 2321-8169 Volume: 12 Issue: 2](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}  
-[PDF](https://ijritcc.org/index.php/ijritcc/article/view/11127/8561){:target="_blank"}
-
-- **Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)**  
-RB Kadir, AS Anwar, MU Haque  
-2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)  
-Publisher: IEEE  
-DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"}  
-[PDF](http://103.82.172.44:8080/xmlui/handle/123456789/1058){:target="_blank"} 
 
 ## Test Score
 
