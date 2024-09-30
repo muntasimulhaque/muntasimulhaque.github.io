@@ -47,12 +47,18 @@ Islamic University of Technology
 
 ## Publications
 
-**Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)**  
+- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
+Ahmed Selim Anwar, Sujan Kumar Bhowmik, Raqqib Bin Kadir, Muntasim Ul Haque, Siddikur Rahman, Istiaque Ahmed Badhan  
+International Journal on Recent and Innovation Trends in Computing and Communication  
+[ISSN: 2321-8169 Volume: 12 Issue: 2](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}  
+[PDF](https://ijritcc.org/index.php/ijritcc/article/view/11127/8561){:target="_blank"}
+
+- **Analysis of charge-shared matchline sensing schemes and current race scheme in high-speed ternary content addressable memory (TCAM)**  
 Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque  
 2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)  
 Publisher: IEEE  
 DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"}  
-[PDF](https://mega.nz/file/7IAGwRgA#IUDTS7mYArwtloYyYOpVU6hfhNQrHJ4xFYuz8BCQ3sE){:target="_blank"}
+[PDF](http://103.82.172.44:8080/xmlui/handle/123456789/1058){:target="_blank"}
 
 ---
 
