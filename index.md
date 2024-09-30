@@ -58,7 +58,13 @@ Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque
 2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)  
 Publisher: IEEE  
 DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#:~:text=DOI%3A%2010.1109/ICISET.2016.7856490){:target="_blank"}  
-[PDF](http://103.82.172.44:8080/xmlui/handle/123456789/1058){:target="_blank"}
+[PDF](http://103.82.172.44:8080/xmlui/handle/123456789/1058){:target="_blank"} 
+
+## Test Score
+
+**IELTS**  
+Overall Band 8.0  
+Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0
 
 ---
 
