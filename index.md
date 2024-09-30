@@ -64,7 +64,16 @@ DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#
 
 **IELTS**  
 Overall Band 8.0  
-Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0
+Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0 
+
+## Technical Competencies
+
+- **Programming**: C, Python, MATLAB, git, Bash  
+- **Web Development**: HTML, CSS, JavaScript, Markdown  
+- **Operating Systems**: Windows, Linux (Debian, Ubuntu, Kali Linux)  
+- **Network Software**: Cisco IOS, Cisco IOS XR  
+- **Cybersecurity Tools**: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper  
+- **Software**: GNS3, Cisco Packet Tracer, Wireshark, Microsoft Office Suite  
 
 ---
 
