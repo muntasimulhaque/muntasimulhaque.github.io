@@ -28,7 +28,7 @@ DOI: [10.1109/ICISET.2016.7856490](https://ieeexplore.ieee.org/document/7856490#
 Islamic University of Technology  
 2011 - 2014
 
-## Experience
+## Professional Experience
 
 ### Bangladesh Submarine Cables PLC (BSCPLC)
 - **Deputy Manager (SEA-ME-WE 6 Project)**  
@@ -93,7 +93,7 @@ Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0
 - Industrial Training Certificate, Islamic University of Technology
 - The Industrial Attachment Course, Bangladesh Power Development Board
 
-## Awards And Scholarships
+## Awards And Honors
 
 - Awarded the Integrity Award 2024 by Bangladesh Submarine Cables PLC for exemplary integrity during the fiscal year 2023-24.
 - Received a letter of appreciation from Bangladesh Submarine Cables PLC for promptly replacing a 100Gbps transponder card, minimizing the duration of the nationwide internet blackout.
