@@ -88,6 +88,16 @@
          margin: 0 auto;
       }
 
+      nav {
+         text-align: center;
+         margin: 20px 0;
+      }
+
+      nav a {
+         margin: 0 15px;
+         font-weight: 500;
+      }
+
       section {
          width: 500px;
          float: right;
@@ -192,6 +202,14 @@
          {% endif %}
          <p>{{ site.description | default: site.github.project_tagline }}</p>
       </header>
+      <nav>
+         <a href="{{ '/index.md' | relative_url }}">Home</a>
+         <a href="{{ '/publications.md' | relative_url }}">Publications</a>
+         <a href="{{ '/education.md' | relative_url }}">Education</a>
+         <a href="{{ '/experience.md' | relative_url }}">Experience</a>
+         <a href="{{ '/skills.md' | relative_url }}">Skills</a>
+         <a href="{{ '/awards.md' | relative_url }}">Awards</a>
+      </nav>
       <section>
          {{ content }}
       </section>
