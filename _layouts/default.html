@@ -2,15 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Professional Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  {% include header.html %}
-  <main>
-    {{ content }}
-  </main>
-  {% include footer.html %}
+  <!-- Header Section with Navigation -->
+  <header>
+    <nav class="nav">
+      <div class="nav-brand">Keerthi Dasala</div>
+      <div class="hamburger" onclick="toggleNav()">☰</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Publications</a></li>
+        <li><a href="#">Teaching</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Join our Lab</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <div class="content-wrapper">
+    <!-- Sidebar Section for Profile Information -->
+    <aside class="sidebar">
+      <img src="your-profile-picture.jpg" alt="Profile Image" class="profile-image">
+      <h2>Keerthi Dasala</h2>
+      <p>Assistant Professor, Purdue ECE</p>
+      <p>West Lafayette, IN</p>
+      <p>Purdue University</p>
+      <p>Email: email@example.com</p>
+      <p><a href="#">GitHub</a></p>
+      <p><a href="#">Google Scholar</a></p>
+    </aside>
+
+    <!-- Main Section for Bio and Research -->
+    <section class="about-section">
+      <h2>About Me</h2>
+      <p>
+        I am an Assistant Professor at Purdue University in the 
+        <a href="#">Elmore Family School of Electrical and Computer Engineering</a>. 
+        I direct the <a href="#">WISDOM Lab</a> within Purdue ECE.
+      </p>
+      <p>
+        My research broadly focuses on theoretical analysis and modeling to hardware implementations 
+        and experimental evaluations of architectures, protocols, and applications for Next-Generation 
+        wireless communication and sensing systems, focusing on the Millimeter-wave and Terahertz spectrum.
+      </p>
+      <p>
+        I am also interested in all aspects of wireless security, robotic wireless networks, the Internet 
+        of Things, cellular & UAV/drone networks, AI for network management and control, and protocol design.
+      </p>
+      <p>
+        Refer to <a href="#">Research</a> for current research directions.
+      </p>
+      <p>
+        Before joining Purdue, I received my Ph.D. from Rice University in the 
+        <a href="#">Department of Electrical and Computer Engineering</a> in December 2022.
+      </p>
+    </section>
+  </div>
+
+  <script>
+    // Toggle Navigation on Mobile
+    function toggleNav() {
+      var links = document.getElementById("nav-links");
+      if (links.style.display === "block") {
+        links.style.display = "none";
+      } else {
+        links.style.display = "block";
+      }
+    }
+  </script>
 </body>
 </html>
