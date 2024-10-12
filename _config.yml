@@ -1,6 +1,0 @@
-title: "Your Name"
-email: "youremail@example.com"
-description: "Assistant Professor, Purdue University"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourdomain.com"
-theme: minima # You can use a simple theme as a base
