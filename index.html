@@ -32,10 +32,28 @@
             padding: 10px;
         }
 
+        .menu-icon {
+            cursor: pointer;
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .menu-icon span {
+            display: block;
+            width: 25px;
+            height: 3px;
+            background-color: #fff;
+            margin: 5px 0;
+        }
+
         nav ul {
             list-style-type: none;
-            display: flex;
+            display: none;
             flex-direction: column;
+        }
+
+        nav ul.show {
+            display: flex;
         }
 
         nav ul li {
@@ -74,7 +92,12 @@
         }
 
         @media screen and (min-width: 768px) {
+            .menu-icon {
+                display: none;
+            }
+
             nav ul {
+                display: flex;
                 flex-direction: row;
                 justify-content: space-around;
             }
@@ -102,6 +125,11 @@
     </header>
 
     <nav>
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#research">Research</a></li>
@@ -163,6 +191,10 @@
                     behavior: 'smooth'
                 });
             });
+        });
+
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
         });
     </script>
 </body>
