@@ -41,6 +41,9 @@ nav ul li a {
 
 main {
     margin-top: 20px;
+	ul {
+	padding-left: 10px;
+}
 }
 
 section {
