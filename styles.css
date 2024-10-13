@@ -1,3 +1,4 @@
+/* Base styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,28 +26,8 @@ nav {
     padding: 10px;
 }
 
-.menu-icon {
-    cursor: pointer;
-    display: inline-block;
-    padding: 10px;
-}
-
-.menu-icon span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px 0;
-}
-
 nav ul {
     list-style-type: none;
-    display: none;
-    flex-direction: column;
-}
-
-nav ul.show {
-    display: flex;
 }
 
 nav ul li {
@@ -82,6 +63,31 @@ footer {
     margin-top: 20px;
 }
 
+/* Mobile styles */
+.menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-icon span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+nav ul {
+    display: none;
+    flex-direction: column;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+/* Desktop styles */
 @media screen and (min-width: 768px) {
     .menu-icon {
         display: none;
