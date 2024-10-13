@@ -41,8 +41,8 @@ nav ul li a {
 
 main {
     margin-top: 20px;
-	list-item {
-	padding-left: 10px;
+	ul {
+    margin-left:40px;
 }
 }
 
