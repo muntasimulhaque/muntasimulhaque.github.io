@@ -49,31 +49,28 @@ $masthead-height            : 70px;
 $sidebar-screen-min-width   : 1024px;
 $sidebar-link-max-width     : 250px;
 
-
-
 /*
    Colors
    ========================================================================== */
 
-/* Neutral tones resembling Apple's site palette */
-$gray                       : #8e8e93;
+$gray                       : #86868b;
 $dark-gray                  : #1d1d1f;
-$darker-gray                : #111111;
+$darker-gray                : #000000;
 $light-gray                 : #f5f5f7;
-$lighter-gray               : #e5e5ea;
+$lighter-gray               : #fbfbfd;
 
 $body-color                 : #ffffff;
-$background-color           : #f5f5f7;
-$code-background-color      : #f1f1f3;
+$background-color           : #ffffff;
+$code-background-color      : #f2f2f2;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : #d2d2d7;
 
-$primary-color              : #0070c9; /* Apple's blue accent */
-$success-color              : #34c759; /* Apple's green accent */
-$warning-color              : #ff9500; /* Apple's orange accent */
-$danger-color               : #ff3b30; /* Apple's red accent */
-$info-color                 : $primary-color;
+$primary-color              : #0071e3;
+$success-color              : #28cd41;
+$warning-color              : #ff9f0a;
+$danger-color               : #ff3b30;
+$info-color                 : #007aff;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -95,19 +92,18 @@ $rss-color                  : #fa9b39;
 $soundcloud-color           : #ff3300;
 $stackoverflow-color        : #fe7a15;
 $tumblr-color               : #32506d;
-$twitter-color              : #1da1f2;
+$twitter-color              : #55acee;
 $vimeo-color                : #1ab7ea;
 $vine-color                 : #00bf8f;
-$youtube-color              : #ff0000;
+$youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 /* links */
 $link-color                 : $primary-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-
+$link-color-hover           : darken($link-color, 10%);
+$link-color-visited         : $link-color;
+$masthead-link-color        : $dark-gray;
+$masthead-link-color-hover  : $primary-color;
 
 /*
    Breakpoints
@@ -152,7 +148,6 @@ $susy: (
   //   toggle: top right,
   // ),
 );
-
 
 /*
    Other
