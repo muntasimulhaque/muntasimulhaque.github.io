@@ -49,30 +49,28 @@ $masthead-height            : 70px;
 $sidebar-screen-min-width   : 1024px;
 $sidebar-link-max-width     : 250px;
 
-
-
 /*
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+$gray                       : #86868b;
+$dark-gray                  : #1d1d1f;
+$darker-gray                : #000000;
+$light-gray                 : #f5f5f7;
+$lighter-gray               : #fbfbfd;
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
+$body-color                 : #ffffff;
+$background-color           : #ffffff;
+$code-background-color      : #f2f2f2;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
-$border-color               : $lighter-gray;
+$border-color               : #d2d2d7;
 
-$primary-color              : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
-$danger-color               : #ee5f5b;
-$info-color                 : #52adc8;
+$primary-color              : #0071e3;
+$success-color              : #28cd41;
+$warning-color              : #ff9f0a;
+$danger-color               : #ff3b30;
+$info-color                 : #007aff;
 
 /* brands */
 $behance-color              : #1769FF;
@@ -100,14 +98,12 @@ $vine-color                 : #00bf8f;
 $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
-
 /* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
-
+$link-color                 : $primary-color;
+$link-color-hover           : darken($link-color, 10%);
+$link-color-visited         : $link-color;
+$masthead-link-color        : $dark-gray;
+$masthead-link-color-hover  : $primary-color;
 
 /*
    Breakpoints
@@ -152,7 +148,6 @@ $susy: (
   //   toggle: top right,
   // ),
 );
-
 
 /*
    Other
