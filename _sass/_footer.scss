@@ -37,11 +37,12 @@
   }
 
   a {
-    color: $link-color;
-    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
 
     &:hover {
-      text-decoration: underline;
+      color: $link-color;
+	  text-decoration: underline;
     }
   }
 
