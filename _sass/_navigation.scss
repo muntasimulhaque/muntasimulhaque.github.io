@@ -184,10 +184,13 @@
     color: $masthead-link-color;
     text-decoration: none;
 
-    &:hover {
-      color: $masthead-link-color-hover;
+    &:hover,
+	&:focus {
 	  text-decoration: none !important;
-    }
+	  // You can add a different hover effect here if you want
+	  // For example, to change the text color on hover:
+	  // color: $primary-color;
+	}
   }
 
   button {
