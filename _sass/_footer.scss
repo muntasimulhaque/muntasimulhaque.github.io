@@ -21,7 +21,7 @@
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   background-color: $background-color;
-  border-top: 1px solid $text-color;
+  border-top: none;
 
   footer {
     @include clearfix;
