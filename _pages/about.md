@@ -7,8 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-Muntasim Ul Haque is a dedicated professional with extensive experience in the telecommunications industry. Currently serving as Deputy Manager at Bangladesh Submarine Cables PLC (BSCPLC) for the SEA-ME-WE 6 Project. Muntasim holds a Bachelor’s degree in Electrical and Electronic Engineering from the Islamic University of Technology.
+Welcome! I am Muntasim Ul Haque, a telecommunications professional with extensive experience in the industry. I am currently serving as Deputy Manager at Bangladesh Submarine Cables PLC (BSCPLC), where I am involved in the SEA-ME-WE 6 Project. I hold a Bachelor's degree in Electrical and Electronic Engineering from the Islamic University of Technology.
 
-Recognized for his analytical skills and data analysis expertise, Muntasim has received accolades for his swift resolution of critical issues, including a nationwide Internet blackout. 
+My expertise lies in data analysis and solving complex challenges, and I have been recognized for my work, including resolving critical incidents such as a nationwide Internet blackout.
 
-Muntasim is committed to continuous learning and professional growth, always eager to connect with like-minded professionals and explore opportunities for collaboration.
+I am passionate about continuous learning and research, always looking to expand my knowledge and collaborate with others in the field. Feel free to connect with me to explore potential research or professional opportunities.
