@@ -314,6 +314,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   transition: $global-transition;
 }
 
+
 /* Text selection colors */
 ::selection {
   background: $selection-color;
@@ -324,4 +325,4 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
 ::-moz-selection {
   background: $selection-color;
   // color: #000000; // Adjust as needed
-}
+}	
