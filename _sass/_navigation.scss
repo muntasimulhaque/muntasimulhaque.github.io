@@ -363,7 +363,16 @@
   font-size: $type-size-6;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: none;
+  border-bottom: 1px solid $border-color;
+}
+
+.masthead__menu-item {
+  a {
+    &:hover,
+    &:focus {
+      text-decoration: none !important;
+    }
+  }
 }
 
 
