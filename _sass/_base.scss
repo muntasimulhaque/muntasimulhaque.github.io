@@ -313,3 +313,15 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+/* Text selection colors */
+::selection {
+  background: $selection-color;
+  // Optionally, you can set the text color for selected text:
+  // color: #000000; // Adjust as needed
+}
+
+::-moz-selection {
+  background: $selection-color;
+  // color: #000000; // Adjust as needed
+}
