@@ -45,4 +45,4 @@ Publications
   
 Test score
 ======
-* **IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0)**, Sep 2024
+* **IELTS Overall Band 8.0** _(Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0)_, Sep 2024
