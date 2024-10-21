@@ -10,7 +10,7 @@
 
 /* Global styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -87,12 +87,13 @@ aside {
 }
 
 .social-links {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .social-link {
-    margin-bottom: 0.5rem;
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 /* Main content */
@@ -149,5 +150,15 @@ footer {
     nav a {
         display: block;
         padding: 0.5rem 1rem;
+    }
+
+    .social-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-link {
+        margin: 0.25rem 0.5rem;
     }
 }
