@@ -80,7 +80,6 @@ aside {
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .profile-photo {
@@ -89,10 +88,10 @@ aside {
     border-radius: 50%;
     margin-bottom: 1rem;
     object-fit: cover;
+    align-items: center;
 }
 
 .social-links {
-    text-align: center;
     display: flex;
     flex-direction: column;
 }
