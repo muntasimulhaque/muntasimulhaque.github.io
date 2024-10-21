@@ -7,8 +7,14 @@ title: Publications
 
 ## Journal Articles
 
-1. AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan. 2024. Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication*, ISSN: 2321-8169 Volume: 12 Issue: 2. [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}
+**Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**
+AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan
+*International Journal on Recent and Innovation Trends in Computing and Communication*, 2024. 
+[[Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}]
 
 ## Conference Papers
 
-1. RB Kadir, AS Anwar, **MU Haque**. 2016. Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). In *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*. [DOI: 10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
+**Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**
+RB Kadir, AS Anwar, **MU Haque**
+*2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, 2016
+[DOI: 10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
