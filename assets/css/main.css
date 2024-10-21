@@ -25,7 +25,6 @@ a {
 
 a:hover {
     color: var(--primary-color);
-    text-decoration: underline;
 }
 
 ::selection {
@@ -73,6 +72,11 @@ nav li {
 nav a {
     color: var(--primary-color);
     font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 /* Sidebar */
