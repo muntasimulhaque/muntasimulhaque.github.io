@@ -82,11 +82,12 @@ aside {
     flex-direction: column;
 }
 
-/* Profile photo wrapper to center the image */
+/* Center profile photo only */
 .profile-photo-wrapper {
     display: flex;
     justify-content: center;
     margin-bottom: 1rem;
+    width: 100%;  /* Make sure the wrapper takes the full width of the sidebar */
 }
 
 .profile-photo {
@@ -96,9 +97,11 @@ aside {
     object-fit: cover;
 }
 
+/* Social links should stay left-aligned or styled separately */
 .social-links {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;  /* Ensure social links remain left-aligned */
 }
 
 .social-link {
