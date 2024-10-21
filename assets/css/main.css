@@ -92,13 +92,12 @@ aside {
 }
 
 .social-links {
-    text-align: center;
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .social-link {
-    display: inline-block;
-    margin: 0 0rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Main content */
