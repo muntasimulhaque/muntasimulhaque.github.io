@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    {% seo %}
 </head>
 <body>
     <header>
@@ -14,19 +14,17 @@
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
                 <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
                 <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-                <li><a href="{{ '/education' | relative_url }}">Education</a></li>
-                <li><a href="{{ '/experience' | relative_url }}">Work Experience</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <aside>
-            <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Photo" class="profile-photo">
+            <img src="{{ '/assets/images/profile.avif' | relative_url }}" alt="Profile Photo" class="profile-photo">
             <div class="social-links">
-                <a href="#" class="social-link">Google Scholar</a> |
-                <a href="#" class="social-link">LinkedIn</a> |
-                <a href="#" class="social-link">Twitter</a>
+                <a href="https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate" class="social-link" target="_blank">Google Scholar</a>
+                <a href="https://linkedin.com/in/muntasimulhaque" class="social-link" target="_blank">LinkedIn</a>
+                <a href="https://x.com/muntasimulhaque" class="social-link" target="_blank">X (formerly Twitter)</a>
             </div>
         </aside>
 
