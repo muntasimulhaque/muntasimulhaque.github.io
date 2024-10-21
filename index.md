@@ -3,24 +3,16 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Academic Website
+## About Me
 
-Hello! I'm [Your Name], a [Your Position] at [Your Institution]. My research focuses on [Your Research Areas].
+Hello! I'm Muntasim Ul Haque, a passionate electrical and electronic engineer based in Dhaka, Bangladesh. Currently, I serve as a Deputy Manager at Bangladesh Submarine Cables PLC, where I'm involved in spearheading Bangladesh's 3rd submarine cable system implementation.
 
-## Recent News
+With a background in wireless communications and networking, I'm deeply interested in the intersection of technology and innovation. My research interests span wireless communications, mobile ad hoc networks, multimedia communication, sensors, and machine learning.
 
-- [Date]: [News item 1]
-- [Date]: [News item 2]
-- [Date]: [News item 3]
+I hold a Bachelor's degree in Electrical and Electronic Engineering from the Islamic University of Technology (IUT). Throughout my career, I've worked on various projects, from ensuring smooth operations of submarine cable systems to developing contingency plans for cable downtimes.
 
-## Featured Publication
+My recent work includes publishing research on the challenges of implementing machine learning-driven IoT solutions in semiconductor design and wireless communication systems. I'm always eager to learn and contribute to advancements in my field.
 
-[Title of your most recent or most important publication]
+When I'm not working, you might find me organizing tech events, participating in debates, or playing cricket and badminton. I believe in the power of technology to solve complex problems and am committed to driving innovation in the telecommunications sector.
 
-[Brief description or abstract]
-
-[Link to full publication]
-
-## Get in Touch
-
-Feel free to contact me at [your email] or connect with me on my social media profiles.
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/) or check out my publications on [Google Scholar](https://scholar.google.com/citations?user=qsD8a0MAAAAJ).
