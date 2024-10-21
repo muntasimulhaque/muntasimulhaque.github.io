@@ -10,7 +10,7 @@
 
 /* Global styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -150,15 +150,5 @@ footer {
     nav a {
         display: block;
         padding: 0.5rem 1rem;
-    }
-
-    .social-links {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .social-link {
-        margin: 0.25rem 0.5rem;
     }
 }
