@@ -28,12 +28,14 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming/Scripting: C, Python, MATLAB, GNU Octave, Bash
+* Simulation: MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
+* Machine Learning: Anaconda, Jupyter Notebook, Google Colab
+* UNIX/Linux: GNU Core Utils, Debian/Ubuntu’s APT, Bash, git, vi, Vim
+* Networking: SSH, Wireshark, Cisco IOS, Cisco IOS XR
+* Cybersecurity Tools: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
+* Software: LaTeX, Microsoft Office Suite, LibreOffice
+* Web Development: HTML, CSS, JavaScript, Markdown
 
 Publications
 ======
