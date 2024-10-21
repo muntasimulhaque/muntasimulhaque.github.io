@@ -82,13 +82,18 @@ aside {
     flex-direction: column;
 }
 
+/* Profile photo wrapper to center the image */
+.profile-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
 .profile-photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-bottom: 1rem;
     object-fit: cover;
-    align-items: center;
 }
 
 .social-links {
