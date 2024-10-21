@@ -20,10 +20,11 @@ body {
 
 a {
     color: var(--link-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
