@@ -16,6 +16,9 @@ body {
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 a {
@@ -31,24 +34,26 @@ a:hover {
     background-color: var(--selection-color);
 }
 
-/* Layout */
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-main {
-    display: flex;
-    flex: 1;
-    padding: 2rem;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 /* Header and navigation */
 header {
-    padding: 1rem;
-    margin-bottom: 1rem;
-    position: relative;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu-toggle {
@@ -62,11 +67,10 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center;
 }
 
 nav li {
-    margin: 0 1rem;
+    margin-left: 1rem;
 }
 
 nav a {
@@ -74,10 +78,19 @@ nav a {
     font-weight: bold;
 }
 
-/* Sidebar */
+/* Main content */
+main {
+    flex: 1;
+    padding: 2rem 0;
+}
+
+main .container {
+    display: flex;
+    gap: 2rem;
+}
+
 aside {
     flex: 0 0 250px;
-    margin-right: 2rem;
 }
 
 .profile-photo {
@@ -86,37 +99,55 @@ aside {
     margin-bottom: 1rem;
 }
 
-.social-links {
-    display: flex;
-    flex-direction: column;
-}
-
-.social-link {
-    margin-bottom: 0.5rem;
-}
-
-/* Main content */
 article {
     flex: 1;
 }
 
 /* Footer */
 footer {
-    text-align: center;
-    padding: 1rem;
+    background-color: var(--background-color);
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-link {
+    color: var(--primary-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: var(--link-color);
+}
+
+footer p {
     color: var(--subtle-color);
     font-size: 0.9em;
-    margin-top: 2rem;
+    margin: 0;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    main {
+    main .container {
         flex-direction: column;
     }
 
     aside {
-        margin-right: 0;
         margin-bottom: 2rem;
     }
 
@@ -149,5 +180,10 @@ footer {
     nav a {
         display: block;
         padding: 0.5rem 1rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+        align-items: center;
     }
 }

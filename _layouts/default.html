@@ -8,34 +8,40 @@
 </head>
 <body>
     <header>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        <nav id="main-nav">
-            <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-                <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                    <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                    <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <aside>
-            <img src="{{ '/assets/images/profile.avif' | relative_url }}" alt="Profile Photo" class="profile-photo">
+        <div class="container">
+            <aside>
+                <img src="{{ '/assets/images/profile.avif' | relative_url }}" alt="Profile Photo" class="profile-photo">
+            </aside>
+
+            <article>
+                {{ content }}
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
             <div class="social-links">
                 <a href="mailto:muntasim.haque@gmail.com" class="social-link">Email</a>
                 <a href="https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate" class="social-link" target="_blank">Google Scholar</a>
                 <a href="https://linkedin.com/in/muntasimulhaque" class="social-link" target="_blank">LinkedIn</a>
-                <a href="https://x.com/muntasimulhaque" class="social-link" target="_blank">X (formerly Twitter)</a>
+                <a href="https://x.com/muntasimulhaque" class="social-link" target="_blank">X</a>
             </div>
-        </aside>
-
-        <article>
-            {{ content }}
-        </article>
-    </main>
-
-    <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by Jekyll.</p>
+            <p>&copy; {{ site.time | date: '%Y' }} {{ site.name }}. Powered by Jekyll.</p>
+        </div>
     </footer>
 
     <script>
