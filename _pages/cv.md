@@ -15,16 +15,16 @@ Education
 
 Work experience
 ======
-* Bangladesh Submarine Cables PLC (BSCPLC)
-  * Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Present
-  * Assistant Manager (Development), Oct 2022 – Present
-  * Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
-  * Assistant Manager (IIG NOC), Jul 2021 – Oct 2022
-  * Deputy Manager (Maintenance, Kuakata CLS), Oct 2020 – Mar 2021
-  * Assistant Manager (Operation, Kuakata CLS), May 2016 – Jul 2021
+* **Bangladesh Submarine Cables PLC (BSCPLC)**
+  * _Deputy Manager (SEA-ME-WE 6 Project), Additional Charge_, Oct 2022 – Present
+  * _Assistant Manager (Development)_, Oct 2022 – Present
+  * _Assistant Manager (Bandwidth Planning)_, May 2024 – Jul 2024
+  * _Assistant Manager (International Internet Gateway Network Operation Center)_, Jul 2021 – Oct 2022
+  * _Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station)_, Oct 2020 – Mar 2021
+  * _Assistant Manager (Operation, Kuakata Submarine Cable Landing Station)_, May 2016 – Jul 2021
 
-* United Ashuganj Energy Limited (UAEL)
-  * Engineer (Turbine and Boilers), Mar 2015 – Apr 2016
+* **United Ashuganj Energy Limited (UAEL)**
+  * _Engineer (Turbine and Boilers Operation and Maintenance)_, Mar 2015 – Apr 2016
   
 Skills
 ======
