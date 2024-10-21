@@ -76,7 +76,7 @@ nav a {
 
 /* Sidebar */
 aside {
-    flex: 0 0 300px;
+    flex: 0 0 250px;
     margin-right: 2rem;
 }
 
@@ -88,13 +88,11 @@ aside {
 
 .social-links {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
+    flex-direction: column;
 }
 
 .social-link {
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
 }
 
 /* Main content */
