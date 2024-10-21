@@ -11,4 +11,4 @@ paperurl: 'https://muntasimulhaque.github.io/files/11127-Article Text-14122-1-10
 citation: #
 ---
 
-AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan.
+AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan

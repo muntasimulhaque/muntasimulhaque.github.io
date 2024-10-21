@@ -10,4 +10,4 @@ paperurl: 'https://muntasimulhaque.github.io/files/Analysis_of_charge-shared_Mat
 citation: #
 ---
 
-RB Kadir, AS Anwar, **MU Haque**.
+RB Kadir, AS Anwar, **MU Haque**
