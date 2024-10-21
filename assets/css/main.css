@@ -73,6 +73,7 @@ nav li {
 nav a {
     color: var(--primary-color);
     font-weight: bold;
+    text-decoration: underline;
 }
 
 /* Sidebar */
