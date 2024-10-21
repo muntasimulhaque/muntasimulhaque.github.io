@@ -13,7 +13,7 @@ Education
 ======
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
 
-Work Experience
+Work experience
 ======
 * **Bangladesh Submarine Cables PLC (BSCPLC)**
   * _Deputy Manager (SEA-ME-WE 6 Project), Additional Charge_, Oct 2022 – Present
@@ -43,7 +43,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Test Score
+Test score
 ======
 * **IELTS Overall Band 8.0** _(Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0)_, Sep 2024
 
@@ -55,7 +55,7 @@ Extracurricular Activities
 * Man of the Tournament in an inter-office Cricket competition for exceptional all-round performance.
 * Winner of the inter-office Badminton Doubles, recognized for ambidextrous gameplay and praised for versatility.
 
-Professional Development Training and Certification
+Professional development training and certification
 ======
 * Cyber Security for Everyone, Cyber Bangla, Sep 2023
 * Segment Routing Workshop, Bangladesh Network Operators Group, Jul 2022
@@ -65,7 +65,7 @@ Professional Development Training and Certification
 * Industrial Training Certificate, Islamic University of Technology, Nov 2013
 * The Industrial Attachment Course, Bangladesh Power Development Board, Oct 2013
 
-Awards and Scholarships
+Awards and scholarships
 ======
 * Awarded the Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
 * Appreciation letter from BSCPLC for minimizing the duration of the nationwide internet blackout, Apr 2018
