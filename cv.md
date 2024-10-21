@@ -35,8 +35,8 @@ title: Curriculum Vitae
 
 ## Publications
 
-- [Skill Category 1]: [List of skills]
-- [Skill Category 2]: [List of skills]
+- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**, AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan, *International Journal on Recent and Innovation Trends in Computing and Communication*, 2024.
+- **Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**, RB Kadir, AS Anwar, **MU Haque**, *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, 2016
 
 ## Test score
 
@@ -67,5 +67,3 @@ title: Curriculum Vitae
 - OIC Scholarship awarded by Islamic University of Technology during the undergraduate years.
 - Government scholarships for outstanding achievement in Higher Secondary and Secondary School Certificate exams.
 - Talent Pool scholarships for extraordinary results in junior and primary public exams. 
-
-[Download Full CV (PDF)]
