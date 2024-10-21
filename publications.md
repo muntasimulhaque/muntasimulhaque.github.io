@@ -7,20 +7,8 @@ title: Publications
 
 ## Journal Articles
 
-1. [Author List]. (Year). [Title of the paper]. *Journal Name*, Volume(Issue), Page range. [DOI or Link]
-
-2. [Author List]. (Year). [Title of the paper]. *Journal Name*, Volume(Issue), Page range. [DOI or Link]
+1. AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan. 2024. Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication*, ISSN: 2321-8169 Volume: 12 Issue: 2. [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}
 
 ## Conference Papers
 
-1. [Author List]. (Year). [Title of the paper]. In *Proceedings of Conference Name* (pp. Page range). [DOI or Link]
-
-2. [Author List]. (Year). [Title of the paper]. In *Proceedings of Conference Name* (pp. Page range). [DOI or Link]
-
-## Book Chapters
-
-1. [Author List]. (Year). [Chapter Title]. In [Editor(s)], *Book Title* (pp. Page range). Publisher.
-
-## Preprints
-
-1. [Author List]. (Year). [Title of the paper]. [Preprint Server Name]. [DOI or Link]
+1. RB Kadir, AS Anwar, **MU Haque**. 2016. Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). In *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*. [DOI: 10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
