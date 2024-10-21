@@ -28,14 +28,14 @@ Work experience
   
 Skills
 ======
-* Programming/Scripting: C, Python, MATLAB, GNU Octave, Bash
-* Simulation: MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
-* Machine Learning: Anaconda, Jupyter Notebook, Google Colab
-* UNIX/Linux: GNU Core Utils, Debian/Ubuntu’s APT, Bash, git, vi, Vim
-* Networking: SSH, Wireshark, Cisco IOS, Cisco IOS XR
-* Cybersecurity Tools: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
-* Software: LaTeX, Microsoft Office Suite, LibreOffice
-* Web Development: HTML, CSS, JavaScript, Markdown
+* _Programming/Scripting_: C, Python, MATLAB, GNU Octave, Bash
+* _Simulation_: MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
+* _Machine Learning_: Anaconda, Jupyter Notebook, Google Colab
+* _UNIX/Linux_: GNU Core Utils, Debian/Ubuntu’s APT, Bash, git, vi, Vim
+* _Networking_: SSH, Wireshark, Cisco IOS, Cisco IOS XR
+* _Cybersecurity Tools_: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
+* _Software_: LaTeX, Microsoft Office Suite, LibreOffice
+* _Web Development_: HTML, CSS, JavaScript, Markdown
 
 Publications
 ======
