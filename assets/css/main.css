@@ -5,6 +5,7 @@
     --text-color: #000000;
     --link-color: #0070C9;
     --selection-color: #B4D5FF;
+    --border-color: #E5E5EA;
 }
 
 /* Global styles */
@@ -45,8 +46,8 @@ main {
 
 /* Header and navigation */
 header {
-    background-color: var(--primary-color);
     padding: 1rem;
+    border-bottom: 1px solid var(--border-color);
 }
 
 nav ul {
@@ -62,7 +63,7 @@ nav li {
 }
 
 nav a {
-    color: var(--background-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
@@ -94,10 +95,10 @@ article {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
-    color: var(--background-color);
     text-align: center;
     padding: 1rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-color);
 }
 
 /* Responsive design */
