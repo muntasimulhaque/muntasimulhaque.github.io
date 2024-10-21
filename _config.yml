@@ -1,26 +1,22 @@
-title: "Muntasim Ul Haque"
-email: "your.email@example.com"
-description: "Academic Website"
-baseurl: "" 
-url: "https://your-github-username.github.io"
-theme: minima
+# Site settings
+title: Your Name - Academic Website
+name: Your Name
+description: Personal academic website
 
-# Links to social media profiles
-scholar: https://scholar.google.com/citations?user=example
-linkedin: https://www.linkedin.com/in/example
-twitter: https://twitter.com/example
-
-# Navigation menu
-nav_items:
-  - name: "About"
-    link: "/about"
-  - name: "Publications"
-    link: "/publications"
-  - name: "CV"
-    link: "/cv"
-  - name: "Work Experience"
-    link: "/work-experience"
-  - name: "Education"
-    link: "/education"
-
+# Build settings
 markdown: kramdown
+permalink: /:title/
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
