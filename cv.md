@@ -35,8 +35,12 @@ title: Curriculum Vitae
 
 ## Publications
 
-- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**, AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan, *International Journal on Recent and Innovation Trends in Computing and Communication*, 2024.
-- **Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**, RB Kadir, AS Anwar, **MU Haque**, *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, 2016
+- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
+AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan  
+*International Journal on Recent and Innovation Trends in Computing and Communication*, 2024.
+- **Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**  
+RB Kadir, AS Anwar, **MU Haque**  
+*2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, 2016
 
 ## Test score
 
