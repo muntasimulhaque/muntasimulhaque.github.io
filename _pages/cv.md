@@ -15,20 +15,16 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Bangladesh Submarine Cables PLC (BSCPLC)
+  * Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Present
+  * Assistant Manager (Development), Oct 2022 – Present
+  * Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
+  * Assistant Manager (IIG NOC), Jul 2021 – Oct 2022
+  * Deputy Manager (Maintenance, Kuakata CLS), Oct 2020 – Mar 2021
+  * Assistant Manager (Operation, Kuakata CLS), May 2016 – Jul 2021
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* United Ashuganj Energy Limited (UAEL)
+  * Engineer (Turbine and Boilers), Mar 2015 – Apr 2016
   
 Skills
 ======
