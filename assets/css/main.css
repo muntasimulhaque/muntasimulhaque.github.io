@@ -5,7 +5,7 @@
     --text-color: #000000;
     --link-color: #0070C9;
     --selection-color: #B4D5FF;
-    --border-color: #E5E5EA;
+    --subtle-color: #8E8E93;
 }
 
 /* Global styles */
@@ -47,7 +47,7 @@ main {
 /* Header and navigation */
 header {
     padding: 1rem;
-    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 1rem;
 }
 
 nav ul {
@@ -97,8 +97,9 @@ article {
 footer {
     text-align: center;
     padding: 1rem;
-    border-top: 1px solid var(--border-color);
-    color: var(--text-color);
+    color: var(--subtle-color);
+    font-size: 0.9em;
+    margin-top: 2rem;
 }
 
 /* Responsive design */
