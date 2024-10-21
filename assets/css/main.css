@@ -97,11 +97,6 @@ aside {
     margin-bottom: 0;
 }
 
-.social-link + .social-link::before {
-    content: "|";
-    margin-right: 0.5rem;
-}
-
 /* Main content */
 article {
     flex: 1;
