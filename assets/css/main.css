@@ -48,6 +48,13 @@ main {
 header {
     padding: 1rem;
     margin-bottom: 1rem;
+    position: relative;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
 
 nav ul {
@@ -113,11 +120,34 @@ footer {
         margin-bottom: 2rem;
     }
 
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--background-color);
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav.active {
+        display: block;
+    }
+
     nav ul {
         flex-direction: column;
     }
 
     nav li {
-        margin: 0.5rem 0;
+        margin: 0;
+    }
+
+    nav a {
+        display: block;
+        padding: 0.5rem 1rem;
     }
 }
