@@ -6,7 +6,7 @@
     --link-color: #0070C9;
     --selection-color: #B4D5FF;
     --subtle-color: #8E8E93;
-    --max-content-width: 800px;  /* New variable for content width */
+    --max-content-width: 800px;
 }
 
 /* Global styles */
@@ -17,6 +17,8 @@ body {
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 a {
@@ -43,10 +45,11 @@ main {
     display: flex;
     flex: 1;
     padding: 2rem;
-    justify-content: center;  /* Center the main content horizontally */
-    max-width: 1300px;  /* Maximum width for the entire main section */
-    margin: 0 auto;  /* Center the main section in the viewport */
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
     width: 100%;
+    box-sizing: border-box; /* Include padding in width calculation */
 }
 
 /* Header and navigation */
@@ -54,6 +57,8 @@ header {
     padding: 1rem;
     margin-bottom: 1rem;
     position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .menu-toggle {
@@ -92,8 +97,11 @@ aside {
 
 .profile-photo {
     width: 100%;
+    max-width: 250px; /* Limit photo size on mobile */
     border-radius: 50%;
     margin-bottom: 1rem;
+    margin: 0 auto 1rem auto; /* Center photo on mobile */
+    display: block;
 }
 
 .social-links {
@@ -110,8 +118,10 @@ aside {
 /* Main content */
 article {
     flex: 1;
-    max-width: var(--max-content-width);  /* Limit the width of the main content */
-    margin-right: 250px;  /* Add right margin equal to sidebar width */
+    max-width: var(--max-content-width);
+    margin-right: 250px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -121,6 +131,8 @@ footer {
     color: var(--subtle-color);
     font-size: 0.9em;
     margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Responsive design */
@@ -128,16 +140,19 @@ footer {
     main {
         flex-direction: column;
         padding: 1rem;
+        width: 100%;
     }
 
     aside {
         margin-right: 0;
         margin-bottom: 2rem;
+        width: 100%;
     }
 
     article {
-        margin-right: 0;  /* Remove right margin on mobile */
-        max-width: 100%;  /* Allow full width on mobile */
+        margin-right: 0;
+        max-width: 100%;
+        padding: 0 1rem;
     }
 
     .menu-toggle {
@@ -152,6 +167,7 @@ footer {
         right: 0;
         background-color: var(--background-color);
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        width: 100%;
     }
 
     nav.active {
@@ -160,10 +176,12 @@ footer {
 
     nav ul {
         flex-direction: column;
+        width: 100%;
     }
 
     nav li {
         margin: 0;
+        width: 100%;
     }
 
     nav a {
@@ -174,5 +192,12 @@ footer {
     .social-links {
         flex-direction: row;
         justify-content: center;
+        width: 100%;
+    }
+
+    /* Ensure profile photo is centered and not too large on mobile */
+    .profile-photo {
+        margin: 0 auto 1rem auto;
+        max-width: 200px;
     }
 }
