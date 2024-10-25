@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## About Me
+# About Me
 
 Hello! I’m Muntasim Ul Haque, a passionate electrical and electronic engineer based in Dhaka, Bangladesh. Currently, I am working as an Assistant Manager (Development) and Deputy Manager (SEA-ME-WE 6 Project) at [Bangladesh Submarine Cables PLC](https://bscplc.gov.bd/){:target="_blank"}, where I’m involved in business development and implementation of Bangladesh’s 3rd submarine cable system.
 
