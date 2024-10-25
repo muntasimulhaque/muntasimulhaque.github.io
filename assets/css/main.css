@@ -1,11 +1,11 @@
 /* Variables for Apple-inspired color scheme */
 :root {
-    --primary-color: #40B5AD;
+    --primary-color: #1A8F6B;
     --background-color: #FFFFFF;
     --text-color: #1C1C1E;
-    --link-color: #379690;
-    --selection-color: #E8F6F5;
-    --subtle-color: #85A4A2;
+    --link-color: #167A5B;
+    --selection-color: #E7F4F0;
+    --subtle-color: #6B8A83;
     --max-content-width: 800px;
 }
 
