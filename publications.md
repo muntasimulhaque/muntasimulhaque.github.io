@@ -5,6 +5,8 @@ title: Publications
 
 # Publications
 
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}
+
 ### Journal Articles
 
 **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
