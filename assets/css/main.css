@@ -124,6 +124,11 @@ article {
     box-sizing: border-box;
 }
 
+article h1 {
+    color: var(--primary-color);
+    margin-top: 0; /* This ensures the title aligns well with the sidebar */
+}
+
 /* Footer */
 footer {
     text-align: center;
