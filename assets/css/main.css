@@ -23,11 +23,12 @@ body {
 
 a {
     color: var(--link-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
     color: var(--primary-color);
+    text-decoration: underline;
 }
 
 ::selection {
