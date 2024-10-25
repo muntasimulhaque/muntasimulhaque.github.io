@@ -89,6 +89,49 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Blog list styles */
+.blog-list {
+    margin-top: 2rem;
+}
+
+.blog-preview {
+    margin-bottom: 2rem;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+.blog-title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: var(--primary-color);
+}
+
+.blog-date {
+    display: block;
+    color: var(--subtle-color);
+    font-size: 0.9em;
+    margin-top: 0.25rem;
+}
+
+/* Blog post styles */
+.blog-post {
+    max-width: var(--max-content-width);
+}
+
+.blog-content {
+    margin-top: 2rem;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Sidebar */
 aside {
     flex: 0 0 250px;
