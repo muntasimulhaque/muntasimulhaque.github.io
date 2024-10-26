@@ -122,7 +122,7 @@ nav a:hover {
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 2em;  /* Same size as regular h1 */
+    font-size: 1em;  /* Same size as regular h1 */
     color: var(--primary-color);
     margin-top: 0;
 }
