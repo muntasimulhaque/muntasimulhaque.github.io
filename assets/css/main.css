@@ -122,13 +122,22 @@ nav a:hover {
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 1.5em;  /* Same size as regular h1 */
+    font-size: 2em;
     color: var(--primary-color);
     margin-top: 0;
+    margin-bottom: 0.5rem;  /* Reduce bottom margin of title */
 }
 
 .blog-post {
     max-width: var(--max-content-width);
+}
+
+.blog-post .blog-date {
+    display: block;
+    color: var(--subtle-color);
+    font-size: 0.9em;
+    margin-top: 0;  /* Remove top margin */
+    margin-bottom: 2rem;  /* Add space between date and content */
 }
 
 .blog-content {
