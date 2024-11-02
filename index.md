@@ -60,4 +60,4 @@ Investing:
 * I frequently [invest with Daniel Gross](#)
 * You can email me: nat@nat.org
 
-You can connect me on [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/), view my [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate), follow me on [X (formerly Twitter)](https://x.com/muntasimulhaque), or contact via [Email](mailto:mutasim.haque@gmail.com).
+You can connect with me on [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}, view my publications on my [Google Scholar Profile](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}, follow me on [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}, or contact me via [Email](mailto:mutasim.haque@gmail.com).
