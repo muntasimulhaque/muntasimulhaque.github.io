@@ -52,15 +52,23 @@ ul {
     
     li {
         margin-bottom: 0.5rem;
-    }
-    
-    // Nested lists
-    ul {
-        margin: 0.5rem 0;
-        li {
-            margin-bottom: 0.25rem;
+        
+        // Nested lists
+        ul {
+            margin: 0.5rem 0;
+            
+            li {
+                margin-bottom: 0.25rem;
+            }
         }
     }
+}
+
+// Section spacing
+h2, h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
 }
 
 // Mobile adjustments
@@ -71,5 +79,9 @@ ul {
     
     h1 {
         font-size: 1.75rem;
+    }
+    
+    ul {
+        padding-left: 1.5rem;
     }
 }
