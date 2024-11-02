@@ -1,6 +1,6 @@
 title: Muntasim Ul Haque
-description: A brief description about Muntasim.
+description: "A personal website"
 baseurl: ""
-url: "https://your-username.github.io"  # Your GitHub Pages URL
+url: "https://your-username.github.io"  # Replace with your GitHub Pages URL
 markdown: kramdown
 theme: minima
