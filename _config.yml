@@ -1,6 +1,7 @@
-title: Muntasim Ul Haque
-description: "A personal website"
+title: Nat Friedman
+description: Investor, entrepreneur, developer
 baseurl: ""
-url: "https://your-username.github.io"  # Replace with your GitHub Pages URL
+url: ""
 markdown: kramdown
-theme: minima
+sass:
+  style: compressed
