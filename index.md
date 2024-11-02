@@ -3,18 +3,22 @@ layout: default
 title: Home
 ---
 
-# Hey, I'm Muntasim
+## Some things about me:
+- Grew up in Charlottesville, VA
+- On the Internet since 1991, which is my actual "home town"
+- Went to MIT because I loved the Richard Feynman autobiographies
+- Started two companies
+- CEO of GitHub from 2018 through 2021
+- Live in California
+- Working on reading the Herculanium Papyri
 
-I'm passionate about Engineering Management and Industrial Management.
-
-## About Me
-
-I’m a graduate student focused on delivering efficient solutions in engineering and management.
-
-### My Work
-- **Project A**: Description of project A. This is a detailed explanation about Project A.
-- **Project B**: Description of project B. This is a detailed explanation about Project B.
-- **Project C**: Description of project C. This is a detailed explanation about Project C.
-
-### Contact Me
-You can reach me at: [muntasim.haque@gmail.com](mailto:muntasim.haque@gmail.com)
+## Some things I believe:
+- As human beings it is our right (maybe our moral duty) to reshape the universe to our preferences.
+    - Technology, which is really knowledge, enables this.
+    - You should probably work on raising the ceiling, not the floor.
+- Enthusiasm matters!
+    - It's much easier to work on things that are exciting to you.
+    - It might be easier to do big things than small things for this reason.
+    - Energy is a necessary input for progress.
+- It's important to do things fast.
+    - You learn more per unit time because you make contact with reality more frequently.
