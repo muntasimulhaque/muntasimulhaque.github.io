@@ -2,19 +2,13 @@
 layout: default
 ---
 
-# Nat Friedman
+# Muntasim Ul Haque
 
-I'm an investor, entrepreneur, developer.
+I'm a telecommunications professional with a bachelor of science in electrical and electronic engineering.
 
 Some things about me:
 
-* Grew up in Charlottesville, VA
-* On the Internet since 1991, which is my actual "home town"
-* Went to MIT because I loved the Richard Feynman [autobiographies](#)
-* Started [two companies](#)
-* CEO of [GitHub](#) from 2018 through 2021
-* Live in California
-* Working on reading the [Herculaneum Papyri](#)
+* From Bhairab, Bangladesh.
 
 Some things I believe:
 
@@ -66,4 +60,4 @@ Investing:
 * I frequently [invest with Daniel Gross](#)
 * You can email me: nat@nat.org
 
-I've invested in more than 100 startups, including [Eleven Labs](#), [Keen Technologies](#), [Character.ai](#), [Terraform Industries](#), [Replit](#), gem.ai, Scale, Vercel, Wander, Perplexity, Assembly.ai, MagicEden, Apollo, Sentry, Klarify, Ayble Stream!... and many others.
+You can connect me on [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/), view my [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate), follow me on [X (formerly Twitter)](https://x.com/muntasimulhaque), or contact via [Email](mailto:mutasim.haque@gmail.com).
