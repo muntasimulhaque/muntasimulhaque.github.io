@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% seo %}
 </head>
 <body>
     <header>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        <nav id="main-nav">
+        <div id="menu-toggle" class="menu-toggle">☰</div>
+        <nav>
             <ul>
                 <li><a href="{{ '/' | relative_url }}">Home</a></li>
                 <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
@@ -19,27 +20,12 @@
         </nav>
     </header>
 
-    <main>
-        <aside>
-            <img src="{{ '/assets/images/profile.avif' | relative_url }}" alt="Profile Photo" class="profile-photo">
-            <div class="social-links">
-                <a href="https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate" class="social-link" target="_blank">Google Scholar</a> | <a href="https://linkedin.com/in/muntasimulhaque" class="social-link" target="_blank">LinkedIn</a> | <a href="mailto:muntasim.haque@gmail.com" class="social-link">Email</a>
-            </div>
-        </aside>
-
-        <article>
-            {{ content }}
-        </article>
+    <main role="main">
+        {{ content }}
     </main>
 
     <footer>
-        <p>&#x1F12F All Wrongs Reserved. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.</p>
+        🄯 All Wrongs Reserved. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.
     </footer>
-
-    <script>
-        document.getElementById('menu-toggle').addEventListener('click', function() {
-            document.getElementById('main-nav').classList.toggle('active');
-        });
-    </script>
 </body>
 </html>
