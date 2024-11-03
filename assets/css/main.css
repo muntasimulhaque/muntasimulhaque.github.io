@@ -1,12 +1,12 @@
 /* Variables for Google-inspired color scheme */
 :root {
-    --primary-color: #202124;          /* Google's main text color */
+    --primary-color: #000000;          /* Google's main text color */
     --background-color: #FFFFFF;       /* Google's background */
-    --text-color: #202124;            /* Google's default text */
+    --text-color: #000000;            /* Google's default text */
     --link-color: #0000EE;            /* Green link color */
     --link-visited: #800080;          /* Visited link color */
     --link-hover: #00BFFF;            /* Hover link color */
-    --selection-color: #C2E6DA;       /* Selection color */
+    --selection-color: #C0E0FF;       /* Selection color */
     --max-content-width: 800px;
 }
 
