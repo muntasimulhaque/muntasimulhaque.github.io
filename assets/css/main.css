@@ -3,10 +3,10 @@
     --primary-color: #202124;          /* Google's main text color */
     --background-color: #FFFFFF;       /* Google's background */
     --text-color: #202124;            /* Google's default text */
-    --link-color: #1A8F6B;            /* Google's unvisited link color */
-    --link-visited: #135C4A;          /* Google's visited link color */
-    --link-hover: #167A5B;            /* Google's link hover color */
-    --selection-color: #C2E6DA;       /* Google's selection color */
+    --link-color: #1A8F6B;            /* Green link color */
+    --link-visited: #135C4A;          /* Visited link color */
+    --link-hover: #167A5B;            /* Hover link color */
+    --selection-color: #C2E6DA;       /* Selection color */
     --max-content-width: 800px;
 }
 
@@ -74,6 +74,17 @@ header {
     position: absolute;
     top: 1rem;
     left: 1rem;
+    background: none;
+    border: none;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle:focus-visible {
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 nav {
@@ -94,8 +105,8 @@ nav li {
 }
 
 nav a {
-    color: var(--link-color);                    /* Google's nav text color */
-    font-weight: 500;                  /* Google uses slightly less bold nav */
+    color: var(--link-color);
+    font-weight: 500;
     text-decoration: none;
     padding: 0.5rem 0;
 }
@@ -103,6 +114,16 @@ nav a {
 nav a:hover {
     color: var(--link-hover);
     text-decoration: underline;
+}
+
+nav a:focus {
+    outline: none;
+}
+
+nav a:focus-visible {
+    outline: none;
+    text-decoration: underline;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 /* Blog list styles */
@@ -132,7 +153,7 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: var(--text-color);                    /* Google's secondary text color */
+    color: var(--text-color);
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -182,7 +203,7 @@ article h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    color: var(--text-color);                    /* Google's secondary text color */
+    color: var(--text-color);
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
@@ -211,6 +232,7 @@ footer {
         right: 0;
         background-color: var(--background-color);
         padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     nav ul {
