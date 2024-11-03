@@ -1,0 +1,22 @@
+# Site settings
+title: Muntasim Ul Haque
+name: Muntasim Ul Haque
+description: Personal Website of Muntasim Ul Haque
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
