@@ -3,9 +3,9 @@
     --primary-color: #202124;          /* Google's main text color */
     --background-color: #FFFFFF;       /* Google's background */
     --text-color: #202124;            /* Google's default text */
-    --link-color: #167A5B;            /* Google's unvisited link color */
+    --link-color: #1A8F6B;            /* Google's unvisited link color */
     --link-visited: #135C4A;          /* Google's visited link color */
-    --link-hover: #1A8F6B;            /* Google's link hover color */
+    --link-hover: #167A5B;            /* Google's link hover color */
     --selection-color: #C2E6DA;       /* Google's selection color */
     --max-content-width: 800px;
 }
@@ -102,7 +102,7 @@ nav a {
 
 nav a:hover {
     color: var(--link-hover);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Blog list styles */
