@@ -94,7 +94,7 @@ nav li {
 }
 
 nav a {
-    color: #5f6368;                    /* Google's nav text color */
+    color: var(--link-color);                    /* Google's nav text color */
     font-weight: 500;                  /* Google uses slightly less bold nav */
     text-decoration: none;
     padding: 0.5rem 0;
