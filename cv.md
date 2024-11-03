@@ -7,44 +7,40 @@ title: Curriculum Vitae
 
 ### Education
 
-- **B.S. in Electrical and Electronic Engineering**, Islamic University of Technology, 2014
+- Bachelor of Science in Electrical and Electronic Engineering, Islamic University of Technology, 2014
 
 ### Professional Experience
 
 #### Bangladesh Submarine Cables PLC (BSCPLC)
-  - **Deputy Manager (SEA-ME-WE 6 Project), Additional Charge**, Oct 2022 – Present
-  - **Assistant Manager (Development)**, Oct 2022 – Present
-  - **Assistant Manager (Bandwidth Planning)**, May 2024 – Jul 2024
-  - **Assistant Manager (International Internet Gateway Network Operation Center)**, Jul 2021 – Oct 2022
-  - **Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station)**, Oct 2020 – Mar 2021
-  - **Assistant Manager (Operation, Kuakata Submarine Cable Landing Station)**, May 2016 – Jul 2021
+  - Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Present
+  - Assistant Manager (Development), Oct 2022 – Present
+  - Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
+  - Assistant Manager (International Internet Gateway Network Operation Center), Jul 2021 – Oct 2022
+  - Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
+  - Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
 
 #### United Ashuganj Energy Limited (UAEL)
-  - **Engineer (Turbine and Boilers Operation and Maintenance)**, Mar 2015 – Apr 2016
+  - Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
 ### Skills
 
-- _Programming/Scripting_: C, Python, MATLAB, GNU Octave, Bash
-- _Simulation_: MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
-- _Machine Learning_: Anaconda, Jupyter Notebook, Google Colab
-- _UNIX/Linux_: GNU Core Utils, Debian/Ubuntu’s APT, Bash, git, vi, Vim
-- _Networking_: SSH, Wireshark, Cisco IOS, Cisco IOS XR
-- _Cybersecurity Tools_: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
-- _Software_: LaTeX, Microsoft Office Suite, LibreOffice
-- _Web Development_: HTML, CSS, JavaScript, Markdown
+- Programming/Scripting: C, Python, MATLAB, GNU Octave, Bash
+- Simulation: MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
+- Machine Learning: Anaconda, Jupyter Notebook, Google Colab
+- UNIX/Linux: GNU Core Utils, Debian/Ubuntu’s APT, Bash, git, vi, Vim
+- Networking: SSH, Wireshark, Cisco IOS, Cisco IOS XR
+- Cybersecurity Tools: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
+- Software: LaTeX, Microsoft Office Suite, LibreOffice
+- Web Development: HTML, CSS, JavaScript, Markdown
 
 ### Publications
 
-- **Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System**  
-AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan  
-*International Journal on Recent and Innovation Trends in Computing and Communication*, 2024.
-- **Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**  
-RB Kadir, AS Anwar, **MU Haque**  
-*2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*, 2016
+- Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.
+- Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.
 
 ### Test score
 
-- **IELTS Overall Band 8.0** _(Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0)_, Sep 2024
+- IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
 
 ### Extracurricular Activities
 
