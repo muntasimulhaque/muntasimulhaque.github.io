@@ -132,7 +132,7 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: #70757a;                    /* Google's secondary text color */
+    color: var(--text-color);                    /* Google's secondary text color */
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -151,7 +151,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: #70757a;
+    color: var(--text-color);
     font-size: 0.9em;
     margin-top: 0;
     margin-bottom: 2rem;
@@ -182,7 +182,7 @@ article h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    color: #70757a;                    /* Google's secondary text color */
+    color: var(--text-color);                    /* Google's secondary text color */
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
