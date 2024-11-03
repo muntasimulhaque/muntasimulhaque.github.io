@@ -44,11 +44,11 @@ title: Curriculum Vitae
 
 ### Extracurricular Activities
 
-- Organized Esonance, the Electrical and Electronic Engineering fest of IUT, as a founding member.
-- Arranged seminars and industrial tours as an active member of the IEEE Student Branch.
-- Coordinated programs for IUT Debating Society as a general member.
-- Man of the Tournament in an inter-office Cricket competition for exceptional all-round performance.
-- Winner of the inter-office Badminton Doubles, recognized for ambidextrous gameplay and praised for versatility.
+- Founding Member of Esonance - Organized the Electrical and Electronic Engineering fest at IUT.
+- Active Member of IEEE Student Branch - Arranged seminars and industrial tours.
+- General Member of IUT Debating Society - Coordinated and participated in various events.
+- Man of the Tournament in inter-office Cricket competition for exceptional performance.
+- Winner of inter-office Badminton Doubles, praised for versatile, ambidextrous gameplay.
 
 ### Professional development training and certification
 
@@ -62,8 +62,8 @@ title: Curriculum Vitae
 
 ### Awards and scholarships
 
-- Awarded the Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
+- Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
 - Appreciation letter from BSCPLC for minimizing the duration of the nationwide internet blackout, Apr 2018
-- OIC Scholarship awarded by Islamic University of Technology during the undergraduate years.
-- Government scholarships for outstanding achievement in Higher Secondary and Secondary School Certificate exams.
-- Talent Pool scholarships for extraordinary results in junior and primary public exams. 
+- OIC Scholarship awarded during undergraduate years at Islamic University of Technology.
+- Government scholarships for outstanding achievement in Higher Secondary and Secondary exams.
+- Talentpool scholarships for exceptional results in Junior and Primary public exams. 
