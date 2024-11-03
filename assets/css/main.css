@@ -1,10 +1,12 @@
-/* Variables for Apple-inspired color scheme */
+/* Variables for Google-inspired color scheme */
 :root {
-    --primary-color: #1A8F6B;
-    --background-color: #FFFFFF;
-    --text-color: #1C1C1E;
-    --link-color: #167A5B;
-    --selection-color: #C2E6DA;
+    --primary-color: #202124;          /* Google's main text color */
+    --background-color: #FFFFFF;       /* Google's background */
+    --text-color: #202124;            /* Google's default text */
+    --link-color: #1a0dab;            /* Google's unvisited link color */
+    --link-visited: #681da8;          /* Google's visited link color */
+    --link-hover: #1a0dab;            /* Google's link hover color */
+    --selection-color: #e8f0fe;       /* Google's selection color */
     --max-content-width: 800px;
 }
 
@@ -25,9 +27,13 @@ a {
     text-decoration: none;
 }
 
+a:visited {
+    color: var(--link-visited);
+}
+
 a:hover {
-    color: var(--primary-color);
     text-decoration: underline;
+    color: var(--link-hover);
 }
 
 ::selection {
@@ -88,14 +94,15 @@ nav li {
 }
 
 nav a {
-    color: var(--primary-color);
-    font-weight: bold;
+    color: #5f6368;                    /* Google's nav text color */
+    font-weight: 500;                  /* Google uses slightly less bold nav */
     text-decoration: none;
     padding: 0.5rem 0;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 /* Blog list styles */
@@ -112,17 +119,20 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--text-color);
-    text-decoration: none;
+    color: var(--link-color);
+}
+
+.blog-title a:visited {
+    color: var(--link-visited);
 }
 
 .blog-title a:hover {
-    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .blog-date {
     display: block;
-    color: var(--text-color);
+    color: #70757a;                    /* Google's secondary text color */
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -141,7 +151,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: var(--text-color);
+    color: #70757a;
     font-size: 0.9em;
     margin-top: 0;
     margin-bottom: 2rem;
@@ -172,7 +182,7 @@ article h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    color: var(--text-color);
+    color: #70757a;                    /* Google's secondary text color */
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
