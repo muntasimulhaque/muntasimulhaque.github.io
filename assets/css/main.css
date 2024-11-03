@@ -240,11 +240,11 @@ footer {
 
     nav ul {
         flex-direction: column;
-        gap: 0.15rem;
+        gap: 0.5rem;
     }
 
     nav a {
         display: block;
-        padding: 0.25rem;
+        padding: 0.5rem;
     }
 }
