@@ -211,7 +211,7 @@ footer {
         right: 0;
         background-color: var(--background-color);
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        padding: 1rem;
+        padding: 0;
     }
 
     nav ul {
@@ -221,6 +221,6 @@ footer {
 
     nav a {
         display: block;
-        padding: 0.5rem;
+        padding: 0;
     }
 }
