@@ -204,7 +204,7 @@ footer {
     }
 
     nav.active {
-        display: block;
+        display: none;
         position: absolute;
         top: 100%;
         left: 0;
@@ -220,7 +220,7 @@ footer {
     }
 
     nav a {
-        display: block;
+        display: none;
         padding: 0.5rem;
     }
 }
