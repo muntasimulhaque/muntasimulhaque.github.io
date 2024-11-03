@@ -3,9 +3,9 @@
     --primary-color: #202124;          /* Google's main text color */
     --background-color: #FFFFFF;       /* Google's background */
     --text-color: #202124;            /* Google's default text */
-    --link-color: #1A8F6B;            /* Green link color */
-    --link-visited: #135C4A;          /* Visited link color */
-    --link-hover: #167A5B;            /* Hover link color */
+    --link-color: #0000EE;            /* Green link color */
+    --link-visited: #800080;          /* Visited link color */
+    --link-hover: #00BFFF;            /* Hover link color */
     --selection-color: #C2E6DA;       /* Selection color */
     --max-content-width: 800px;
 }
