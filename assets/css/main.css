@@ -1,18 +1,17 @@
 /* Variables for CERN-inspired color scheme */
 :root {
     --primary-color: #000000;          /* Black text, like original CERN site */
-    --background-color: #E2E2E2;       /* Light gray background, matching CERN */
+    --background-color: #FFFFFF;       /* White background, like original CERN */
     --text-color: #000000;             /* Black text */
     --link-color: #0000FF;             /* Classic web blue for links */
     --link-visited: #551A8B;           /* Classic visited link purple */
     --link-hover: #0000FF;             /* Keep blue on hover, like early web */
-    --selection-color: #ADD8E6;        /* Light blue selection */
     --max-content-width: 800px;
 }
 
 /* Global styles */
 body {
-    font-family: "Times New Roman", Times, serif; /* More period-appropriate font */
+    font-family: "Times New Roman", Times, serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -24,7 +23,7 @@ body {
 
 a {
     color: var(--link-color);
-    text-decoration: underline;         /* Classic underlined links */
+    text-decoration: underline;
 }
 
 a:visited {
@@ -34,10 +33,6 @@ a:visited {
 a:hover {
     color: var(--link-hover);
     text-decoration: underline;
-}
-
-::selection {
-    background-color: var(--selection-color);
 }
 
 /* Layout */
