@@ -8,10 +8,10 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif; /* Updated to use a very basic sans-serif font */
-    line-height: 1.4; /* Adjusted line-height for a compact, readable format */
-    background-color: #ffffff; /* Plain white background */
-    color: #000; /* Plain black for text */
+    font-family: "Times New Roman", Times, serif; /* Set to use Times New Roman */
+    line-height: 1.4; /* Compact line-height similar to Nat's */
+    background-color: #ffffff; /* Pure white background */
+    color: #000000; /* Pure black text color */
     max-width: 600px; /* Keep a comfortable width for reading */
     padding: 1rem;
     margin: 0 auto;
@@ -28,15 +28,17 @@ section {
 }
 
 h1 {
-    font-size: 1.5rem; /* Reduced heading size to match Nat's understated look */
-    font-weight: normal; /* No bold */
+    font-size: 1.5rem; /* Adjusted to be subtle but still recognizable as the main title */
+    font-weight: normal; /* No bold, as Nat's website has a subtle look */
     margin-bottom: 0.75rem;
+    color: #000000; /* Ensuring consistent text color for headings */
 }
 
 h2 {
-    font-size: 1.25rem; /* Smaller section heading, less visually dominating */
-    font-weight: normal;
+    font-size: 1.25rem; /* Smaller section heading */
+    font-weight: normal; /* No bold */
     margin-bottom: 0.5rem;
+    color: #000000; /* Ensuring consistent text color for headings */
 }
 
 h3 {
@@ -44,12 +46,14 @@ h3 {
     font-weight: normal;
     margin-top: 0.75rem;
     margin-bottom: 0.5rem;
+    color: #000000; /* Ensuring consistent text color for headings */
 }
 
 /* Paragraph and List Styling */
 p {
     margin-bottom: 0.75rem;
-    font-size: 0.9rem; /* Reduced font size to match the smaller, more compact look */
+    font-size: 0.9rem; /* Compact font size for paragraph */
+    color: #000000; /* Pure black text color for paragraphs */
 }
 
 ul {
@@ -61,6 +65,7 @@ ul {
 li {
     margin-bottom: 0.5rem;
     font-size: 0.9rem; /* Consistent font size with paragraph text */
+    color: #000000; /* Pure black text color for list items */
 }
 
 /* Link Styling */
@@ -78,11 +83,11 @@ footer {
     margin-top: 1.5rem;
     text-align: center;
     font-size: 0.875rem;
-    color: #555;
+    color: #000000; /* Pure black for footer text */
 }
 
 footer a {
-    color: #0000ee; /* Standard blue link color */
+    color: #0000ee; /* Standard blue link color for footer links */
     text-decoration: underline;
 }
 
