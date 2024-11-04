@@ -28,22 +28,22 @@ section {
 }
 
 h1 {
-    font-size: 1.75rem; /* Simple, understated heading size */
+    font-size: 2rem; /* Main heading size */
     font-weight: normal; /* No bold */
     margin-bottom: 1rem;
 }
 
 h2 {
-    font-size: 1.25rem; /* Smaller, less emphasized headings */
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem; /* Section headings, smaller than h1 */
     font-weight: normal; /* No bold */
+    margin-bottom: 0.75rem;
 }
 
 h3 {
-    font-size: 1rem; /* Similar to paragraph size */
-    margin-top: 1rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.25rem; /* Subsection headings, smaller than h2 */
     font-weight: normal; /* No bold */
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 /* Paragraph and List Styling */
