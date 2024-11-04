@@ -1,22 +1,10 @@
-# Site settings
-title: Muntasim Ul Haque
-name: Muntasim Ul Haque
-description: Personal Website of Muntasim Ul Haque
-
-# Build settings
+title: "Muntasim Ul Haque's Website"
+description: "A personal website showcasing my work, publications, CV, and blog posts."
+baseurl: "" # Leave blank for GitHub Pages root
+url: "https://muntasimulhaque.github.io"
 markdown: kramdown
-permalink: /:title/
 
-# Exclude files from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+theme: minima
 
-# Plugins
 plugins:
-  - jekyll-seo-tag
+  - jekyll-feed

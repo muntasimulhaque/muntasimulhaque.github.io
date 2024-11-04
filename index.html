@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Muntasim Ul Haque">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+
+<body>
+    <main role="main">
+
+        <!-- Home Section -->
+        <section id="home">
+            <h1>Welcome to My Website</h1>
+            <p>Hi, I'm Muntasim Ul Haque. Welcome to my personal website where I share my work, publications, CV, and blogs. Feel free to explore!</p>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications">
+            <h2>Publications</h2>
+            <p>Here is a list of my publications:</p>
+            {% for publication in site.publications %}
+            <article class="publication">
+                <h3>{{ publication.title }}</h3>
+                <div>{{ publication.content }}</div>
+            </article>
+            {% endfor %}
+        </section>
+
+        <!-- CV Section -->
+        <section id="cv">
+            <h2>Curriculum Vitae (CV)</h2>
+            <p>Below is a summary of my professional experience and skills:</p>
+            {% for cv in site.cv %}
+            <div class="cv-content">
+                {{ cv.content }}
+            </div>
+            {% endfor %}
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog">
+            <h2>Blog Posts</h2>
+            {% for post in site.posts %}
+            <article class="blog-post">
+                <h3>{{ post.title }}</h3>
+                <time class="blog-date">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <div class="blog-content">
+                    {{ post.content }}
+                </div>
+                <hr>
+            </article>
+            {% endfor %}
+        </section>
+
+    </main>
+
+    <footer>
+        🄯 All Wrongs Reserved. Fork on
+        <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.
+    </footer>
+</body>
+
+</html>

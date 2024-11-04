@@ -5,19 +5,11 @@
     --text-color: #333333;             /* Matching primary for consistency */
     --link-color: #0000FF;             /* Classic blue for links */
     --link-visited: #551A8B;           /* Standard visited link color */
-    --link-hover: #0000FF;             /* Consistent blue for hover */
     --focus-outline: #1a73e8;          /* Google-style focus outline */
     --max-content-width: 65ch;         /* Optimal reading width */
     --spacing-unit: clamp(1rem, 2vw, 2rem); /* Responsive spacing */
-    --paragraph-spacing: 1.5rem;        /* New: Dedicated paragraph spacing */
-    --mobile-margin: 1.25rem;          /* New: Mobile-specific margin */
-}
-
-/* Modern system font stack */
-@media (prefers-reduced-motion: no-preference) {
-    html {
-        scroll-behavior: smooth;
-    }
+    --paragraph-spacing: 1.5rem;        /* Dedicated paragraph spacing */
+    --mobile-margin: 1.25rem;          /* Mobile-specific margin */
 }
 
 /* Base styles */
@@ -35,47 +27,14 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.8;  /* Increased from 1.6 for better readability */
+    line-height: 1.8;
     color: var(--text-color);
     background-color: var(--background-color);
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
-}
-
-/* Improved paragraph spacing */
-p {
-    margin-bottom: var(--paragraph-spacing);
-}
-
-p + p {
-    margin-top: var(--paragraph-spacing);
-}
-
-/* Improved link styles */
-a {
-    color: var(--link-color);
-    text-decoration: underline;
-    text-underline-offset: 0.15em;
-    transition: color 0.2s ease;
-}
-
-a:visited {
-    color: var(--link-visited);
-}
-
-a:hover, a:focus {
-    text-decoration-thickness: 0.2em;
-    outline: none;
-}
-
-a:focus-visible {
-    outline: 2px solid var(--focus-outline);
-    outline-offset: 2px;
 }
 
 /* Layout optimization */
@@ -87,99 +46,22 @@ main {
     max-width: var(--max-content-width);
 }
 
-/* Enhanced header and navigation */
-header {
-    padding: var(--spacing-unit);
-    margin-bottom: calc(var(--spacing-unit) * 1.5);
-    position: relative;
-    width: 100%;
+/* Section styles */
+section {
+    padding: var(--spacing-unit) 0;
 }
 
-.menu-toggle {
-    display: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    padding: 0.75rem;
-    position: absolute;
-    top: var(--spacing-unit);
-    left: var(--spacing-unit);
-    background: none;
-    border: none;
-    z-index: 100;
-    min-width: 44px; /* Minimum touch target size */
-    min-height: 44px;
-    border-radius: 4px;
+section + section {
+    margin-top: calc(var(--spacing-unit) * 2);
 }
 
-.menu-toggle:focus-visible {
-    outline: 2px solid var(--focus-outline);
-    outline-offset: 2px;
-}
-
-nav {
-    width: 100%;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: var(--spacing-unit);
-}
-
-nav li {
-    margin: 0;
-}
-
-nav a {
-    padding: 0.5rem 0;
-    display: inline-block;
-}
-
-/* Blog styles optimization */
-.blog-list {
-    margin-top: calc(var(--spacing-unit) * 2.5);
-}
-
-.blog-preview {
-    margin-bottom: calc(var(--spacing-unit) * 2.5);
-}
-
-.blog-title {
-    margin: 0 0 1rem 0;
-    font-size: clamp(1.25rem, 5vw, 2rem);
-}
-
-.blog-date {
-    display: block;
-    color: var(--text-color);
-    font-size: 0.9rem;
-    margin-top: 0.5rem;
-    opacity: 0.8;
-}
-
-/* Blog post enhancements */
-.blog-post h2 {
+h2 {
     font-size: clamp(1.5rem, 6vw, 2.5rem);
-    margin-bottom: calc(var(--spacing-unit) * 1.5);
+    margin-bottom: var(--spacing-unit);
 }
 
-.blog-content {
-    margin-top: calc(var(--spacing-unit) * 1.5);
-}
-
-.blog-content img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: var(--spacing-unit) 0;
-}
-
-/* Article improvements */
-article h1 {
-    font-size: clamp(2rem, 8vw, 3rem);
+h3 {
+    font-size: clamp(1.25rem, 5vw, 2rem);
     margin-bottom: var(--spacing-unit);
 }
 
@@ -197,73 +79,5 @@ footer {
 @media (max-width: 768px) {
     main {
         padding: var(--mobile-margin);
-    }
-
-    .menu-toggle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    nav {
-        display: none;
-    }
-
-    nav.active {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--background-color);
-        padding: var(--spacing-unit);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-        z-index: 99;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    nav a {
-        display: block;
-        padding: 0.75rem;
-    }
-
-    /* Improved bullet point spacing for CV page */
-    ul, ol {
-        padding-left: calc(var(--mobile-margin) * 1.5);
-        margin-bottom: var(--paragraph-spacing);
-    }
-
-    li {
-        margin-bottom: 0.75rem;
-    }
-
-    /* Ensure content doesn't touch screen edges */
-    .blog-content,
-    .cv-content,
-    article {
-        padding: 0 var(--mobile-margin);
-    }
-}
-
-/* Print styles */
-@media print {
-    .menu-toggle {
-        display: none;
-    }
-    
-    body {
-        color: black;
-    }
-    
-    a {
-        text-decoration: none;
-    }
-    
-    a[href]::after {
-        content: " (" attr(href) ")";
     }
 }
