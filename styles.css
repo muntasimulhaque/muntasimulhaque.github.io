@@ -24,7 +24,7 @@ main {
 
 /* Section Styles */
 section {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem; /* Increased section bottom margin for more spacing */
 }
 
 h1 {
@@ -44,8 +44,8 @@ h2 {
 h3 {
     font-size: 1.125rem; /* Increased size by 1 point (originally 1rem) */
     font-weight: normal;
-    margin-top: 0.75rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem; /* Added more space before subsections */
+    margin-bottom: 0.5rem; /* Reduced spacing after h3 for a more compact look */
     color: #000000; /* Ensuring consistent text color for headings */
 }
 
@@ -59,7 +59,7 @@ p {
 ul {
     list-style-type: disc;
     padding-left: 1.25rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem; /* Increased bottom margin for more space after lists */
 }
 
 li {
