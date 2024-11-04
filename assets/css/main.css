@@ -1,18 +1,18 @@
-/* Variables for Google-inspired color scheme */
+/* Variables for CERN-inspired color scheme */
 :root {
-    --primary-color: #000000;          /* Google's main text color */
-    --background-color: #FFFFFF;       /* Google's background */
-    --text-color: #000000;            /* Google's default text */
-    --link-color: #0000EE;            /* Green link color */
-    --link-visited: #800080;          /* Visited link color */
-    --link-hover: #00BFFF;            /* Hover link color */
-    --selection-color: #C0E0FF;       /* Selection color */
+    --primary-color: #000000;          /* Black text, like original CERN site */
+    --background-color: #E2E2E2;       /* Light gray background, matching CERN */
+    --text-color: #000000;             /* Black text */
+    --link-color: #0000FF;             /* Classic web blue for links */
+    --link-visited: #551A8B;           /* Classic visited link purple */
+    --link-hover: #0000FF;             /* Keep blue on hover, like early web */
+    --selection-color: #ADD8E6;        /* Light blue selection */
     --max-content-width: 800px;
 }
 
 /* Global styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif; /* More period-appropriate font */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -24,7 +24,7 @@ body {
 
 a {
     color: var(--link-color);
-    text-decoration: none;
+    text-decoration: underline;         /* Classic underlined links */
 }
 
 a:visited {
@@ -32,8 +32,8 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
     color: var(--link-hover);
+    text-decoration: underline;
 }
 
 ::selection {
@@ -54,6 +54,7 @@ main {
     width: 100%;
     max-width: var(--max-content-width);
     box-sizing: border-box;
+    background-color: var(--background-color);
 }
 
 /* Header and navigation */
@@ -107,14 +108,12 @@ nav li {
 
 nav a {
     color: var(--link-color);
-    font-weight: 500;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 0.5rem 0;
 }
 
 nav a:hover {
     color: var(--link-hover);
-    text-decoration: underline;
 }
 
 nav a:focus {
@@ -209,6 +208,7 @@ footer {
     margin-top: 2rem;
     width: 100%;
     box-sizing: border-box;
+    background-color: var(--background-color);
 }
 
 /* Responsive design */
@@ -240,8 +240,8 @@ footer {
 
     nav ul {
         flex-direction: column;
-        gap: 0.3rem; /* Adjust gap between items, reducing the space */
-        margin-top: 1rem; /* Add margin to create space below the menu icon */
+        gap: 0.3rem;
+        margin-top: 1rem;
     }
 
     nav a {
