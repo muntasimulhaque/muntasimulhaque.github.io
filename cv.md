@@ -38,7 +38,7 @@ title: Curriculum Vitae
 - Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). [Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.      
 - Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). [Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)](https://ieeexplore.ieee.org/document/7856490){:target="_blank"}. *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
 
-### Test score
+### Test Score
 
 - IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
 
@@ -50,7 +50,7 @@ title: Curriculum Vitae
 - Man of the Tournament in inter-office Cricket competition for exceptional performance.
 - Winner of inter-office Badminton Doubles, praised for versatile, ambidextrous gameplay.
 
-### Professional development training and certification
+### Training and Certification
 
 - Cyber Security for Everyone, Cyber Bangla, Sep 2023
 - Segment Routing Workshop, Bangladesh Network Operators Group, Jul 2022
@@ -60,7 +60,7 @@ title: Curriculum Vitae
 - Industrial Training Certificate, Islamic University of Technology, Nov 2013
 - The Industrial Attachment Course, Bangladesh Power Development Board, Oct 2013
 
-### Awards and scholarships
+### Awards and Scholarships
 
 - Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
 - Appreciation letter from BSCPLC for minimizing the duration of the nationwide internet blackout, Apr 2018
