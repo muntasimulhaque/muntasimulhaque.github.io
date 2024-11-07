@@ -1,26 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="{{ site.lang | default: "en-US" }}">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ page.description | default: site.description }}">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <style>
+      body {
+         background-color: #fff;
+         padding: 50px;
+         font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+         color: #727272;
+         font-weight: 400;
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+         color: #222;
+         margin: 0 0 20px;
+      }
+
+      p, ul, ol, table, pre, dl {
+         margin: 0 0 20px;
+      }
+
+      h1 {
+         font-size: 28px;
+         text-align: center;
+      }
+
+      a {
+         color: #0066cc;
+         text-decoration: underline;
+      }
+
+      a:hover {
+         color: #004499;
+      }
+
+      a:visited {
+         color: #540099;
+      }
+
+      .wrapper {
+         width: 860px;
+         margin: 0 auto;
+      }
+
+      .link-container {
+         text-align: center;
+      }
+
+      .link-container a {
+         margin: 0 1px;
+      }
+
+      img {
+         max-width: 100%;
+      }
+
+      header {
+         width: 270px;
+         float: left;
+         position: fixed;
+         -webkit-font-smoothing: subpixel-antialiased;
+      }
+
+      header h1 a {
+         color: #222 !important;
+         text-decoration: none;
+      }
+
+      header h1 a:hover, header h1 a:visited {
+         color: #222 !important;
+         text-decoration: none;
+      }
+
+      strong {
+         color: #222;
+         font-weight: 700;
+      }
+
+      header img {
+         width: 200px;
+         height: 200px;
+         border-radius: 50%;
+         display: block;
+         margin: 0 auto;
+      }
+
+      section {
+         width: 500px;
+         float: right;
+         padding-bottom: 50px;
+      }
+
+      footer {
+         width: 270px;
+         float: left;
+         position: fixed;
+         bottom: 50px;
+         -webkit-font-smoothing: subpixel-antialiased;
+      }
+
+      @media print, screen and (max-width: 960px) {
+         .wrapper {
+            width: auto;
+            margin: 0;
+         }
+
+         header, section, footer {
+            float: none;
+            position: static;
+            width: auto;
+         }
+
+         header {
+            padding-right: 320px;
+         }
+
+         section {
+            border: 1px solid #e5e5e5;
+            border-width: 1px 0;
+            padding: 20px 0;
+            margin: 0 0 20px;
+         }
+
+         header a small {
+            display: inline;
+         }
+
+         header ul {
+            position: absolute;
+            right: 50px;
+            top: 52px;
+         }
+      }
+
+      @media print, screen and (max-width: 720px) {
+         body {
+            word-wrap: break-word;
+         }
+
+         header {
+            padding: 0;
+         }
+
+         header ul, header p.view {
+            position: static;
+         }
+
+         pre, code {
+            word-wrap: normal;
+         }
+      }
+
+      @media print, screen and (max-width: 480px) {
+         body {
+            padding: 15px;
+         }
+
+         header ul {
+            width: 99%;
+         }
+
+         header li, header ul li + li + li {
+            width: 33%;
+         }
+      }
+
+      @media print {
+         body {
+            padding: 0.4in;
+            font-size: 12pt;
+            color: #444;
+         }
+      }
+	  
+	  .about-me {
+         text-align: justify;
+         max-width: 600px; /* You can set a max width to control the width */
+         margin: 0 auto;   /* Center the content */
+	  }
+   </style>
 </head>
-
 <body>
-    <header>
-        {% include header.html %}
-    </header>
-
-    <main role="main">
-        {{ content }}
-    </main>
-
-    <footer>
-        <p>© {{ site.title }}. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.</p>
-    </footer>
+   <div class="wrapper">
+      <header>
+         <h1><a href="{{ "/" }}">{{ site.title }}</a></h1>
+         {% if site.logo %}
+         <img src="{{ site.logo | relative_url }}" alt="Site Logo">
+         {% endif %}
+         <p>{{ site.description | default: site.github.project_tagline }}</p>
+      </header>
+      <section>
+         {{ content }}
+      </section>
+      <footer>
+         <!-- Footer content goes here -->
+      </footer>
+   </div>
+   {% if site.google_analytics %}
+   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.google_analytics }}');
+   </script>
+   {% endif %}
 </body>
-
 </html>
