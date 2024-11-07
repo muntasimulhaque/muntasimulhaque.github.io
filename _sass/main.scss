@@ -1,0 +1,104 @@
+// Variables
+$text-color: rgba(0, 0, 0, 0.9);
+$link-color: #0000EE;
+$font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Base styles
+body {
+    font-family: $font-family;
+    line-height: 1.5;  // Changed from 1.6 to match Nat's site
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;  // Explicitly set base font size
+}
+
+.container {
+    max-width: 650px;
+    margin: 1.5rem auto;  // Changed from 2rem to match spacing
+    padding: 0 1.25rem;   // Adjusted padding
+}
+
+h1 {
+    font-size: 1.75rem;  // Adjusted to match Nat's size
+    margin-bottom: 0.75rem;  // Reduced margin
+    font-weight: 400;
+}
+
+p {
+    margin-bottom: 0.75rem;  // Adjusted spacing
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Main content spacing
+h1 + p {
+    margin-bottom: 1.25rem;  // Specific spacing after introduction
+}
+
+// List styles
+ul {
+    margin: 0.5rem 0;  // Reduced margin
+    padding-left: 2rem;
+    
+    li {
+        margin-bottom: 0.35rem;  // Adjusted for tighter spacing
+        
+        // Nested lists
+        ul {
+            margin: 0.35rem 0 0.5rem;  // Adjusted nested list margins
+            
+            li {
+                margin-bottom: 0.35rem;  // Consistent with parent items
+            }
+        }
+    }
+}
+
+// Section headings (for "Some things about me:" etc.)
+strong, b {
+    font-weight: 500;  // Lighter bold weight to match Nat's site
+}
+
+// Specific section spacing
+ul + p strong {
+    display: block;
+    margin-top: 1.25rem;  // Space before new sections
+}
+
+// Mobile adjustments
+@media (max-width: 600px) {
+    body {
+        font-size: 15px;  // Slightly smaller on mobile
+    }
+    
+    .container {
+        margin: 1rem auto;
+        padding: 0 1rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    ul {
+        padding-left: 1.75rem;  // Slightly tighter on mobile
+    }
+}
