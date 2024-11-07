@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: 'Merriweather', serif; /* Changed to Merriweather with a generic serif as backup */
+    font-family: Verdana, Geneva, sans-serif; /* Changed to Verdana with appropriate fallbacks */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
