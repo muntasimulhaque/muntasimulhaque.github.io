@@ -6,7 +6,7 @@
     --link-color: #007bff; /* Standard blue hyperlink color */
     --visited-link-color: #8e44ad; /* Dark purple for visited links */
     --hover-link-color: #007bff; /* Blue for hover links */
-    --max-content-width: 800px;
+    --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
 /* Global styles */
@@ -51,7 +51,7 @@ body {
 main {
     flex: 1;
     padding: 2rem;
-    max-width: var(--max-content-width);
+    max-width: var(--max-content-width); /* Reduced for improved readability */
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box; /* Include padding in width calculation */
@@ -134,7 +134,7 @@ nav a:hover {
 }
 
 .blog-post {
-    max-width: var(--max-content-width);
+    max-width: var(--max-content-width); /* Reduced for better readability */
 }
 
 .blog-post .blog-date {
@@ -157,7 +157,7 @@ nav a:hover {
 /* Main content */
 article {
     flex: 1;
-    max-width: var(--max-content-width);
+    max-width: var(--max-content-width); /* Reduced for better readability */
     width: 100%;
     box-sizing: border-box;
 }
