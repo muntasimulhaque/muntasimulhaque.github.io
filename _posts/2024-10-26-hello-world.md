@@ -6,19 +6,19 @@ date: 2024-10-26
 
 Hello World!
 
-This is my first blog post here, on [Github Pages](https://pages.github.com/){:target="_blank"} using [Jekyll](https://jekyllrb.com/){:target="_blank"} under the hood. I've blogged on different platforms before e.g. Blogpost, Wordpress, Tumblr, Medium, etc. So, what's different this time? 
+This is my first blog post here, on [Github Pages](https://pages.github.com/) using [Jekyll](https://jekyllrb.com/) under the hood. I've blogged on different platforms before e.g. Blogpost, Wordpress, Tumblr, Medium, etc. So, what's different this time? 
 
 Well, this time I'm posting on a static site. 
 
-#### What's the advantage of using a static site?
+## What's the advantage of using a static site?
 
 Nothing. I mean, I didn't chose to blog here just because it gave me a leverage over other platforms. It's just that, using Jekyll makes the experience a bit simpler to blog on GitHub Pages.
 
-#### Why blog on GitHub Pages?
+## Why blog on GitHub Pages?
 
 I didn't specifically chose to blog here. I intended this site to serve as my academic portfolio. 
 
-To develop this site, I tried other GitHub Pages sites and forked the ones I liked. Among them, [Academic Pages](https://academicpages.github.io/){:target="_blank"} stood out to me. It's actually a good starting point for someone who needs to create an academic site without much knowledge of behind the scenes. In fact, I forked Academic Pages earlier. But as I delved deeper, I realized it's overkill for my use case. 
+To develop this site, I tried other GitHub Pages sites and forked the ones I liked. Among them, [Academic Pages](https://academicpages.github.io/) stood out to me. It's actually a good starting point for someone who needs to create an academic site without much knowledge of behind the scenes. In fact, I forked Academic Pages earlier. But as I delved deeper, I realized it's overkill for my use case. 
 
 I wanted a simple site that looks and acts as I wanted. Academic Pages is great in that respect, but for me, I had to change a lot of its codes to make it my own. 
 
@@ -28,7 +28,7 @@ Coming back to the point, blogging here wasn't something I set out to do at the 
 
 I am a believer of sharing knowledge with others. I've shared my knowledge with others before, I am sharing now and I will continue to share in the days to come.
 
-#### What's next?
+## What's next?
 
 This site will act mainly as my academic portfolio. I don't have any master-plan of doing anything big here. 
 
