@@ -1,11 +1,11 @@
-/* Variables for Apple-inspired color scheme */
+/* Variables for the original color scheme */
 :root {
-    --primary-color: #1A8F6B;
-    --background-color: #FFFFFF;
-    --text-color: #1C1C1E;
-    --link-color: #167A5B;
-    --selection-color: #C2E6DA;
-    --subtle-color: #6B8A83;
+    --primary-color: #0000ee; /* Standard blue link color */
+    --background-color: #ffffff; /* White */
+    --text-color: #000000; /* Black */
+    --visited-link-color: #551a8b; /* Dark purple for visited links */
+    --hover-link-color: #0000ee; /* Blue for hover links */
+    --subtle-color: #000000; /* Black for footer text and details */
     --max-content-width: 800px;
 }
 
@@ -22,17 +22,21 @@ body {
 }
 
 a {
-    color: var(--link-color);
-    text-decoration: none;
+    color: var(--primary-color);
+    text-decoration: underline; /* Underlined like classic hyperlinks */
+}
+
+a:visited {
+    color: var(--visited-link-color);
 }
 
 a:hover {
-    color: var(--primary-color);
-    text-decoration: underline;
+    color: var(--hover-link-color);
+    text-decoration: none;
 }
 
 ::selection {
-    background-color: var(--selection-color);
+    background-color: #d3d3d3; /* Light gray background for selected text, original scheme */
 }
 
 /* Layout */
