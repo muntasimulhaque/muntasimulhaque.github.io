@@ -127,10 +127,10 @@ nav a:hover {
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 2em;
-    color: var(--primary-color); /* Black for the main heading of the blog post */
+    font-size: 1.5em;  /* Reduce font size to be closer to other headings */
+    color: var(--primary-color);
     margin-top: 0;
-    margin-bottom: 0.5rem; /* Reduce bottom margin of title to decrease the gap */
+    margin-bottom: 0.5rem;
 }
 
 .blog-post {
