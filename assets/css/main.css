@@ -1,8 +1,9 @@
-/* Variables for the original color scheme */
+/* Variables for the updated color scheme */
 :root {
-    --primary-color: #0000ee; /* Standard blue link color */
-    --background-color: #ffffff; /* White */
-    --text-color: #000000; /* Black */
+    --primary-color: #000000; /* Black as primary color */
+    --background-color: #ffffff; /* White for background */
+    --text-color: #000000; /* Black for main text and all subtle text */
+    --link-color: #0000ee; /* Standard blue hyperlink color */
     --visited-link-color: #551a8b; /* Dark purple for visited links */
     --hover-link-color: #0000ee; /* Blue for hover links */
     --max-content-width: 800px;
@@ -10,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif; /* Changed to Times New Roman */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -21,7 +22,7 @@ body {
 }
 
 a {
-    color: var(--primary-color);
+    color: var(--link-color);
     text-decoration: underline; /* Underlined like classic hyperlinks */
 }
 
@@ -32,10 +33,6 @@ a:visited {
 a:hover {
     color: var(--hover-link-color);
     text-decoration: none;
-}
-
-::selection {
-    background-color: #d3d3d3; /* Light gray background for selected text, original scheme */
 }
 
 /* Layout */
@@ -82,7 +79,7 @@ nav li {
 }
 
 nav a {
-    color: var(--primary-color);
+    color: var(--primary-color); /* Now black for navigation links */
     font-weight: bold;
     text-decoration: none;
 }
@@ -105,7 +102,7 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--text-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -115,7 +112,7 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: var(--text-color);
+    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -123,7 +120,7 @@ nav a:hover {
 /* Blog post styles */
 .blog-post h1 {
     font-size: 2em;
-    color: var(--primary-color);
+    color: var(--primary-color); /* Black for the main heading of the blog post */
     margin-top: 0;
     margin-bottom: 0;  /* Reduce bottom margin of title */
 }
@@ -134,7 +131,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: var(---text-color);
+    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
     margin-top: 0;  /* Remove top margin */
     margin-bottom: 2rem;  /* Add space between date and content */
@@ -158,7 +155,7 @@ article {
 }
 
 article h1 {
-    color: var(--primary-color);
+    color: var(--primary-color); /* Black for the main title of the article */
     margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
@@ -166,7 +163,7 @@ article h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    color: var(--text-color);
+    color: var(--text-color); /* Using text color for the footer */
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
