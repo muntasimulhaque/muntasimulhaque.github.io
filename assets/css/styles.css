@@ -1,0 +1,20 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 1.4;
+    background-color: #ffffff;
+    color: #000000;
+    max-width: 600px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+/* Add the rest of the CSS here */
