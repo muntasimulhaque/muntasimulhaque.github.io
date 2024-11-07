@@ -14,7 +14,7 @@ AS Anwar, SK Bhowmik, RB Kadir, **MU Haque**, S Rahman, IA Badhan
 *International Journal on Recent and Innovation Trends in Computing and Communication*, 2024.  
 [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}
 
-### Conference Papers
+#### Conference Papers
 
 **Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)**  
 RB Kadir, AS Anwar, **MU Haque**  
