@@ -1,5 +1,5 @@
 title: "Muntasim Ul Haque"
 description: "Personal website of Muntasim Ul Haque"
-baseurl: "" # for GitHub Pages, use the repo name if it’s not a personal website
+baseurl: "/muntasimulhaque" # for GitHub Pages, use the repo name if it’s not a personal website
 url: "https://muntasimulhaque.github.io"
 markdown: kramdown
