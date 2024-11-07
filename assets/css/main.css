@@ -5,7 +5,6 @@
     --text-color: #000000; /* Black */
     --visited-link-color: #551a8b; /* Dark purple for visited links */
     --hover-link-color: #0000ee; /* Blue for hover links */
-    --subtle-color: #000000; /* Black for footer text and details */
     --max-content-width: 800px;
 }
 
@@ -116,7 +115,7 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: var(--subtle-color);
+    color: var(--text-color);
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -135,7 +134,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: var(--subtle-color);
+    color: var(---text-color);
     font-size: 0.9em;
     margin-top: 0;  /* Remove top margin */
     margin-bottom: 2rem;  /* Add space between date and content */
@@ -167,7 +166,7 @@ article h1 {
 footer {
     text-align: center;
     padding: 1rem;
-    color: var(--subtle-color);
+    color: var(--text-color);
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
