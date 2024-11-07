@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: Verdana, Geneva, sans-serif; /* Changed to Verdana with appropriate fallbacks */
+    font-family: 'Open Sans', Arial, sans-serif; /* Changed to Open Sans with appropriate fallbacks */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
