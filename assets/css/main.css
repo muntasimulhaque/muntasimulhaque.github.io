@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: Georgia, serif; /* Changed to Georgia with a generic serif as fallback */
+    font-family: Georgia, serif; /* Georgia for body text */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -84,8 +84,10 @@ nav li {
     margin: 0 1rem;
 }
 
+/* Navigation links - Use Verdana */
 nav a {
-    color: var(--primary-color); /* Now black for navigation links */
+    font-family: Verdana, sans-serif; /* Verdana for navigation items */
+    color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
     text-decoration: none;
 }
@@ -212,8 +214,12 @@ footer {
         width: 100%;
     }
 
+    /* Navigation links - Mobile view - Use Verdana */
     nav a {
+        font-family: Verdana, sans-serif; /* Ensure Verdana is used for navigation links on mobile screens */
         display: block;
         padding: 0.5rem 1rem;
+        color: var(--primary-color);
+        text-decoration: none;
     }
 }
