@@ -1,2 +1,0 @@
-# Personal Site of Muntasim Ul Haque
-**This project was forked from <a href="https://github.com/academicpages/academicpages.github.io" target="_blank">Academic Pages</a>. I've customized it to my taste. You can fork it and make it your own.**

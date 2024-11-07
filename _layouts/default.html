@@ -1,31 +1,39 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="/images/profile.jpg" alt="Profile Picture" class="profile-img">
+      <div class="social-links">
+        <a href="{{ site.scholar }}" target="_blank">Google Scholar</a>
+        <a href="{{ site.linkedin }}" target="_blank">LinkedIn</a>
+        <a href="{{ site.twitter }}" target="_blank">Twitter</a>
+      </div>
+    </aside>
 
-{% include base_path %}
+    <!-- Main content -->
+    <main class="content">
+      <header>
+        <h1>{{ site.title }}</h1>
+        <nav>
+          <ul class="nav">
+            {% for item in site.nav_items %}
+              <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </nav>
+      </header>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </main>
+  </div>
+</body>
 </html>
