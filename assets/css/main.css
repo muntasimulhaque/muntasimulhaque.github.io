@@ -130,7 +130,7 @@ nav a:hover {
     font-size: 2em;
     color: var(--primary-color); /* Black for the main heading of the blog post */
     margin-top: 0;
-    margin-bottom: 0;  /* Reduce bottom margin of title */
+    margin-bottom: 0.5rem; /* Reduce bottom margin of title to decrease the gap */
 }
 
 .blog-post {
@@ -141,8 +141,8 @@ nav a:hover {
     display: block;
     color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
-    margin-top: 0;  /* Remove top margin */
-    margin-bottom: 2rem;  /* Add space between date and content */
+    margin-top: 0.2rem; /* Small margin to separate the date from the title */
+    margin-bottom: 1rem; /* Adjust space between date and content */
 }
 
 .blog-content {
