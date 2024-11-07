@@ -2,7 +2,7 @@
 :root {
     --primary-color: #000000; /* Black as primary color */
     --background-color: #ffffff; /* White for background */
-    --text-color: #000000; /* Black for main text and all subtle text */
+    --text-color: #000000; /* Black for main text */
     --link-color: #0000ee; /* Standard blue hyperlink color */
     --visited-link-color: #551a8b; /* Dark purple for visited links */
     --hover-link-color: #0000ee; /* Blue for hover links */
@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: "Times New Roman", Times, serif; /* Changed to Times New Roman */
+    font-family: 'Merriweather', serif; /* Changed to Merriweather with a generic serif as backup */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
