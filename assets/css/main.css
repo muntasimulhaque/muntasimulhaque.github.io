@@ -115,7 +115,7 @@ nav a:hover {
 }
 
 .blog-title a:hover {
-    color: var(--primary-color);
+    color: var(--hover-link-color);
 }
 
 .blog-date {
