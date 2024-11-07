@@ -3,9 +3,9 @@
     --primary-color: #333333; /* Black as primary color */
     --background-color: #ffffff; /* White for background */
     --text-color: #333333; /* Black for main text */
-    --link-color: #2196f3; /* Standard blue hyperlink color */
+    --link-color: #0000EE; /* Standard blue hyperlink color */
     --visited-link-color: #8e44ad; /* Dark purple for visited links */
-    --hover-link-color: #2196f3; /* Blue for hover links */
+    --hover-link-color: #0000EE; /* Blue for hover links */
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
