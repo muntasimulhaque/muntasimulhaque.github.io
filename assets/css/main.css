@@ -43,11 +43,9 @@ body {
 }
 
 main {
-    display: flex;
     flex: 1;
     padding: 2rem;
-    justify-content: center;
-    max-width: 1300px;
+    max-width: var(--max-content-width);
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box; /* Include padding in width calculation */
@@ -148,44 +146,17 @@ nav a:hover {
     height: auto;
 }
 
-/* Sidebar */
-aside {
-    flex: 0 0 250px;
-    margin-right: 2rem;
-}
-
-.profile-photo {
-    width: 100%;
-    max-width: 250px; /* Limit photo size on mobile */
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    margin: 0 auto 1rem auto; /* Center photo on mobile */
-    display: block;
-}
-
-.social-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.social-link {
-    margin: 0 0.25rem;
-}
-
 /* Main content */
 article {
     flex: 1;
     max-width: var(--max-content-width);
-    margin-right: 250px;
     width: 100%;
     box-sizing: border-box;
 }
 
 article h1 {
     color: var(--primary-color);
-    margin-top: 0; /* This ensures the title aligns well with the sidebar */
+    margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
 /* Footer */
@@ -202,21 +173,8 @@ footer {
 /* Responsive design */
 @media (max-width: 768px) {
     main {
-        flex-direction: column;
         padding: 1rem;
         width: 100%;
-    }
-
-    aside {
-        margin-right: 0;
-        margin-bottom: 2rem;
-        width: 100%;
-    }
-
-    article {
-        margin-right: 0;
-        max-width: 100%;
-        padding: 0 1rem;
     }
 
     .menu-toggle {
@@ -251,17 +209,5 @@ footer {
     nav a {
         display: block;
         padding: 0.5rem 1rem;
-    }
-
-    .social-links {
-        flex-direction: row;
-        justify-content: center;
-        width: 100%;
-    }
-
-    /* Ensure profile photo is centered and not too large on mobile */
-    .profile-photo {
-        margin: 0 auto 1rem auto;
-        max-width: 200px;
     }
 }
