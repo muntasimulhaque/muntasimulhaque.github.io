@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title | default: site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <meta name="description" content="Personal website of Muntasim Ul Haque">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.mathjax %}
+      {% include mathjax.html %}
+    {% endif %}
 </head>
+
 <body>
-    <div class="container">
+    <header>
+        <button class="menu-toggle">☰</button>
+        <nav>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
+                <li><a href="{{ '/blog' | relative_url }}">Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
         {{ content }}
-    </div>
+    </main>
+
+    <footer>
+        🄯 All Wrongs Reserved. Fork on 
+        <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const nav = document.querySelector('nav');
+            
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+        });
+    </script>
 </body>
 </html>
