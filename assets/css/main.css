@@ -167,8 +167,9 @@ article h1 {
     margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
-/* Footer */
+/* Footer - Use Verdana */
 footer {
+    font-family: Verdana, sans-serif; /* Verdana for footer text */
     text-align: center;
     padding: 1rem;
     color: var(--text-color); /* Using text color for the footer */
