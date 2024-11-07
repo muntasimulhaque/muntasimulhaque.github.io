@@ -1,11 +1,11 @@
 /* Variables for the updated color scheme */
 :root {
-    --primary-color: #000000; /* Black as primary color */
+    --primary-color: #333333; /* Black as primary color */
     --background-color: #ffffff; /* White for background */
-    --text-color: #000000; /* Black for main text */
-    --link-color: #0000ee; /* Standard blue hyperlink color */
-    --visited-link-color: #551a8b; /* Dark purple for visited links */
-    --hover-link-color: #0000ee; /* Blue for hover links */
+    --text-color: #333333; /* Black for main text */
+    --link-color: #007bff; /* Standard blue hyperlink color */
+    --visited-link-color: #8e44ad; /* Dark purple for visited links */
+    --hover-link-color: #007bff; /* Blue for hover links */
     --max-content-width: 800px;
 }
 
