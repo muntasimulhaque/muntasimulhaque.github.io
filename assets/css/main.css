@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: Georgia, serif; /* Georgia for body text */
+    font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
