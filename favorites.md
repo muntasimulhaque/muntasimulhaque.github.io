@@ -11,9 +11,7 @@ title: Favorites
 
 ##### Image Viewer
 
-**Nomacsnomacs - Image Lounge**  
-
-[Website](https://nomacs.org/){:target="_blank"}  
+**Nomacsnomacs - Image Lounge** [[Website](https://nomacs.org/){:target="_blank"}]  
 
 Why?
 
