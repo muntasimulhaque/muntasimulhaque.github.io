@@ -15,5 +15,5 @@ title: Favorites
 
 Why?
 
-  - Lightweight. Responsive. Starts fast.
-  - The dealbreaker feature for me is double click to full screen and again to toggle. And mouse wheel scroll zooming.
+  - Lightweight. Responsive. Fast.
+  - The dealbreaker feature for me is to double click for full screen and again to toggle. Also, mouse wheel scroll zooming.
