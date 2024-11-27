@@ -3,8 +3,6 @@ layout: default
 title: Curriculum Vitae
 ---
 
-## Curriculum Vitae
-
 ### Education
 
 - B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014

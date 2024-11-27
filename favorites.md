@@ -3,13 +3,11 @@ layout: default
 title: Favorites
 ---
 
-## Favorites
+## Software
 
-### Software
+### Windows
 
-#### Windows
-
-##### Image Viewer
+#### Image Viewer
 
 **Nomacsnomacs - Image Lounge** [[Link](https://nomacs.org/){:target="_blank"}]  
 
