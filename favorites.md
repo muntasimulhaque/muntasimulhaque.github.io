@@ -7,7 +7,7 @@ title: Favorites
 
 ### Windows
 
-#### Image Viewer
+- #### Image Viewer
 
 **[nomacs](https://nomacs.org/){:target="_blank"}**  
 
