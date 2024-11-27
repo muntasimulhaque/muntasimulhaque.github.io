@@ -9,7 +9,7 @@ title: Favorites
 
 #### Image Viewer
 
-**Nomacsnomacs - Image Lounge** [[Link](https://nomacs.org/){:target="_blank"}]  
+**[nomacs](https://nomacs.org/){:target="_blank"}**  
 
 Why?
 
