@@ -9,7 +9,7 @@ title: Curriculum Vitae
 
 ### Professional Experience
 
-#### Bangladesh Submarine Cables PLC (BSCPLC)
+  #### Bangladesh Submarine Cables PLC (BSCPLC)
   - Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Present
   - Assistant Manager (Development), Oct 2022 – Present
   - Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
@@ -17,7 +17,7 @@ title: Curriculum Vitae
   - Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
   - Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
 
-#### United Ashuganj Energy Limited (UAEL)
+  #### United Ashuganj Energy Limited (UAEL)
   - Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
 ### Skills
