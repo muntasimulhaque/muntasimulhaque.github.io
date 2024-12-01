@@ -19,17 +19,41 @@ body {
     padding: 0;
     width: 100%;
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-size: 14px; /* Smaller font size for body text */
 }
 
 /* Headings - Use Verdana */
 h1, h2, h3, h4, h5, h6 {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Make h1 smaller */
+h1 {
+    font-size: 1.8em; /* Reduced size for h1 */
+}
+
+/* Make h2 smaller */
+h2 {
+    font-size: 1.6em; /* Reduced size for h2 */
+}
+
+/* Make h3 smaller */
+h3 {
+    font-size: 1.4em; /* Reduced size for h3 */
+}
+
+/* Make h4, h5, h6 smaller */
+h4, h5, h6 {
+    font-size: 1.2em; /* Reduced size for h4, h5, and h6 */
 }
 
 /* Links */
 a {
     color: var(--link-color);
     text-decoration: underline;
+    font-size: 14px; /* Smaller font size for links */
 }
 
 a:visited {
@@ -90,6 +114,7 @@ nav a {
     color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
     text-decoration: underline;
+    font-size: 14px; /* Smaller font size for navigation links */
 }
 
 nav a:hover {
@@ -112,6 +137,7 @@ nav a:hover {
 .blog-title a {
     color: var(--link-color);
     text-decoration: none;
+    font-size: 14px; /* Smaller font size for blog title links */
 }
 
 .blog-title a:hover {
@@ -121,13 +147,13 @@ nav a:hover {
 .blog-date {
     display: block;
     color: var(--text-color); /* Using text color for consistency */
-    font-size: 0.9em;
+    font-size: 0.8em; /* Smaller font size for blog date */
     margin-top: 0.1rem;
 }
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 1.5em;  /* Reduce font size to be closer to other headings */
+    font-size: 1.4em;  /* Reduce font size to be closer to other headings */
     color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -140,7 +166,7 @@ nav a:hover {
 .blog-post .blog-date {
     display: block;
     color: var(--text-color); /* Using text color for consistency */
-    font-size: 0.9em;
+    font-size: 0.8em; /* Smaller font size for blog post date */
     margin-top: 0.2rem; /* Small margin to separate the date from the title */
     margin-bottom: 1rem; /* Adjust space between date and content */
 }
@@ -173,7 +199,7 @@ footer {
     text-align: center;
     padding: 1rem;
     color: var(--text-color); /* Using text color for the footer */
-    font-size: 0.9em;
+    font-size: 0.8em; /* Smaller font size for footer */
     margin-top: 2rem;
     width: 100%;
     box-sizing: border-box;
@@ -222,5 +248,6 @@ footer {
         padding: 0.5rem 1rem;
         color: var(--primary-color);
         text-decoration: none;
+        font-size: 14px; /* Smaller font size for mobile navigation */
     }
 }
