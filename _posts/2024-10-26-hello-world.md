@@ -12,7 +12,7 @@ Well, this time I'm posting on a static site.
 
 ### What's the advantage of using a static site?
 
-Nothing. I mean, I didn't chose to blog here just because it gave me a leverage over other platforms. It's just that, using Jekyll makes the experience a bit simpler to blog on GitHub Pages.
+Nothing. I mean, I didn't choose to blog here just because it gave me a leverage over other platforms. It's just that, using Jekyll makes the experience a bit simpler to blog on GitHub Pages.
 
 ### Why blog on GitHub Pages?
 
