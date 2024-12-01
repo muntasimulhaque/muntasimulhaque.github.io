@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, sans-serif; /* Updated to Verdana */
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -21,9 +21,9 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Headings - Use Georgia */
+/* Headings - Use Verdana */
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for headings */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
 }
 
 /* Links */
@@ -80,13 +80,13 @@ nav ul {
     justify-content: center;
 }
 
-/* Navigation links - Use Georgia */
+/* Navigation links - Use Verdana */
 nav li {
     margin: 0 1rem;
 }
 
 nav a {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for navigation items */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for navigation items */
     color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
     text-decoration: underline;
@@ -167,9 +167,9 @@ article h1 {
     margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
-/* Footer - Use Georgia */
+/* Footer - Use Verdana */
 footer {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for footer text */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for footer text */
     text-align: center;
     padding: 1rem;
     color: var(--text-color); /* Using text color for the footer */
@@ -215,9 +215,9 @@ footer {
         width: 100%;
     }
 
-    /* Navigation links - Mobile view - Use Georgia */
+    /* Navigation links - Mobile view - Use Verdana */
     nav a {
-        font-family: Georgia, 'Times New Roman', Times, serif; /* Ensure Georgia is used for navigation links on mobile screens */
+        font-family: Verdana, Geneva, sans-serif; /* Ensure Verdana is used for navigation links on mobile screens */
         display: block;
         padding: 0.5rem 1rem;
         color: var(--primary-color);
