@@ -9,7 +9,7 @@ title: Curriculum Vitae
 
 ### Professional Experience
 
-##### Bangladesh Submarine Cables PLC (BSCPLC)
+#### Bangladesh Submarine Cables PLC (BSCPLC)
   - Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Present
   - Assistant Manager (Development), Oct 2022 – Present
   - Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
