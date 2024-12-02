@@ -16,7 +16,7 @@ Nothing. I mean, I didn't choose to blog here just because it gave me a leverage
 
 ### Why blog on GitHub Pages?
 
-I didn't specifically chose to blog here. I intended this site to serve as my academic portfolio. 
+I didn't specifically choose to blog here. I intended this site to serve as my academic portfolio. 
 
 To develop this site, I tried other GitHub Pages sites and forked the ones I liked. Among them, [Academic Pages](https://academicpages.github.io/){:target="_blank"} stood out to me. It's actually a good starting point for someone who needs to create an academic site without much knowledge of behind the scenes. In fact, I forked Academic Pages earlier. But as I delved deeper, I realized it's overkill for my use case. 
 
