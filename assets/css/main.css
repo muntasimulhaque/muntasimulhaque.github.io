@@ -12,7 +12,7 @@
 /* Global styles */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for body text */
-    line-height: 1.4;
+    line-height: 1.5;
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Links */
 a {
     color: var(--link-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:visited {
@@ -38,7 +38,7 @@ a:visited {
 
 a:hover {
     color: var(--hover-link-color);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Layout */
@@ -81,7 +81,6 @@ nav ul {
     justify-content: center;
 }
 
-/* Navigation links - Use Georgia */
 nav li {
     margin: 0 1rem;
 }
@@ -90,11 +89,11 @@ nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Blog list styles */
@@ -117,6 +116,7 @@ nav a:hover {
 
 .blog-title a:hover {
     color: var(--hover-link-color);
+	text-decoration: underline;
 }
 
 .blog-date {
@@ -168,9 +168,8 @@ article h1 {
     margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
-/* Footer - Use Georgia */
 footer {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for footer text */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     text-align: center;
     padding: 1rem;
     color: var(--text-color); /* Using text color for the footer */
@@ -216,9 +215,8 @@ footer {
         width: 100%;
     }
 
-    /* Navigation links - Mobile view - Use Georgia */
     nav a {
-        font-family: Georgia, 'Times New Roman', Times, serif; /* Ensure Georgia is used for navigation links on mobile screens */
+        font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
         display: block;
         padding: 0.5rem 1rem;
         color: var(--primary-color);
