@@ -11,7 +11,7 @@
 
 /* Global styles */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for body text */
     line-height: 1.4;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -21,9 +21,9 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-/* Headings - Use Georgia */
+/* Headings - Use Verdana for headings */
 h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for headings */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
 }
 
 /* Links */
