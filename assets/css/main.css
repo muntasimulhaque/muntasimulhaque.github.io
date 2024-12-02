@@ -12,7 +12,7 @@
 /* Global styles */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 14px;
 	line-height: 1.4;
     color: var(--text-color);
     background-color: var(--background-color);
