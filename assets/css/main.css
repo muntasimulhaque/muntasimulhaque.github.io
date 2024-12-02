@@ -12,14 +12,22 @@
 /* Global styles */
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    font-size: 16px;
+	line-height: 1.4;
     color: var(--text-color);
     background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
+    margin: 50px auto;
+    padding: 0 10px;
+	max-width: 650px;
     width: 100%;
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
+
+#maincontent
+	{
+	max-width:42em;
+	margin:15 auto;
+	}
 
 /* Headings - Use Georgia */
 h1, h2, h3, h4, h5, h6 {
