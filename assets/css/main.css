@@ -1,11 +1,5 @@
 /* Variables for the updated color scheme */
 :root {
-    --primary-color: #333333; /* Black as primary color */
-    --background-color: #ffffff; /* White for background */
-    --text-color: #333333; /* Black for main text */
-    --link-color: #0071e3; /* Standard blue hyperlink color */
-    --visited-link-color: #673ab7; /* Dark purple for visited links */
-    --hover-link-color: #106ebe; /* Blue for hover links */
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
@@ -13,8 +7,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     line-height: 1.6;
-    color: var(--text-color);
-    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -28,17 +20,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Links */
 a {
-    color: var(--link-color);
-    text-decoration: underline;
+    text-decoration: underline; /* Links will use the default color */
 }
 
 a:visited {
-    color: var(--visited-link-color);
+    /* Visited links will use the browser's default visited link color */
 }
 
 a:hover {
-    color: var(--hover-link-color);
-    text-decoration: none;
+    text-decoration: none; /* Links will have the default hover behavior */
 }
 
 /* Layout */
@@ -80,16 +70,15 @@ nav ul {
     justify-content: center;
 }
 
-/* Navigation links - Use Georgia */
+/* Navigation links - Use default colors */
 nav li {
     margin: 0 1rem;
 }
 
 nav a {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for navigation items */
-    color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: underline; /* Links will use the default color */
 }
 
 nav a:hover {
@@ -110,17 +99,15 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--link-color);
-    text-decoration: none;
+    text-decoration: none; /* Links will use the default color */
 }
 
 .blog-title a:hover {
-    color: var(--hover-link-color);
+    text-decoration: none;
 }
 
 .blog-date {
     display: block;
-    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -128,7 +115,6 @@ nav a:hover {
 /* Blog post styles */
 .blog-post h1 {
     font-size: 1.5em;  /* Reduce font size to be closer to other headings */
-    color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -139,10 +125,9 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
-    margin-top: 0.2rem; /* Small margin to separate the date from the title */
-    margin-bottom: 1rem; /* Adjust space between date and content */
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
 }
 
 .blog-content {
@@ -163,16 +148,14 @@ article {
 }
 
 article h1 {
-    color: var(--primary-color); /* Black for the main title of the article */
-    margin-top: 0; /* This ensures the title aligns well with the rest of the content */
+    margin-top: 0;
 }
 
-/* Footer - Use Georgia */
+/* Footer */
 footer {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for footer text */
     text-align: center;
     padding: 1rem;
-    color: var(--text-color); /* Using text color for the footer */
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
@@ -215,12 +198,9 @@ footer {
         width: 100%;
     }
 
-    /* Navigation links - Mobile view - Use Georgia */
     nav a {
-        font-family: Georgia, 'Times New Roman', Times, serif; /* Ensure Georgia is used for navigation links on mobile screens */
         display: block;
         padding: 0.5rem 1rem;
-        color: var(--primary-color);
         text-decoration: none;
     }
 }
