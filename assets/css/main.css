@@ -59,7 +59,8 @@ main {
 
 /* Header and navigation */
 header {
-    padding: 1rem;
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+	padding: 1rem;
     margin-bottom: 1rem;
     position: relative;
     width: 100%;
@@ -86,7 +87,7 @@ nav li {
 }
 
 nav a {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for navigation items */
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
     text-decoration: underline;
