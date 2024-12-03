@@ -1,10 +1,4 @@
-/* Variables for the updated color scheme */
 :root {
-    --primary-color: #333333; /* Black as primary color */
-    --background-color: #ffffff; /* White for background */
-    --text-color: #333333; /* Black for main text */
-    --link-color: #0000EE; /* Standard blue hyperlink color */
-    --visited-link-color: #800080; /* Dark purple for visited links */
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
@@ -12,8 +6,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for body text */
     line-height: 1.5;
-    color: var(--text-color);
-    background-color: var(--background-color);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -27,12 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Links */
 a {
-    color: var(--link-color);
     text-decoration: none;
-}
-
-a:visited {
-    color: var(--visited-link-color);
 }
 
 a:hover {
@@ -85,7 +72,6 @@ nav li {
 
 nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
-    color: var(--primary-color); /* Black for navigation links */
     font-weight: bold;
     text-decoration: none;
 }
@@ -108,7 +94,6 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -118,7 +103,6 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
     margin-top: 0.1rem;
 }
@@ -126,7 +110,6 @@ nav a:hover {
 /* Blog post styles */
 .blog-post h1 {
     font-size: 1.5em;  /* Reduce font size to be closer to other headings */
-    color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -137,7 +120,6 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    color: var(--text-color); /* Using text color for consistency */
     font-size: 0.9em;
     margin-top: 0.2rem; /* Small margin to separate the date from the title */
     margin-bottom: 1rem; /* Adjust space between date and content */
@@ -161,7 +143,6 @@ article {
 }
 
 article h1 {
-    color: var(--primary-color); /* Black for the main title of the article */
     margin-top: 0; /* This ensures the title aligns well with the rest of the content */
 }
 
@@ -169,7 +150,6 @@ footer {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     text-align: center;
     padding: 1rem;
-    color: var(--text-color); /* Using text color for the footer */
     font-size: 0.9em;
     margin-top: 2rem;
     width: 100%;
@@ -193,7 +173,6 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: var(--background-color);
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         width: 100%;
     }
@@ -216,7 +195,6 @@ footer {
         font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
         display: block;
         padding: 0.5rem 1rem;
-        color: var(--primary-color);
         text-decoration: none;
     }
 }
