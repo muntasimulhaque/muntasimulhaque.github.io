@@ -5,7 +5,6 @@
     --text-color: #333333; /* Black for main text */
     --link-color: #0000EE; /* Standard blue hyperlink color */
     --visited-link-color: #800080; /* Dark purple for visited links */
-    --hover-link-color: #551A8B; /* Blue for hover links */
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
@@ -37,7 +36,6 @@ a:visited {
 }
 
 a:hover {
-    color: var(--hover-link-color);
     text-decoration: underline;
 }
 
@@ -115,7 +113,6 @@ nav a:hover {
 }
 
 .blog-title a:hover {
-    color: var(--hover-link-color);
 	text-decoration: underline;
 }
 
