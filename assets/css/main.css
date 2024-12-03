@@ -173,7 +173,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: var(--background-color);
+        background-color: #ffffff;
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         width: 100%;
     }
@@ -196,7 +196,7 @@ footer {
         font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
         display: block;
         padding: 0.5rem 1rem;
-        color: var(--primary-color);
+        color: #333333;
         text-decoration: none;
     }
 }
