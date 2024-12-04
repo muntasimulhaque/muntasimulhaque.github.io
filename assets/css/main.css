@@ -84,12 +84,14 @@ nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     color: var(--primary-color);
     font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     color: var(--link-color);
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* Blog list styles */
@@ -219,6 +221,7 @@ footer {
         display: block;
         color: var(--primary-color);
         padding: 0.5rem 1rem;
+        text-decoration: none;
     }
 
     nav a:hover {
@@ -226,5 +229,6 @@ footer {
         display: block;
         color: var(--link-color);
         padding: 0.5rem 1rem;
+        text-decoration: none;
     }
 }
