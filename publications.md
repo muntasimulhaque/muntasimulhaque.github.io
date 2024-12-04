@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Publications
+page_title: Publications
 ---
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}.
