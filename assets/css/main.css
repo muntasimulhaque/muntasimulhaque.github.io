@@ -77,7 +77,7 @@ nav li {
 
 nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
-    color: var(--primary-color);
+    color: var(--link-color);
     font-weight: bold;
 }
 
@@ -202,7 +202,7 @@ footer {
     nav a {
         font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
         display: block;
-        color: var(--primary-color);
+        color: var(--link-color);
         padding: 0.5rem 1rem;
     }
 }
