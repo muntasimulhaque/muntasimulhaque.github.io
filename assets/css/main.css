@@ -103,6 +103,10 @@ nav a {
 	text-decoration: underline;
 }
 
+.blog-title a:visited {
+    color: var(--visited-link-color);
+}
+
 .blog-date {
     display: block;
     color: var(--text-color);
