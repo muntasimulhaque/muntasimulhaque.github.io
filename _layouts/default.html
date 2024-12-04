@@ -6,7 +6,7 @@
     <meta name="description" content="Personal site of Muntasim Ul Haque.">
 	<meta name="robots" content="index, follow">
 	<meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
-    <title>{% if page.page_title %}{{ page.page_title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>

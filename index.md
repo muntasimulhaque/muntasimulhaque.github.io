@@ -1,6 +1,6 @@
 ---
 layout: default
-page_title: Home
+title: Home
 ---
 
 # Muntasim Ul Haque
