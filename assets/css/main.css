@@ -108,12 +108,13 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--link-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
 .blog-title a:hover {
-	text-decoration: underline;
+	color: var(--link-color);
+    text-decoration: underline;
 }
 
 .blog-title a:visited {
