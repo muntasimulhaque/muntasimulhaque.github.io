@@ -59,6 +59,7 @@ nav li {
 
 nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    font-weight: bold;
 }
 
 /* Blog list styles */
