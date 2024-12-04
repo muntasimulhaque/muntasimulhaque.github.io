@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Curriculum Vitae
+page_title: Curriculum Vitae
 ---
 
 ### Education
