@@ -2,8 +2,8 @@
     --primary-color: #333333;
     --background-color: #ffffff;
     --text-color: #333333;
-    --link-color: #0000EE;
-    --visited-link-color: #800080;
+    --link-color: #1a73e8;
+    --visited-link-color: #673ab7;
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
