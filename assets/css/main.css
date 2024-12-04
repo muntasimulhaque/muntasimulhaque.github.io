@@ -17,14 +17,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
 }
 
-/* Links */
-a {
-    text-decoration: underline;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* Layout */
 body {
@@ -72,12 +64,6 @@ nav li {
 
 nav a {
     font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 /* Blog list styles */
@@ -196,6 +182,5 @@ footer {
         font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
         display: block;
         padding: 0.5rem 1rem;
-        text-decoration: none;
     }
 }
