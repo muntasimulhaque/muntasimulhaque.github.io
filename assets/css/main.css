@@ -4,6 +4,7 @@
     --text-color: #333333;
     --link-color: #1a73e8;
     --visited-link-color: #673ab7;
+    --selection-color: #e8f0fe;
     --max-content-width: 650px; /* Reduced max content width for better readability */
 }
 
@@ -55,6 +56,10 @@ a:visited {
 }
 
 a:hover {
+}
+
+::selection {
+    background-color: var(--selection-color);
 }
 
 .menu-toggle {
