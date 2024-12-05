@@ -94,6 +94,13 @@ nav a:hover {
     text-decoration: none;
 }
 
+nav a:visited {
+    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    color: var(--visited-link-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
 /* Blog list styles */
 .blog-list {
     margin-top: 2rem;
