@@ -81,17 +81,18 @@ nav li {
 }
 
 nav a {
-    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    font-family: Verdana, Geneva, sans-serif;
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
 }
 
+nav a:visited {
+    color: var(--primary-color);
+}
+
 nav a:hover {
-    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
     color: var(--link-color);
-    font-weight: bold;
-    text-decoration: none;
 }
 
 /* Blog list styles */
