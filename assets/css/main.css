@@ -113,13 +113,13 @@ nav a:hover {
     text-decoration: none;
 }
 
-.blog-title a:hover {
-	color: var(--link-color);
+.blog-title a:visited {
+    color: var(--visited-link-color);
     text-decoration: none;
 }
 
-.blog-title a:visited {
-    color: var(--visited-link-color);
+.blog-title a:hover {
+    color: var(--link-color);
     text-decoration: none;
 }
 
