@@ -5,19 +5,19 @@
     --link-color: #1a73e8;
     --visited-link-color: #673ab7;
     --selection-color: #DFEAFB;
-    --max-content-width: 650px; /* Reduced max content width for better readability */
+    --max-content-width: 650px;
 }
 
 /* Global styles */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif; /* Georgia for body text */
+    font-family: Verdana, Geneva, sans-serif; /* Changed from Georgia to Verdana */
     line-height: 1.5;
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -26,21 +26,21 @@ body {
 main {
     flex: 1;
     padding: 2rem;
-    max-width: var(--max-content-width); /* Reduced for improved readability */
+    max-width: var(--max-content-width);
     margin: 0 auto;
     width: 100%;
-    box-sizing: border-box; /* Include padding in width calculation */
+    box-sizing: border-box;
 }
 
-/* Headings - Use Verdana for headings */
+/* Headings - Keep using Verdana */
 h1, h2, h3, h4, h5, h6 {
-    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 /* Header and navigation */
 header {
-    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
-	padding: 1rem;
+    font-family: Verdana, Geneva, sans-serif;
+    padding: 1rem;
     margin-bottom: 1rem;
     position: relative;
     width: 100%;
@@ -53,9 +53,6 @@ a {
 
 a:visited {
     color: var(--visited-link-color);
-}
-
-a:hover {
 }
 
 ::selection {
@@ -132,22 +129,22 @@ nav a:hover {
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 1.5em;  /* Reduce font size to be closer to other headings */
+    font-size: 1.5em;
     color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
 .blog-post {
-    max-width: var(--max-content-width); /* Reduced for better readability */
+    max-width: var(--max-content-width);
 }
 
 .blog-post .blog-date {
     display: block;
     font-size: 0.9em;
     color: var(--text-color);
-    margin-top: 0.2rem; /* Small margin to separate the date from the title */
-    margin-bottom: 1rem; /* Adjust space between date and content */
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
 }
 
 .blog-content {
@@ -162,18 +159,18 @@ nav a:hover {
 /* Main content */
 article {
     flex: 1;
-    max-width: var(--max-content-width); /* Reduced for better readability */
+    max-width: var(--max-content-width);
     width: 100%;
     box-sizing: border-box;
 }
 
 article h1 {
     color: var(--primary-color);
-    margin-top: 0; /* This ensures the title aligns well with the rest of the content */
+    margin-top: 0;
 }
 
 footer {
-    font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+    font-family: Verdana, Geneva, sans-serif;
     text-align: center;
     padding: 1rem;
     color: var(--text-color);
@@ -220,7 +217,7 @@ footer {
     }
 
     nav a {
-        font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+        font-family: Verdana, Geneva, sans-serif;
         display: block;
         color: var(--primary-color);
         padding: 0.5rem 1rem;
@@ -228,7 +225,7 @@ footer {
     }
 
     nav a:hover {
-        font-family: Verdana, Geneva, sans-serif; /* Verdana for headings */
+        font-family: Verdana, Geneva, sans-serif;
         display: block;
         color: var(--link-color);
         padding: 0.5rem 1rem;
