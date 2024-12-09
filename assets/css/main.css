@@ -104,7 +104,7 @@ nav a {
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
-    font-size: 0.95em;
+    font-size: 1em;
 }
 
 nav a:visited {
@@ -249,7 +249,7 @@ footer {
         color: var(--primary-color);
         padding: 0.5rem 1rem;
         text-decoration: none;
-        font-size: 1em;
+        font-size: 1.05em;
     }
 
     nav a:hover {
