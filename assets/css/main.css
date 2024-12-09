@@ -10,7 +10,7 @@
 
 /* Global styles */
 body {
-    font-family: Verdana, Geneva, sans-serif; /* Changed from Georgia to Verdana */
+    font-family: Verdana, Geneva, sans-serif;
     line-height: 1.5;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 14px;
 }
 
 main {
@@ -32,9 +33,30 @@ main {
     box-sizing: border-box;
 }
 
-/* Headings - Keep using Verdana */
+/* Headings - Use Verdana with reduced sizes */
 h1, h2, h3, h4, h5, h6 {
     font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+    font-size: 1.3em;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5, h6 {
+    font-size: 0.9em;
 }
 
 /* Header and navigation */
@@ -61,7 +83,7 @@ a:visited {
 
 .menu-toggle {
     display: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     cursor: pointer;
 }
 
@@ -82,6 +104,7 @@ nav a {
     color: var(--primary-color);
     font-weight: bold;
     text-decoration: none;
+    font-size: 0.85em;
 }
 
 nav a:visited {
@@ -123,13 +146,13 @@ nav a:hover {
 .blog-date {
     display: block;
     color: var(--text-color);
-    font-size: 0.9em;
+    font-size: 0.75em;
     margin-top: 0.1rem;
 }
 
 /* Blog post styles */
 .blog-post h1 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: var(--primary-color);
     margin-top: 0;
     margin-bottom: 0.5rem;
@@ -141,7 +164,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    font-size: 0.9em;
+    font-size: 0.75em;
     color: var(--text-color);
     margin-top: 0.2rem;
     margin-bottom: 1rem;
@@ -174,7 +197,7 @@ footer {
     text-align: center;
     padding: 1rem;
     color: var(--text-color);
-    font-size: 0.9em;
+    font-size: 0.85em;
     margin-top: 2rem;
     width: 100%;
     box-sizing: border-box;
@@ -182,6 +205,10 @@ footer {
 
 /* Responsive design */
 @media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
     main {
         padding: 1rem;
         width: 100%;
@@ -222,6 +249,7 @@ footer {
         color: var(--primary-color);
         padding: 0.5rem 1rem;
         text-decoration: none;
+        font-size: 0.95em;
     }
 
     nav a:hover {
