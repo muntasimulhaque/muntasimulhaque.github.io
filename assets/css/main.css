@@ -72,10 +72,17 @@ header {
 
 a {
     color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
 }
 
 a:visited {
     color: var(--visited-link-color);
+    text-decoration: none;
 }
 
 ::selection {
