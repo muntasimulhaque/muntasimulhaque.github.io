@@ -14,9 +14,15 @@
 </head>
 <body>
     <main>
+        {% if page.url == '/' %}
+        <h1 class="site-title">Muntasim Ul Haque</h1>
+        {% else %}
         <h1 class="site-title">
-            <a href="{{ '/' | relative_url }}" aria-label="Home">Muntasim Ul Haque</a>
+            <a href="{{ '/' | relative_url }}" aria-label="Go back to home page">
+                ← Home
+            </a>
         </h1>
+        {% endif %}
         <article>
             {{ content }}
         </article>
