@@ -33,14 +33,153 @@ main {
     box-sizing: border-box;
 }
 
-/* Rest of the CSS remains the same as in your original file, 
-   with the following sections removed:
-   - Header and navigation styles
-   - .menu-toggle styles
-   - nav related styles
-*/
+/* Headings - Use Verdana with reduced sizes */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, Geneva, sans-serif;
+}
 
-/* Existing styles for links, headings, blog, footer, etc. remain unchanged */
+h1 {
+    font-size: 1.3em;
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5, h6 {
+    font-size: 0.9em;
+}
+
+/* Site Title Styles */
+.site-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.site-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--visited-link-color);
+    text-decoration: none;
+}
+
+::selection {
+    background-color: var(--selection-color);
+}
+
+/* Blog list styles */
+.blog-list {
+    margin-top: 2rem;
+}
+
+.blog-preview {
+    margin-bottom: 2rem;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+.blog-title a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.blog-title a:visited {
+    color: var(--visited-link-color);
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.blog-date {
+    display: block;
+    color: var(--text-color);
+    font-size: 0.75em;
+    margin-top: 0.1rem;
+}
+
+/* Blog post styles */
+.blog-post h1 {
+    font-size: 1.2em;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.blog-post {
+    max-width: var(--max-content-width);
+}
+
+.blog-post .blog-date {
+    display: block;
+    font-size: 0.75em;
+    color: var(--text-color);
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content {
+    margin-top: 2rem;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Main content */
+article {
+    flex: 1;
+    max-width: var(--max-content-width);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+article h1 {
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+footer {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+    font-size: 0.85em;
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
 
 /* Responsive design */
 @media (max-width: 768px) {
