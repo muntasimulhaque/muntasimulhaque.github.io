@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal site of Muntasim Ul Haque.">
-	<meta name="robots" content="index, follow">
-	<meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
+    <meta name="description" content="Personal site of Muntasim Ul Haque">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg">
+    
     <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" media="all">
+    <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
 </head>
 <body>
     <main>
-        <h1 class="site-title"><a href="{{ '/' | relative_url }}">Muntasim Ul Haque</a></h1>
+        <h1 class="site-title">
+            <a href="{{ '/' | relative_url }}" aria-label="Home">Muntasim Ul Haque</a>
+        </h1>
         <article>
             {{ content }}
         </article>
     </main>
 
     <footer>
-        <p>© Muntasim Ul Haque. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.</p>
+        <p>© Muntasim Ul Haque. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
     </footer>
 </body>
 </html>
