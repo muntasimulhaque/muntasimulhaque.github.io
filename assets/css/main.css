@@ -58,7 +58,8 @@ h5, h6 { font-size: 0.9em; }
 }
 
 .site-title a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Remove underline on hover for home link */
+    color: var(--link-color); /* Keep color change */
 }
 
 /* Link Styles */
@@ -69,7 +70,7 @@ a {
 
 a:hover {
     color: var(--link-color);
-    text-decoration: underline;
+    text-decoration: underline; /* Keep underline for other links */
 }
 
 a:visited {
