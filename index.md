@@ -18,7 +18,7 @@ See [my "Curriculum Vitae" page](/cv/).
 
 #### Blogs
 
-Read [my "Blogposts"](/blog/).
+Read [my "Blogs"](/blog/).
 
 #### Links
 
