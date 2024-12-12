@@ -98,6 +98,16 @@ a:visited {
     text-decoration: none;
 }
 
+.blog-title a:visited {
+    color: var(--visited-link-color);
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
 .blog-date {
     display: block;
     color: var(--text-color);
