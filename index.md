@@ -8,13 +8,19 @@ Right now, I'm working in Bangladesh's submarine cable systems, ensuring reliabl
             
 I started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}, where I got hooked on the challenges of network and memory optimization. That passion has driven my work ever since!
                 
-#### Quick Links
+#### Publications
 
-- **Professional Background**: You can view my detailed professional journey in my [Curriculum Vitae](/cv/).
-- **Research Work**: Explore a comprehensive list of [my publications](/publications/).
-- **Thoughts and Insights**: Read my occasional blog posts in the [Blog section](/blog/).
+See [my "Publications" page](/publications/).
 
-#### Online Profiles
+#### Curriculum Vitae
+
+See [my "Curriculum Vitae" page](/cv/).
+
+#### Blogs
+
+Read [my "Blogposts"](/blog/).
+
+#### Links
 
 - [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}  
 - [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}  
