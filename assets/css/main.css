@@ -5,14 +5,16 @@
     --link-color: #1a73e8;
     --visited-link-color: #673ab7;
     --selection-color: #DFEAFB;
-    --navigation-menu-color: #5f6368;  /* New variable for navigation menu color */
+    --navigation-menu-color: #5f6368;
     --max-content-width: 650px;
+
+    /* Slightly increased line height for better readability */
+    --line-height: 1.6;
 }
 
-/* Global styles */
 body {
     font-family: Verdana, Geneva, sans-serif;
-    line-height: 1.5;
+    line-height: var(--line-height); /* Updated to use CSS variable */
     color: var(--text-color);
     background-color: var(--background-color);
     margin: 0;

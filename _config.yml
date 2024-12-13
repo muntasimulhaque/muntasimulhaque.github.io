@@ -20,3 +20,4 @@ exclude:
 # Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap  # New plugin for generating sitemap

@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal site of Muntasim Ul Haque.">
-	<meta name="robots" content="index, follow">
-	<meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
     <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
+    <a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100;">Skip to main content</a>
+
     <header>
-        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-        <nav id="main-nav">
+        <div 
+            class="menu-toggle" 
+            id="menu-toggle" 
+            aria-label="Toggle navigation menu" 
+            role="button" 
+            tabindex="0"
+        >&#9776;</div>
+        <nav id="main-nav" aria-label="Main Navigation">
             <ul>
-                <li><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href="{{ '/publications' | relative_url }}">Publications</a></li>
-                <li><a href="{{ '/cv' | relative_url }}">CV</a></li>
-                <li><a href="{{ '/blog' | relative_url }}">Blogs</a></li>
+                <li><a href="{{ '/' | relative_url }}" tabindex="0">Home</a></li>
+                <li><a href="{{ '/publications' | relative_url }}" tabindex="0">Publications</a></li>
+                <li><a href="{{ '/cv' | relative_url }}" tabindex="0">CV</a></li>
+                <li><a href="{{ '/blog' | relative_url }}" tabindex="0">Blogs</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
         <article>
             {{ content }}
         </article>
@@ -35,6 +43,19 @@
     <script>
         document.getElementById('menu-toggle').addEventListener('click', function() {
             document.getElementById('main-nav').classList.toggle('active');
+        });
+
+        // Keyboard navigation for menu toggle
+        document.getElementById('menu-toggle').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                document.getElementById('main-nav').classList.toggle('active');
+            }
+        });
+
+        // Skip link functionality
+        document.querySelector('.skip-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('main-content').focus();
         });
     </script>
 </body>
