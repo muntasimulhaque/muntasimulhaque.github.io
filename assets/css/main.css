@@ -66,12 +66,6 @@ h5, h6 {
     font-size: 0.9em;
 }
 
-/* Bullet List Styles - Remove Indentation */
-ul, ol {
-    padding-left: 0;
-    list-style-position: inside;
-}
-
 /* Header and navigation */
 header {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
