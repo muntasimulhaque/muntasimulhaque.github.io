@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-    <a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100;">Skip to main content</a>
 
     <header>
         <div 
@@ -50,12 +49,6 @@
             if (e.key === 'Enter' || e.key === ' ') {
                 document.getElementById('main-nav').classList.toggle('active');
             }
-        });
-
-        // Skip link functionality
-        document.querySelector('.skip-link').addEventListener('click', function(e) {
-            e.preventDefault();
-            document.getElementById('main-content').focus();
         });
     </script>
 </body>
