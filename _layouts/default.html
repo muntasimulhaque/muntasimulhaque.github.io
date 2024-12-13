@@ -44,6 +44,19 @@
         document.getElementById('menu-toggle').addEventListener('click', function() {
             document.getElementById('main-nav').classList.toggle('active');
         });
+
+        // Keyboard navigation for menu toggle
+        document.getElementById('menu-toggle').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                document.getElementById('main-nav').classList.toggle('active');
+            }
+        });
+
+        // Skip link functionality
+        document.querySelector('.skip-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('main-content').focus();
+        });
     </script>
 </body>
 </html>
