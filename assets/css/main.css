@@ -44,27 +44,6 @@ h1, h2, h3, h4, h5, h6 {
                  "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-h1 {
-    font-size: 1.3em;
-    color: var(--primary-color);
-}
-
-h2 {
-    font-size: 1.2em;
-}
-
-h3 {
-    font-size: 1.1em;
-}
-
-h4 {
-    font-size: 1em;
-}
-
-h5, h6 {
-    font-size: 0.9em;
-}
-
 /* Header and navigation */
 header {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 
