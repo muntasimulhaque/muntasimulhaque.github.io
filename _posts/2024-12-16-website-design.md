@@ -4,7 +4,7 @@ title: "Design choices I made for my personal website"
 date: 2024-12-16
 ---
 
-I've been tinking about writing or should I say, documenting the design choices I made to design this personal site of mine. 
+I've been thinking about writing or should I say, documenting the design choices I made to design this personal site of mine. 
 
 Of course, no one has persuaded me to write on such a topic. I mean, who on their sane mind would want me to blabber on this topic. Maybe somebody would. Or maybe no one does. It could well be the later, but nonetheless, let this write-up be a documentation for the future me.
 
