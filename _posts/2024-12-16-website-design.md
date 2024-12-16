@@ -20,7 +20,7 @@ Now, what do I mean by "almost"?
 
 Well, I used just a few lines of Javascript. And that's for implementing the navigation menu toggle for the small screens. I wanted to avoid using JS altoegether, but turned out you cannot implement the hamburger style toggle menu with using CSS only. I had to use Javascript, just a little bit, but a little bit nonetheless.
 
-![Menu Toggle Screenshot](../assets/images/2024-12-16-website-design/menu-toggle.png)
+![Menu Toggle Screenshot](/assets/images/2024-12-16-website-design/menu-toggle.png)
 
 It's not like I hate JS. But I think if you can keep things simple, you should strive to do that irrespective of the human tendency of making things complicated. Now, adding JS might not make things complicated if you can do it properly, some would argue. But it's my preference to not overuse it and as my design preference of keeping things simple on both front-ends and back-ends.
 
@@ -30,7 +30,7 @@ I kind of like Markdown for it is a text format. It's human readable and a reat 
 
 ### The UI
 
-![Full Page Screenshot](..\assets\images\2024-12-16-website-design\full-page.png)
+![Full Page Screenshot](/assets/images/2024-12-16-website-design/full-page.png)
 
 I wanted to keep the site as simple as possible. And simplicity, as they say, is the end result and not someting you get at the outset. I played with lots of "looks" for the site. I tried going with profile picture, a side bar and all that. I even went with a bare minimum css to keep the site as minimal and as raw as possible. But neither stayed very long as they wasn't something I wanted the user to experience with. 
 
