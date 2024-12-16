@@ -6,11 +6,12 @@
     <meta name="description" content="Personal site of Muntasim Ul Haque.">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
+    <meta name="theme-color" content="#333333">
     <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
-
     <header>
         <div 
             class="menu-toggle" 
@@ -18,6 +19,7 @@
             aria-label="Toggle navigation menu" 
             role="button" 
             tabindex="0"
+            aria-expanded="false"
         >&#9776;</div>
         <nav id="main-nav" aria-label="Main Navigation">
             <ul>
@@ -41,13 +43,17 @@
 
     <script>
         document.getElementById('menu-toggle').addEventListener('click', function() {
-            document.getElementById('main-nav').classList.toggle('active');
+            const nav = document.getElementById('main-nav');
+            const isExpanded = nav.classList.toggle('active');
+            this.setAttribute('aria-expanded', isExpanded);
         });
 
         // Keyboard navigation for menu toggle
         document.getElementById('menu-toggle').addEventListener('keydown', function(e) {
             if (e.key === 'Enter' || e.key === ' ') {
-                document.getElementById('main-nav').classList.toggle('active');
+                const nav = document.getElementById('main-nav');
+                const isExpanded = nav.classList.toggle('active');
+                this.setAttribute('aria-expanded', isExpanded);
             }
         });
     </script>
