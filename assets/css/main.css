@@ -67,7 +67,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--visited-link-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
