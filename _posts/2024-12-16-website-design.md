@@ -30,7 +30,7 @@ I kind of like Markdown for it is a text format. It's human readable and a reat 
 
 ### The UI
 
-![Full Page Screenshot](/assets/images/2024-12-16-website-design/full-page)
+![Full Page Screenshot](/assets/images/2024-12-16-website-design/full-page.PNG)
 
 I wanted to keep the site as simple as possible. And simplicity, as they say, is the end result and not someting you get at the outset. I played with lots of "looks" for the site. I tried going with profile picture, a side bar and all that. I even went with a bare minimum css to keep the site as minimal and as raw as possible. But neither stayed very long as they wasn't something I wanted the user to experience with. 
 
