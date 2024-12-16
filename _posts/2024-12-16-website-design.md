@@ -66,4 +66,4 @@ I want to give the reader a site that is simple, minimal and gives a welcominmg 
 
 You can experience that from the color I used and the overall design choices I made. I didn't want the site to be slow and look bad on the eye. That's why I didn't use any web fonts, or third party JS library, or even analytics.
 
-So, there you have it. The post I wanted to write to document the design choices I made for this site. It's not comprehensive, nor it is complete. I know tings will change it the future as I learn more and think better. At least, I think I could touch on the topics I wanted to cover and that played important role for the site.
+So, there you have it. The post I wanted to write to document the design choices I made for this site. It's not comprehensive, nor it is complete. I know tings will change it the future as I learn more and think better. At least, I think I could touch on the topics I wanted to cover that played important role for the site.
