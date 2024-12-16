@@ -42,13 +42,13 @@ I settled with the color #333333 as the text color, as the pure black color (#11
 
 And guess what? You'd see it being used almost everywhere, except for the accessibility related sites. Though I don't think that justifies me going that route as everyone else does it. But I made that decision thinking of the pros and cons and as the pros weigh more in this case.
 
-#### The font choice
+### The font choice
 
 I started with the Georgia font. Then I switched to Georgia for body texts and Verdana for headings. Then I went with Verdana for everyting. And now, I'm not using any particular font, rather relying on the system default fonts. I made this choice to give the site a native look on every devide it's viewed on, though I know I lost my control on how the text would look.
 
 The same goes for the font sizes. I toyed with different font sizes and kept some configurations for some time. But at last settled with no defined font size and giving the control to the end-user's system. This site is currently using the system font sizes. It's a win-win in that respect that it keeps things simple at my end and give the user control at their end.
 
-##### The UX
+### The UX
 
 The navigation menu, which let's you go from page to page, changes color on hover, but the visited pages' titles don't change color. Because that would be weird. 
 
