@@ -62,7 +62,7 @@ I started with controlling the UI and UX aspects of the site as much as possbile
 
 I was happy that way because I could give the user the look and feel the way I wanted them to have. But then again, modern brosers have sane defaults now and trying to control everything would just make things more complicated at my end. Simplicity was my goal from day one. And I know what I want and what I don't.
 
-I want to give the reader a site that is simple, minimal and gives a welcominmg feel. 
+I want to give the reader a site that is simple, minimal and make them feel welcome. 
 
 You can experience that from the color I used and the overall design choices I made. I didn't want the site to be slow and look bad on the eye. That's why I didn't use any web fonts, or third party JS library, or even analytics.
 
