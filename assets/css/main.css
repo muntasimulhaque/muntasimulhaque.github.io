@@ -156,7 +156,6 @@ nav a:hover {
     margin-bottom: 1rem;
     line-height: 1.2;
     border-bottom: 1px solid #eaecef; /* Optional: adds a subtle underline */
-    padding-bottom: 0.5rem; /* Optional: adds some space below the title */
 }
 
 .blog-post {
