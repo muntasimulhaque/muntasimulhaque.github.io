@@ -22,6 +22,7 @@ Well, I used just a few lines of Javascript. And that's for implementing the nav
 
 ![Menu Toggle Screenshot](/assets/images/2024-12-16-website-design/menu-toggle.PNG 'Menu Toggle Screenshot')
 
+
 It's not like I hate JS. But I think if you can keep things simple, you should strive to do that irrespective of the human tendency of making things complicated. Now, adding JS might not make things complicated if you can do it properly, some would argue. But it's my preference to not overuse it and as my design preference of keeping things simple on both front-ends and back-ends.
 
 And I didn't use any other web technolgies. I don't have usage of databas, so I didn't use it. As I'm using Jekyll though, and it let's you use Markdwon for your pages and posts, I am using that. 
@@ -31,6 +32,7 @@ I kind of like Markdown for it is a text format. It's human readable and a reat 
 ### The UI
 
 ![Full Page Screenshot](/assets/images/2024-12-16-website-design/full-page.PNG 'Full Page Screenshot')
+
 
 I wanted to keep the site as simple as possible. And simplicity, as they say, is the end result and not someting you get at the outset. I played with lots of "looks" for the site. I tried going with profile picture, a side bar and all that. I even went with a bare minimum css to keep the site as minimal and as raw as possible. But neither stayed very long as they wasn't something I wanted the user to experience with. 
 
@@ -60,7 +62,7 @@ The visited links change color to purple as expected. I was thinkin of getting r
 
 I started with controlling the UI and UX aspects of the site as much as possbile. That needed me to exercise that much control through code and as a result made things kinda complicated for me. Because, well, there are different screen sizes and to make the site look good at every device, you need to control every aspect of the site. 
 
-I was happy that way because I could give the user the look and feel the way I wanted them to have. But then again, modern brosers have sane defaults now and trying to control everything would just make things more complicated at my end. Simplciity was my goal from day one. And I know what I want and what I don't.
+I was happy that way because I could give the user the look and feel the way I wanted them to have. But then again, modern brosers have sane defaults now and trying to control everything would just make things more complicated at my end. Simplicity was my goal from day one. And I know what I want and what I don't.
 
 I want to give the reader a site that is simple, minimal and gives a welcominmg feel. 
 
