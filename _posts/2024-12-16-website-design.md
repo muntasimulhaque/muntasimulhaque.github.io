@@ -22,7 +22,7 @@ Well, I used just a few lines of JavaScript. And that's for implementing the nav
 
 ![Menu Toggle Screenshot](/assets/images/2024-12-16-website-design/menu-toggle.PNG 'Menu Toggle Screenshot')
 
-It's not like I hate JS. But I think if you can keep things simple, you should strive to do that irrespective of the human tendency of making things complicated. Now, adding JS might not make things complicated if you can do it properly, some would argue. But it's my preference to not overuse it and as my design preference of keeping things simple on both front-ends and back-ends.
+It's not that I hate JS. But I think if you can keep things simple, you should strive to do that irrespective of the human tendency of making things complicated. Now, adding JS might not make things complicated if you can do it properly, some would argue. But it's my preference to not overuse it and as my design preference of keeping things simple on both front-ends and back-ends.
 
 And I didn't use any other web technologies. I don't have usage of database, so I didn't use it. As I'm using Jekyll though, and it let's you use Markdown for your pages and posts, I am using that. 
 
