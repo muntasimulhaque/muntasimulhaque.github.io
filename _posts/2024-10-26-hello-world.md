@@ -6,7 +6,7 @@ date: 2024-10-26
 
 Hello World!
 
-This is my first blog post here, on [Github Pages](https://pages.github.com/){:target="_blank"} using [Jekyll](https://jekyllrb.com/){:target="_blank"} under the hood. I've blogged on different platforms before e.g. Blogpost, Wordpress, Tumblr, Medium, etc. So, what's different this time? 
+This is my first blog post here, on [Github Pages](https://pages.github.com/){:target="_blank"} using [Jekyll](https://jekyllrb.com/){:target="_blank"} under the hood. I've blogged on different platforms before e.g. Blogspot, Wordpress, Tumblr, Medium, etc. So, what's different this time? 
 
 Well, this time I'm posting on a static site. 
 
