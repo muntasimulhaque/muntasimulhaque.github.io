@@ -176,6 +176,13 @@ nav a:hover {
 .blog-content img {
     max-width: 100%;
     height: auto;
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 1rem 0; /* Adds vertical spacing around the image */
+    display: block; /* Ensures the image is centered */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #eaecef; /* Adds a light border */
 }
 
 /* Main content */
