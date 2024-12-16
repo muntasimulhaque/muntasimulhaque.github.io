@@ -2,10 +2,18 @@
 title: Muntasim Ul Haque
 name: Muntasim Ul Haque
 description: Personal Website of Muntasim Ul Haque
+timezone: Asia/Dhaka
 
 # Build settings
 markdown: kramdown
 permalink: /:title/
+
+# Compression and performance
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
 
 # Exclude files from processing
 exclude:
@@ -20,4 +28,4 @@ exclude:
 # Plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap  # New plugin for generating sitemap
+  - jekyll-compress-html

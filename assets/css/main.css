@@ -1,3 +1,12 @@
+/* Global reset with border-box */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --primary-color: #333333;
     --background-color: #ffffff;
@@ -7,8 +16,6 @@
     --selection-color: #DFEAFB;
     --navigation-menu-color: #5f6368;
     --max-content-width: 650px;
-
-    /* Slightly increased line height for better readability */
     --line-height: 1.5;
 }
 
@@ -19,13 +26,11 @@ body {
     line-height: var(--line-height);
     color: var(--text-color);
     background-color: var(--background-color);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height */
+    width: 100%;
+    overflow-x: hidden;
 }
 
 main {
