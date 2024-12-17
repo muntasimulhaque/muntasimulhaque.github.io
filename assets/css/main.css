@@ -98,7 +98,6 @@ nav a {
                  "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
                  "Open Sans", "Helvetica Neue", sans-serif;
     color: var(--navigation-menu-color);
-    font-weight: bold;
     text-decoration: none;
     font-size: 1.10em;
 }
