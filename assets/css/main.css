@@ -102,6 +102,12 @@ nav a {
     font-size: 1.10em;
 }
 
+nav a[aria-current="page"] {
+    color: var(--link-color);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 nav a:visited {
     color: var(--navigation-menu-color);
     text-decoration: none;
@@ -256,6 +262,13 @@ footer {
         padding: 0.5rem 1rem;
         text-decoration: none;
         font-size: 1.10em;
+    }
+	
+	nav a[aria-current="page"] {
+        color: var(--link-color);
+        font-weight: bold;
+        text-decoration: underline;
+        padding: 0.5rem 1rem;
     }
 
     nav a:hover {
