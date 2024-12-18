@@ -105,7 +105,7 @@ nav a {
 nav a[aria-current="page"] {
     color: var(--link-color);
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 nav a:visited {
@@ -267,7 +267,7 @@ footer {
 	nav a[aria-current="page"] {
         color: var(--link-color);
         font-weight: bold;
-        text-decoration: underline;
+        text-decoration: none;
         padding: 0.5rem 1rem;
     }
 
