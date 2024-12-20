@@ -10,6 +10,8 @@
                  "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
                  "Open Sans", "Helvetica Neue", sans-serif;
     --line-height: 1.5;
+	--container-padding: 2rem;
+    --container-padding-mobile: 1rem;
 }
 
 body {
