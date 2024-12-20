@@ -97,7 +97,6 @@ nav a {
 
 nav a[aria-current="page"] {
     color: var(--link-color);
-    font-weight: bold;
     text-decoration: none;
 }
 
