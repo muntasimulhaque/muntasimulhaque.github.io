@@ -3,7 +3,6 @@
     --background-color: #FFF;
     --text-color: #404040;
     --link-color: #008AFF;
-    --visited-link-color: #673ab7;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #808080;
     --max-content-width: 650px;
@@ -63,7 +62,7 @@ a:hover {
 }
 
 a:visited {
-    color: var(--visited-link-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
@@ -124,12 +123,12 @@ nav a:hover {
 }
 
 .blog-title a {
-    color: var(--primary-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
 .blog-title a:visited {
-    color: var(--visited-link-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
