@@ -32,7 +32,7 @@ I kind of like Markdown for it is a text format. It's human readable and a great
 
 ![Full Page Screenshot](/assets/images/2024-12-16-website-design/full-page.PNG 'Full Page Screenshot')
 
-I wanted to keep the site as simple as possible. And simplicity, as they say, is the end result and not something you get at the outset. I played with lots of "looks" for the site. I tried going with profile picture, a side bar and all that. I even went with a bare minimum CSS to keep the site as minimal and as raw as possible. But neither stayed very long as they wasn't something I wanted the user to experience with. 
+I wanted to keep the site as simple as possible. And simplicity, as they say, is the end result and not something you get at the outset. I played with lots of "looks" for the site. I tried going with profile picture, a side bar and all that. I even went with a bare minimum CSS to keep the site as minimal and as raw as possible. But neither stayed very long as they weren't something I wanted the user to experience with. 
 
 But this one, the screenshot you're seeing is what I stayed with. I'm referring to the screenshot as in the future, I might change things up again. But for the time being, this UI design seems perfect to me. To reach this state, I made a total of 807 commits (you're reading it right) to the GitHub repo as of writing this post. You might think I made a commit after changing an alphabet. Otherwise, why would someone need to make so many deployments to develop such a simple-looking site? Well, you got me. Maybe I'm that noob.
 
