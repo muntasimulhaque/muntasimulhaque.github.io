@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #474747;
-    --background-color: #ffffff;
-    --text-color: #474747;
-    --link-color: #0064e4;
+    --primary-color: #073642;
+    --background-color: #fdf6e3;
+    --text-color: #073642;
+    --link-color: #268bd2;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #5f6368;
     --max-content-width: 650px;
