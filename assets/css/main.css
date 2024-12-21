@@ -1,40 +1,5 @@
-/* Add this to your existing CSS file */
-
-/* Theme toggle button styles */
-.theme-toggle {
-    background: none;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-    color: var(--navigation-menu-color);
-    font-size: 1.1em;
-    margin-left: 1rem;
-    display: flex;
-    align-items: center;
-}
-
-.theme-toggle:hover {
-    color: var(--link-color);
-}
-
-.theme-toggle:focus {
-    outline: 2px solid var(--link-color);
-    outline-offset: 2px;
-}
-
-/* Force dark mode when class is present */
-.dark {
-    --primary-color: #E0E0E0;
-    --background-color: #1A1A1A;
-    --text-color: #E0E0E0;
-    --link-color: #66B2FF;
-    --link-hover-color: #99CCFF;
-    --selection-color: #1E3A8A;
-    --navigation-menu-color: #A0A0A0;
-}
-
-/* Force light mode when class is present */
-.light {
+:root {
+    /* Light theme (default) */
     --primary-color: #404040;
     --background-color: #FFF;
     --text-color: #404040;
@@ -42,4 +7,256 @@
     --link-hover-color: #006ACC;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #808080;
+    
+    /* Common variables */
+    --max-content-width: 650px;
+    --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
+                 "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
+                 "Open Sans", "Helvetica Neue", sans-serif;
+    --line-height: 1.5;
+    --container-padding: 2rem;
+    --container-padding-mobile: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #E0E0E0;
+        --background-color: #1A1A1A;
+        --text-color: #E0E0E0;
+        --link-color: #66B2FF;
+        --link-hover-color: #99CCFF;
+        --selection-color: #1E3A8A;
+        --navigation-menu-color: #A0A0A0;
+    }
+}
+
+body {
+    font-family: var(--font-stack);
+    line-height: var(--line-height);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    padding: var(--container-padding);
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-stack);
+    color: var(--primary-color);
+}
+
+header {
+    font-family: var(--font-stack);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+}
+
+a:visited {
+    color: var(--link-color);
+}
+
+::selection {
+    background-color: var(--selection-color);
+    color: var(--text-color);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    font-family: var(--font-stack);
+    color: var(--navigation-menu-color);
+    text-decoration: none;
+    font-size: 1.10em;
+    padding: 0.5rem;
+}
+
+nav a[aria-current="page"] {
+    color: var(--link-color);
+}
+
+nav a:visited {
+    color: var(--navigation-menu-color);
+}
+
+nav a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+/* Blog list styles */
+.blog-list {
+    margin-top: 2rem;
+}
+
+.blog-preview {
+    margin-bottom: 2rem;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+.blog-title a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.blog-title a:hover {
+    color: var(--link-color);
+}
+
+.blog-date {
+    display: block;
+    color: var(--text-color);
+    font-size: 0.75em;
+    margin-top: 0.1rem;
+}
+
+/* Blog post styles */
+.blog-post h1 {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.blog-post {
+    max-width: var(--max-content-width);
+}
+
+.blog-post .blog-date {
+    display: block;
+    font-size: 0.75em;
+    color: var(--text-color);
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-content {
+    margin-top: 3rem;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #eaecef;
+}
+
+article {
+    flex: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    font-family: var(--font-stack);
+    text-align: center;
+    padding: 1rem;
+    color: var(--text-color);
+    font-size: 0.85em;
+    margin-top: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+        margin: 0;
+        padding: 2cm;
+    }
+    
+    header, footer {
+        display: none;
+    }
+    
+    main {
+        padding: 0;
+        max-width: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        color: black;
+    }
+    
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+    
+    .blog-content img {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: var(--container-padding-mobile);
+        width: 100%;
+    }
 }
