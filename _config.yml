@@ -1,3 +1,5 @@
+url: https://muntasimulhaque.github.io
+
 # Site settings
 title: Muntasim Ul Haque
 name: Muntasim Ul Haque
@@ -7,16 +9,6 @@ timezone: Asia/Dhaka
 # Build settings
 markdown: kramdown
 permalink: /:title/
-
-# Compression and performance
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: []
 
 # Exclude files from processing
 exclude:
@@ -32,3 +24,4 @@ exclude:
 plugins:
   - jekyll-seo-tag
   - jekyll-compress-html
+  - jekyll-sitemap

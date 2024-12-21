@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muntasimulhaque.github.io/sitemap.xml
