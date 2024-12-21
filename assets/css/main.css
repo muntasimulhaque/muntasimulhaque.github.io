@@ -331,8 +331,6 @@ footer {
 	
 	nav a[aria-current="page"] {
         color: var(--link-color);
-        text-decoration: none;
-        padding: 0.5rem 1rem;
     }
 
     nav a:hover {
