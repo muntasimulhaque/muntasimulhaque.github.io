@@ -78,6 +78,12 @@ header {
     box-sizing: border-box;
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
 nav {
     position: relative;
     max-width: var(--max-content-width);
@@ -260,7 +266,7 @@ footer {
         padding: 0;
         max-width: none;
     }
-    
+	
     a {
         text-decoration: none;
         color: black;
@@ -293,9 +299,58 @@ footer {
         padding: var(--container-padding-mobile);
         width: 100%;
     }
+	
+	.menu-toggle {
+        display: block;
+    }
+	
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        width: 100%;
+    }
+
+    nav.active {
+        display: block;
+    }
 
     nav ul {
-        padding-right: 3rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav li {
+        margin: 0;
+        width: 100%;
+    }
+
+    nav a {
+        font-family: var(--font-stack);
+        display: block;
+        color: var(--navigation-menu-color);
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        font-size: 1.10em;
+    }
+	
+	nav a[aria-current="page"] {
+        color: var(--link-color);
+        font-weight: bold;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+    }
+
+    nav a:hover {
+        font-family: var(--font-stack);
+        display: block;
+        color: var(--link-color);
+        padding: 0.5rem 1rem;
+        text-decoration: none;
     }
     
     .theme-toggle {

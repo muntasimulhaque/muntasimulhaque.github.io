@@ -38,6 +38,21 @@
     </footer>
 	
     <script>
+		document.getElementById('menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            const isExpanded = nav.classList.toggle('active');
+            this.setAttribute('aria-expanded', isExpanded);
+        });
+
+        // Keyboard navigation for menu toggle
+        document.getElementById('menu-toggle').addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                const nav = document.getElementById('main-nav');
+                const isExpanded = nav.classList.toggle('active');
+                this.setAttribute('aria-expanded', isExpanded);
+            }
+        });
+	
         document.addEventListener('DOMContentLoaded', function() {
             const themeToggle = document.querySelector('.theme-toggle');
             
