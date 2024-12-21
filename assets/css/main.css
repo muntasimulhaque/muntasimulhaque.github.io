@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #073642;
-    --background-color: #fdf6e3;
-    --text-color: #073642;
-    --link-color: #268bd2;
+    --primary-color: #100F0F;
+    --background-color: #FFFCF0;
+    --text-color: #100F0F;
+    --link-color: #24837B;
     --selection-color: #DFEAFB;
-    --navigation-menu-color: #5f6368;
+    --navigation-menu-color: #6F6E69;
     --max-content-width: 650px;
 	--font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
                    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
