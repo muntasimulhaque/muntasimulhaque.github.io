@@ -188,7 +188,7 @@ nav a:hover {
     display: block;
     color: var(--text-color);
     font-size: 0.75em;
-    margin-top: 0.1rem;
+    margin-top: 0.15rem;
 }
 
 /* Blog post styles */
