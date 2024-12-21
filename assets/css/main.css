@@ -2,7 +2,7 @@
     --primary-color: #100F0F;
     --background-color: #FFFCF0;
     --text-color: #100F0F;
-    --link-color: #4385BE;
+    --link-color: #205EA6;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #6F6E69;
     --max-content-width: 650px;
@@ -223,7 +223,7 @@ footer {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #ffffff;
+        background-color: var(--background-color);
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         width: 100%;
     }
