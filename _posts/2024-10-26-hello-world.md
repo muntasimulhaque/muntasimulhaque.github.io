@@ -10,11 +10,11 @@ This is my first blog post here, on [GitHub Pages](https://pages.github.com/){:t
 
 Well, this time I'm posting on a static site. 
 
-### What's the advantage of using a static site?
+# What's the advantage of using a static site?
 
 Nothing. I mean, I didn't choose to blog here just because it gave me a leverage over other platforms. It's just that, using Jekyll makes the experience a bit simpler to blog on GitHub Pages.
 
-### Why blog on GitHub Pages?
+# Why blog on GitHub Pages?
 
 I didn't specifically choose to blog here. I intended this site to serve as my academic portfolio. 
 
@@ -28,7 +28,7 @@ Coming back to the point, blogging here wasn't something I set out to do at the 
 
 I am a believer of sharing knowledge with others. I've shared my knowledge with others before, I am sharing now and I will continue to share in the days to come.
 
-### What's next?
+# What's next?
 
 This site will act mainly as my academic portfolio. I don't have any master-plan of doing anything big here. 
 
