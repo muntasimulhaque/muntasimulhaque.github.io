@@ -3,15 +3,29 @@
     --background-color: #FFF;
     --text-color: #404040;
     --link-color: #008AFF;
+    --link-hover-color: #006ACC;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #808080;
     --max-content-width: 650px;
-	--font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
+    --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
                  "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
                  "Open Sans", "Helvetica Neue", sans-serif;
     --line-height: 1.5;
-	--container-padding: 2rem;
+    --container-padding: 2rem;
     --container-padding-mobile: 1rem;
+    --transition-duration: 0.2s;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #E0E0E0;
+        --background-color: #1A1A1A;
+        --text-color: #E0E0E0;
+        --link-color: #66B2FF;
+        --link-hover-color: #99CCFF;
+        --selection-color: #1E3A8A;
+        --navigation-menu-color: #A0A0A0;
+    }
 }
 
 body {
@@ -30,7 +44,7 @@ body {
 
 main {
     flex: 1;
-    padding: 2rem;
+    padding: var(--container-padding);
     max-width: var(--max-content-width);
     margin: 0 auto;
     width: 100%;
@@ -39,6 +53,7 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-stack);
+    color: var(--primary-color);
 }
 
 header {
@@ -53,20 +68,26 @@ header {
 a {
     color: var(--link-color);
     text-decoration: none;
+    transition: color var(--transition-duration) ease;
 }
 
 a:hover {
-    color: var(--link-color);
+    color: var(--link-hover-color);
     text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
 }
 
 a:visited {
     color: var(--link-color);
-    text-decoration: none;
 }
 
 ::selection {
     background-color: var(--selection-color);
+    color: var(--text-color);
 }
 
 nav ul {
@@ -89,16 +110,15 @@ nav a {
     text-decoration: none;
     font-size: 1.10em;
     padding: 0.5rem;
+    transition: color var(--transition-duration) ease;
 }
 
 nav a[aria-current="page"] {
     color: var(--link-color);
-    text-decoration: none;
 }
 
 nav a:visited {
     color: var(--navigation-menu-color);
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -124,14 +144,8 @@ nav a:hover {
     text-decoration: none;
 }
 
-.blog-title a:visited {
-    color: var(--text-color);
-    text-decoration: none;
-}
-
 .blog-title a:hover {
     color: var(--link-color);
-    text-decoration: none;
 }
 
 .blog-date {
@@ -184,11 +198,6 @@ article {
     box-sizing: border-box;
 }
 
-article h1 {
-    color: var(--primary-color);
-    margin-top: 0;
-}
-
 footer {
     font-family: var(--font-stack);
     text-align: center;
@@ -200,10 +209,54 @@ footer {
     box-sizing: border-box;
 }
 
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+        margin: 0;
+        padding: 2cm;
+    }
+    
+    header, footer {
+        display: none;
+    }
+    
+    main {
+        padding: 0;
+        max-width: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a[href^="http"]:after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        page-break-after: avoid;
+        color: black;
+    }
+    
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+    
+    .blog-content img {
+        box-shadow: none;
+        border: 1px solid #000;
+    }
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     main {
-        padding: 1rem;
+        padding: var(--container-padding-mobile);
         width: 100%;
     }
 }
