@@ -336,10 +336,6 @@ footer {
     }
 
     nav a:hover {
-        font-family: var(--font-stack);
-        display: block;
         color: var(--link-color);
-        padding: 0.5rem 1rem;
-        text-decoration: none;
     }
 }
