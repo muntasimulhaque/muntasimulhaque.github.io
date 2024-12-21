@@ -214,11 +214,7 @@ footer {
         padding: 1rem;
         width: 100%;
     }
-
-    .menu-toggle {
-        display: block;
-    }
-
+	
     nav {
         display: none;
         position: absolute;
