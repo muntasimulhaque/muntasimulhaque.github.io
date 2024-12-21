@@ -1,13 +1,4 @@
 :root {
-    /* Light theme (default) */
-    --primary-color: #404040;
-    --background-color: #FFF;
-    --text-color: #404040;
-    --link-color: #008AFF;
-    --link-hover-color: #006ACC;
-    --selection-color: #DFEAFB;
-    --navigation-menu-color: #808080;
-    
     /* Common variables */
     --max-content-width: 650px;
     --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
@@ -16,6 +7,16 @@
     --line-height: 1.5;
     --container-padding: 2rem;
     --container-padding-mobile: 1rem;
+}
+
+:root[data-theme="light"] {
+    --primary-color: #404040;
+    --background-color: #FFF;
+    --text-color: #404040;
+    --link-color: #008AFF;
+    --link-hover-color: #006ACC;
+    --selection-color: #DFEAFB;
+    --navigation-menu-color: #808080;
 }
 
 /* Add these classes to enable theme toggle */
