@@ -18,6 +18,37 @@
     --container-padding-mobile: 1rem;
 }
 
+/* Add these classes to enable theme toggle */
+:root[data-theme="dark"] {
+    --primary-color: #E0E0E0;
+    --background-color: #1A1A1A;
+    --text-color: #E0E0E0;
+    --link-color: #66B2FF;
+    --link-hover-color: #99CCFF;
+    --selection-color: #1E3A8A;
+    --navigation-menu-color: #A0A0A0;
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--navigation-menu-color);
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+}
+
+.theme-toggle:hover {
+    color: var(--link-color);
+}
+
+.theme-toggle:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --primary-color: #E0E0E0;
