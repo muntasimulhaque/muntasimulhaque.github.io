@@ -19,7 +19,6 @@
     --navigation-menu-color: #808080;
 }
 
-/* Add these classes to enable theme toggle */
 :root[data-theme="dark"] {
     --primary-color: #E0E0E0;
     --background-color: #1A1A1A;
@@ -28,26 +27,6 @@
     --link-hover-color: #99CCFF;
     --selection-color: #1E3A8A;
     --navigation-menu-color: #A0A0A0;
-}
-
-.theme-toggle {
-    background: none;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-    color: var(--navigation-menu-color);
-    font-size: 1.1em;
-    display: flex;
-    align-items: center;
-}
-
-.theme-toggle:hover {
-    color: var(--link-color);
-}
-
-.theme-toggle:focus {
-    outline: 2px solid var(--link-color);
-    outline-offset: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -99,28 +78,11 @@ header {
     box-sizing: border-box;
 }
 
-a {
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-a:hover {
-    color: var(--link-hover-color);
-    text-decoration: underline;
-}
-
-a:focus {
-    outline: 2px solid var(--link-color);
-    outline-offset: 2px;
-}
-
-a:visited {
-    color: var(--link-color);
-}
-
-::selection {
-    background-color: var(--selection-color);
-    color: var(--text-color);
+nav {
+    position: relative;
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    width: 100%;
 }
 
 nav ul {
@@ -131,6 +93,7 @@ nav ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
+    position: relative;
 }
 
 nav li {
@@ -156,6 +119,55 @@ nav a:visited {
 nav a:hover {
     color: var(--link-color);
     text-decoration: none;
+}
+
+.theme-toggle {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: var(--navigation-menu-color);
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.theme-toggle:hover {
+    color: var(--link-color);
+}
+
+.theme-toggle:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid var(--link-color);
+    outline-offset: 2px;
+}
+
+a:visited {
+    color: var(--link-color);
+}
+
+::selection {
+    background-color: var(--selection-color);
+    color: var(--text-color);
 }
 
 /* Blog list styles */
@@ -290,5 +302,13 @@ footer {
     main {
         padding: var(--container-padding-mobile);
         width: 100%;
+    }
+
+    nav ul {
+        padding-right: 3rem;
+    }
+    
+    .theme-toggle {
+        margin-right: 0.5rem;
     }
 }

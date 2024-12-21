@@ -14,20 +14,18 @@
 <body>
     <header>
         <nav id="main-nav" aria-label="Main Navigation">
-    <ul>
-        <li><a href="{{ '/' | relative_url }}" 
-               {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
-        <li><a href="{{ '/publications' | relative_url }}" 
-               {% if page.url contains '/publications' %}aria-current="page"{% endif %}>Publications</a></li>
-        <li><a href="{{ '/cv' | relative_url }}" 
-               {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a></li>
-        <li><a href="{{ '/blog' | relative_url }}" 
-               {% if page.url contains '/blog' %}aria-current="page"{% endif %}>Blogs</a></li>
-        <li>
+            <ul>
+                <li><a href="{{ '/' | relative_url }}" 
+                       {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+                <li><a href="{{ '/publications' | relative_url }}" 
+                       {% if page.url contains '/publications' %}aria-current="page"{% endif %}>Publications</a></li>
+                <li><a href="{{ '/cv' | relative_url }}" 
+                       {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a></li>
+                <li><a href="{{ '/blog' | relative_url }}" 
+                       {% if page.url contains '/blog' %}aria-current="page"{% endif %}>Blogs</a></li>
+            </ul>
             <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
-        </li>
-    </ul>
-</nav>
+        </nav>
     </header>
 
     <main id="main-content" tabindex="-1">
@@ -40,43 +38,43 @@
         <p>© Muntasim Ul Haque. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank">GitHub</a>.</p>
     </footer>
 	
-	<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const themeToggle = document.querySelector('.theme-toggle');
-        
-        // Check for saved theme preference, otherwise use system preference
-        const getPreferredTheme = () => {
-            const savedTheme = localStorage.getItem('theme');
-            if (savedTheme) {
-                return savedTheme;
-            }
-            return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        };
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.querySelector('.theme-toggle');
+            
+            // Check for saved theme preference, otherwise use system preference
+            const getPreferredTheme = () => {
+                const savedTheme = localStorage.getItem('theme');
+                if (savedTheme) {
+                    return savedTheme;
+                }
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+            };
 
-        // Function to set theme
-        const setTheme = (theme) => {
-            document.documentElement.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
-        };
+            // Function to set theme
+            const setTheme = (theme) => {
+                document.documentElement.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            };
 
-        // Apply initial theme
-        const currentTheme = getPreferredTheme();
-        setTheme(currentTheme);
+            // Apply initial theme
+            const currentTheme = getPreferredTheme();
+            setTheme(currentTheme);
 
-        // Add click event listener to toggle button
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = document.documentElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            setTheme(newTheme);
+            // Add click event listener to toggle button
+            themeToggle.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                setTheme(newTheme);
+            });
+
+            // Listen for system theme changes
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+                if (!localStorage.getItem('theme')) {
+                    setTheme(e.matches ? 'dark' : 'light');
+                }
+            });
         });
-
-        // Listen for system theme changes
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-            if (!localStorage.getItem('theme')) {
-                setTheme(e.matches ? 'dark' : 'light');
-            }
-        });
-    });
-</script>
+    </script>
 </body>
 </html>
