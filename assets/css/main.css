@@ -1,4 +1,5 @@
 :root {
+    /* Light theme (default) */
     --primary-color: #404040;
     --background-color: #FFF;
     --text-color: #404040;
@@ -6,6 +7,8 @@
     --link-hover-color: #006ACC;
     --selection-color: #DFEAFB;
     --navigation-menu-color: #808080;
+    
+    /* Common variables */
     --max-content-width: 650px;
     --font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
                  "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -13,7 +16,6 @@
     --line-height: 1.5;
     --container-padding: 2rem;
     --container-padding-mobile: 1rem;
-    --transition-duration: 0.2s;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,7 +70,6 @@ header {
 a {
     color: var(--link-color);
     text-decoration: none;
-    transition: color var(--transition-duration) ease;
 }
 
 a:hover {
@@ -110,7 +111,6 @@ nav a {
     text-decoration: none;
     font-size: 1.10em;
     padding: 0.5rem;
-    transition: color var(--transition-duration) ease;
 }
 
 nav a[aria-current="page"] {
