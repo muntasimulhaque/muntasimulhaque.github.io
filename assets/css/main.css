@@ -4,7 +4,7 @@
     --text-color: #100F0F;
     --link-color: #205EA6;
     --selection-color: #FFF5D6;
-    --navigation-menu-color: #6F6E69;
+    --muted-text-color: #6F6E69;
     --max-content-width: 750px;
 	--font-stack: system-ui, -apple-system, BlinkMacSystemFont, 
                    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, 
@@ -135,7 +135,7 @@ nav li {
 
 nav a {
     font-family: var(--font-stack);
-    color: var(--navigation-menu-color);
+    color: var(--muted-text-color);
     text-decoration: none;
     font-size: 1.10em;
 }
@@ -146,7 +146,7 @@ nav a[aria-current="page"] {
 }
 
 nav a:visited {
-    color: var(--navigation-menu-color);
+    color: var(--muted-text-color);
     text-decoration: none;
 }
 
@@ -186,7 +186,7 @@ nav a:hover {
 
 .blog-date {
     display: block;
-    color: var(--text-color);
+    color: var(--muted-text-color);
     font-size: 0.75em;
     margin-top: 0.15rem;
 }
@@ -207,7 +207,7 @@ nav a:hover {
 .blog-post .blog-date {
     display: block;
     font-size: 0.75em;
-    color: var(--text-color);
+    color: var(--muted-text-color);
     margin-top: 0.2rem;
     margin-bottom: 1rem;
 }
@@ -313,7 +313,7 @@ footer {
     nav a {
         font-family: var(--font-stack);
         display: block;
-        color: var(--navigation-menu-color);
+        color: var(--muted-text-color);
         padding: 0.5rem 1rem;
         text-decoration: none;
         font-size: 1.10em;
