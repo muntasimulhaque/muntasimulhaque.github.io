@@ -206,7 +206,7 @@ nav a:hover {
 
 .blog-post .blog-date {
     display: block;
-    font-size: 0.80em;
+    font-size: 0.85em;
     color: var(--muted-text-color);
     margin-top: 0.2rem;
     margin-bottom: 1rem;
