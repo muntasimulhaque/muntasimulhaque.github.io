@@ -262,7 +262,7 @@ footer {
     font-family: var(--font-stack);
     text-align: center;
     padding: 1rem;
-    color: var(--text-color);
+    color: var(--muted-text-color);
     font-size: 0.85em;
     margin-top: 2rem;
     width: 100%;
