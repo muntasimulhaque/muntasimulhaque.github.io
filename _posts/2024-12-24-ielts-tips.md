@@ -10,7 +10,7 @@ Here's my brief IELTS tips for you.
 
 * Watch all the videos, except the General Writing playlist, from this [YouTube playlist](https://www.youtube.com/@IeltsSimon9/playlists){:target="_blank"} featuring IELTS Simon. Take notes if you want. I recommend you do. Try to grasp which strategies to use in which situations. After you're done watching these videos, take another preparation test and compare your result with the earlier test. Rewatch the videos again till you have mastered the strategies.
 
-* Then take timed mock tests from the Cambridge books 11-16 from this [link](https://banglayielts.com/courses/academic/){:target="_blank"}. After each test, analyze which parts you're struggling with. If you find you are lacking, rewatch IELTS Simon's videos from the playlist.
+* Take timed mock tests from the Cambridge books 11-16 from this [link](https://banglayielts.com/courses/academic/){:target="_blank"}. After each test, analyze which parts you're struggling with. If you find you are lacking, rewatch IELTS Simon's videos from the playlist.
 
 * IELTS Simon's old website had excellent tips. The new website requires subscription. Fortunately, the old website is available on web.archive.org. Check important tips on each page at this [link](https://web.archive.org/web/20230224102046/https://www.ielts-simon.com/ielts-help-and-english-pr/students-questions/){:target="_blank"} if you have enough time before the test. These are treasure troves! These are especially useful for quick review before the test.
 
