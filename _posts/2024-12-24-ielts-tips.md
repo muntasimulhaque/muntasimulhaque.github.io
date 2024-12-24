@@ -20,8 +20,8 @@ Now, here are my tips for each test segment.
 
 **Reading**: Don't read the entire passage at the beginning. Read the title and then go straight to the questions. Look where the first question's answer lies in the passage. You can skim/scan, though it might not always be an effective strategy. Scanning works well for the names and the years, for others, may not be that useful. Except for matching questions (sentence matching and heading matching), the questions follow sequential order. For example, if you find answers to questions 2 and 4, answer to 3 is sure be found in-between.
 
-**Writing** Follow the sugested structure. You'll get good ideas of the writing structures by following Simon's videos.
+**Writing**: Follow the sugested structure. You'll get good ideas of the writing structures by following Simon's videos.
 
-**Speaking** Don't use memorized responses. Answer in your own way, in a natural way.
+**Speaking**: Don't use memorized responses. Answer in your own way, in a natural way.
 
 Following these tips religiously and taking lots of mock tests in test environment would help you to scrore a good result in the final test. Best wishes!
