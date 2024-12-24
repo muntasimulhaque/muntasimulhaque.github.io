@@ -12,7 +12,7 @@ Here's my brief IELTS tips for you.
 
 * Take timed mock tests from the Cambridge books 11-16 from this [link](https://banglayielts.com/courses/academic/){:target="_blank"}. After each test, analyze which parts you're struggling with. If you find you are lacking, rewatch IELTS Simon's videos from the playlist.
 
-* IELTS Simon's old website had excellent tips. The new website requires subscription. Fortunately, the old website is available on web.archive.org. Check important tips on each page at this [link](https://web.archive.org/web/20230224102046/https://www.ielts-simon.com/ielts-help-and-english-pr/students-questions/){:target="_blank"} if you have enough time before the test. These are treasure troves! These are especially useful for quick review before the test.
+* IELTS Simon's old website had excellent tips. The new website requires subscription. Fortunately, the old website is available on Internet Archive's Wayback Machine. Check important tips on each page at this [link](https://web.archive.org/web/20230224102046/https://www.ielts-simon.com/ielts-help-and-english-pr/students-questions/){:target="_blank"} if you have enough time before the test. These are treasure troves! These are especially useful for quick review before the test.
 
 Now, here are my tips for each test segment.
 
