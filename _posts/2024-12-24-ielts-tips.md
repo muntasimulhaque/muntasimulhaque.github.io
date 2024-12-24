@@ -16,12 +16,12 @@ Here's my brief IELTS tips for you.
 
 Now, here are my tips for each test segment.
 
-* In Listening, read-ahead the next question during the blank-talks or when they give you time to revise the current section. If you miss a question, move on instead of dwelling on it, otherwise you will miss several subsequent questions for this.
+**Listening**: Read-ahead the next question during the blank-talks or when they give you time to revise the current section. If you miss a question, move on instead of dwelling on it, otherwise you will miss several subsequent questions for this.
 
-* In Reading, don't read the entire passage at the beginning. Read the title and then go straight to the questions. Look where the first question's answer lies in the passage. You can skim/scan, though it might not always be an effective strategy. Scanning works well for the names and the years, for others, may not be that useful. Except for matching questions (sentence matching and heading matching), the questions follow sequential order. For example, if you find answers to questions 2 and 4, answer to 3 is sure be found in-between.
+**Reading**: Don't read the entire passage at the beginning. Read the title and then go straight to the questions. Look where the first question's answer lies in the passage. You can skim/scan, though it might not always be an effective strategy. Scanning works well for the names and the years, for others, may not be that useful. Except for matching questions (sentence matching and heading matching), the questions follow sequential order. For example, if you find answers to questions 2 and 4, answer to 3 is sure be found in-between.
 
-* In Writing, follow the sugested structure. You'll get good ideas of the writing structures by following Simon's videos.
+**Writing** Follow the sugested structure. You'll get good ideas of the writing structures by following Simon's videos.
 
-* In Speaking, don't use memorized responses. Answer in your own way, in a natural way.
+**Speaking** Don't use memorized responses. Answer in your own way, in a natural way.
 
-Following these religiously and practicing in the test environment should bring good scores. Best wishes!
+Following these tips religiously and practicing in the test environment should help you scrore good result in the final test. Best wishes!
