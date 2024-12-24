@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "IELTS Tips"
-date: 2024-12-16
+title: "IELTS Tips from a Band 8 Scorer"
+date: 2024-12-24
 ---
 
 Here's my brief IELTS tips for you.
@@ -24,4 +24,4 @@ Now, here are my tips for each test segment.
 
 **Speaking** Don't use memorized responses. Answer in your own way, in a natural way.
 
-Following these tips religiously and practicing in the test environment should help you scrore good result in the final test. Best wishes!
+Following these tips religiously and taking lots of mock tests in test environment would help you to scrore a good result in the final test. Best wishes!
