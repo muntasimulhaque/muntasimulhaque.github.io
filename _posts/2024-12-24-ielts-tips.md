@@ -6,7 +6,7 @@ date: 2024-12-24
 
 Here's my brief IELTS tips for you.
 
-* Take a full practice test from the [IELTS Online Tests](https://ieltsonlinetests.com/){:target="_blank"} website within the allocated time. This will give you an idea of where you stand. And knowing your current level is the only purpose of this practice test. Don't worry if you score low as you don't know anything (I aguess) about the test pattern or the timing yet. IELTS is both a proficiency and a strategy test. You need to understand what the questioner expects from you. Don't worry though, you'll learn all this in time.
+* Take a full practice test from the [IELTS Online Tests](https://ieltsonlinetests.com/){:target="_blank"} website within the allocated time. This will give you an idea of where you stand. And knowing your current level is the only purpose of this practice test. Don't worry if you score low as you don't know anything (I guess) about the test pattern or the timing yet. IELTS is both a proficiency and a strategy test. You need to understand what the questioner expects from you. Don't worry though, you'll learn all this in time.
 
 * Watch all the videos, except the General Writing playlist, from this [YouTube playlist](https://www.youtube.com/@IeltsSimon9/playlists){:target="_blank"} featuring IELTS Simon. Take notes if you want. I recommend you do. Try to grasp which strategies to use in which situations. After you're done watching these videos, take another preparation test and compare your result with the earlier test. Rewatch the videos again till you have mastered the strategies.
 
@@ -20,8 +20,8 @@ Now, here are my tips for each test segment.
 
 **Reading**: Don't read the entire passage at the beginning. Read the title and then go straight to the questions. Look where the first question's answer lies in the passage. You can skim/scan, though it might not always be an effective strategy. Scanning works well for the names and the years, for others, may not be that useful. Except for matching questions (sentence matching and heading matching), the questions follow sequential order. For example, if you find answers to questions 2 and 4, answer to 3 is sure be found in-between.
 
-**Writing**: Follow the sugested structure. You'll get good ideas of the writing structures by following Simon's videos.
+**Writing**: Follow the suggested structure. You'll get good ideas of the writing structures by following Simon's videos.
 
 **Speaking**: Don't use memorized responses. Answer in your own way, in a natural way.
 
-Following these tips religiously and taking lots of mock tests in test environment would help you to scrore a good result in the final test. Best wishes!
+Following these tips religiously and taking lots of mock tests in test environment would help you to score a good result in the final test. Best wishes!
