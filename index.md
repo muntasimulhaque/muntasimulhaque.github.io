@@ -10,11 +10,11 @@ I'm a telecommunications professional with over 8 years of experience working on
 Some things about me:
 * Working in Bangladesh's submarine cable systems, ensuring reliable, high-speed networks
 * My work focuses on making networks resilient, efficient, and ready for the future
-* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/)
 * Got hooked on the challenges of network and memory optimization
 * That passion has driven my work ever since!
+* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/)
 
-Other pages:
+Other pages on this site:
 * [Curriculum Vitae](/cv/)
 * [Publications](/publications/)
 * [Blog Posts](/blog/)
