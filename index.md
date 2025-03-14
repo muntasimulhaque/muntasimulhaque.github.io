@@ -15,8 +15,8 @@ Some things about me:
 * Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 
 Other pages on this site:
+* [Publications](/publications/)
 * [Curriculum Vitae](/cv/){:target="_blank"}
-* [Publications](/publications/){:target="_blank"}
 * [Blog Posts](/blog/){:target="_blank"}
 
 Find me around the web:
