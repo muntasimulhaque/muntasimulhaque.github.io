@@ -12,15 +12,15 @@ Some things about me:
 * My work focuses on making networks resilient, efficient, and ready for the future
 * Got hooked on the challenges of network and memory optimization
 * That passion has driven my work ever since!
-* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/)
+* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 
 Other pages on this site:
-* [Curriculum Vitae](/cv/)
-* [Publications](/publications/)
-* [Blog Posts](/blog/)
+* [Curriculum Vitae](/cv/){:target="_blank"}
+* [Publications](/publications/){:target="_blank"}
+* [Blog Posts](/blog/){:target="_blank"}
 
 Find me around the web:
-* [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/)
-* [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate)
-* [X (formerly Twitter)](https://x.com/muntasimulhaque)
+* [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
+* [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}
+* [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
 * [Email](mailto:muntasim.haque@gmail.com)
