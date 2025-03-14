@@ -19,3 +19,8 @@ Some things about me:
 * [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate)
 * [X (formerly Twitter)](https://x.com/muntasimulhaque)
 * [Email](mailto:muntasim.haque@gmail.com)
+
+## Site Navigation
+* [Curriculum Vitae](/cv/)
+* [Publications](/publications/)
+* [Blog Posts](/blog/)

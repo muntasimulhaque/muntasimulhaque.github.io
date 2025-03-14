@@ -16,3 +16,5 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 * Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
   DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490)
+
+[← Back to Home](/)

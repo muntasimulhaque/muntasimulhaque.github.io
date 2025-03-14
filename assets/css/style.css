@@ -183,3 +183,15 @@ blockquote {
     padding: 2rem 1rem;
   }
 }
+
+/* Back to home link */
+a[href="/"] {
+  display: inline-block;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+a[href="/"]:hover {
+  color: #2563eb;
+}
