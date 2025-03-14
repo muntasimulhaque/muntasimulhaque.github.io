@@ -14,13 +14,13 @@ Some things about me:
 * Got hooked on the challenges of network and memory optimization
 * That passion has driven my work ever since!
 
-## Links
+Other pages:
+* [Curriculum Vitae](/cv/)
+* [Publications](/publications/)
+* [Blog Posts](/blog/)
+
+Find me around the web:
 * [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/)
 * [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate)
 * [X (formerly Twitter)](https://x.com/muntasimulhaque)
 * [Email](mailto:muntasim.haque@gmail.com)
-
-## Site Navigation
-* [Curriculum Vitae](/cv/)
-* [Publications](/publications/)
-* [Blog Posts](/blog/)
