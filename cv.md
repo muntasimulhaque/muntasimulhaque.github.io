@@ -7,7 +7,7 @@ Education:
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
 
 Professional Experience:  
-* Bangladesh Submarine Cables PLC (BSCPLC):
+* Bangladesh Submarine Cables PLC (BSCPLC)
 	* Deputy Manager (Development), Jan 2025 – Present
 	* Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Jan 2025
 	* Assistant Manager (Development), Oct 2022 – Jan 2025
@@ -16,7 +16,7 @@ Professional Experience:
 	* Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
 	* Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
 
-* United Ashuganj Energy Limited (UAEL):
+* United Ashuganj Energy Limited (UAEL)
 	* Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
 Skills:
