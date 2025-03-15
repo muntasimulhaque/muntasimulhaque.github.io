@@ -6,7 +6,7 @@ title: Curriculum Vitae
 Education:
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
 
-Professional Experience:
+Professional Experience:  
 Bangladesh Submarine Cables PLC (BSCPLC):
 * Deputy Manager (Development), Jan 2025 – Present
 * Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Jan 2025
