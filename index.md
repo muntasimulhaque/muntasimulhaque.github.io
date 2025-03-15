@@ -23,4 +23,4 @@ Find me around the web:
 * [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
 * [Google Scholar](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}
 * [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
-* [Email](mailto:muntasim.haque@gmail.com)
+* [Email](mailto:muntasim.u.h@gmail.com)
