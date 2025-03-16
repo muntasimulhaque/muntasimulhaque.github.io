@@ -16,8 +16,8 @@ Some things about me:
 
 Other pages on this site:
 * [Publications](/publications/)
-* [Curriculum Vitae](/cv/)
-* [Blog Posts](/blog/)
+* [CV](/cv/)
+* [Blogs](/blog/)
 
 Find me around the web:
 * [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
