@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=qsD8a0MAAAAJ&view_op=list_works&sortby=pubdate){:target="_blank"}.
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}.
 
 Journal Articles:
 * Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
