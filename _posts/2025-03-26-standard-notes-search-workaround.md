@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workaround for Missing in-note Search Feature of Standard Notes for Android
-date: 2024-12-24
+date: 2025-03-26
 ---
 
 [Standard Notes](https://standardnotes.com/){:target="_blank"} is a great note taking app. The killer feature for me is it's end-to-end encryption feature. Only a couple of note taking apps have end-to-end encryption till date. 
