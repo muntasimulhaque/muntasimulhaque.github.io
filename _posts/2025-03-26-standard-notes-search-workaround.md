@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workaround for Missing Search Highlight Feature in Standard Notes for Android
+title: Workaround for Missing in-note Search Feature of Standard Notes for Android
 date: 2024-12-24
 ---
 
