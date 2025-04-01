@@ -1,50 +1,30 @@
-title: Muntasim Ul Haque
-description: Personal site of Muntasim Ul Haque
-author: Muntasim Ul Haque
-
 # Site settings
-url: "https://muntasimulhaque.github.io"
-baseurl: ""
-show_footer: true
-show_back_to_blog: true
+title: Muntasim Ul Haque
+author: Muntasim Ul Haque
+description: A telecommunications professional with over 8 years of experience working on projects that keep people connected.
+url: "https://muntasimulhaque.github.io" # Replace with your GitHub Pages URL
+baseurl: "" # Leave empty if your site is at the root of the domain
 
-# Blog settings
-permalink: /:title/
-
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:title/
+# GitHub repository settings
+github:
+  repository_url: "https://github.com/muntasimulhaque/muntasimulhaque.github.io" # Replace with your repository URL
 
 # Build settings
 markdown: kramdown
+theme: minima # Optional: You can use a default theme if you don't want to fully customize
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Default front matter
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+# Enable footer
+show_footer: true
 
-# GitHub metadata
-github:
-  repository_url: https://github.com/muntasimulhaque/muntasimulhaque.github.io
+# Blog post settings
+permalink: /:title/ # This sets the URL structure for blog posts (e.g., /hello-world/)
+show_back_to_blog: false # Set to false since we don't have a separate blog index page
 
-# Exclude files from processing
+# Exclude files from the build
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/
   - README.md
