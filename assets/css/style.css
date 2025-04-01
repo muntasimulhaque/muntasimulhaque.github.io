@@ -16,17 +16,17 @@ body {
 }
 
 /* Typography */
-h1 {
-  font-size: 2.25rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
 h2 {
   font-size: 1.875rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+h2:first-of-type {
+  margin-top: 0;
 }
 
 h3 {
@@ -200,4 +200,15 @@ a[href="/"] {
 
 a[href="/"]:hover {
   color: #2563eb;
+}
+
+/* Spacing between major sections */
+#publications, #cv, #blog-posts, #find-me {
+  margin-top: 3rem;
+}
+
+/* Add more space before the blog posts section */
+#blog-posts {
+  margin-top: 3rem;
+  padding-top: 1rem;
 }
