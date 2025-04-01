@@ -14,7 +14,7 @@ Some things about me:
 * That passion has driven my work ever since!
 * Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 
-## Publications
+#### Publications
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}.
 
@@ -26,7 +26,7 @@ Conference Papers:
 * Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
   DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
 
-## CV
+#### CV
 
 Education:
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
@@ -80,13 +80,13 @@ Awards and Scholarships:
 * Government scholarships for outstanding achievement in Higher Secondary and Secondary exams.
 * Talentpool scholarships for exceptional results in Junior and Primary public exams.
 
-## Blog Posts
+#### Blogs
 
 {% for post in site.posts %}
 * [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
-## Find me around the web:
+##### Find me around the web:
 * [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
 * [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}
 * [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
