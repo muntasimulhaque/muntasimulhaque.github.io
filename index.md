@@ -37,7 +37,7 @@ Skills:
 
 Publications:
 * Journal Articles
-	* nwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
+	* Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
     [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}  
 
 * Conference Papers
