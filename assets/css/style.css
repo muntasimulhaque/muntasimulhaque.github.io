@@ -1,3 +1,18 @@
+:root {
+  --primary-color: #2563eb;
+  --text-color: #1f1f1f;
+  --background-color: #fcfcfc;
+  --secondary-text-color: #595959;
+  --light-border-color: #eee;
+  --code-background: #f5f5f5;
+  --blockquote-color: #555;
+  --spacing-small: 0.5rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xlarge: 2rem;
+  --spacing-xxlarge: 3rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +23,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #1f1f1f;
-  background-color: #fcfcfc;
+  color: var(--text-color);
+  background-color: var(--background-color);
   max-width: 42rem;
   margin: 0 auto;
   padding: 4rem 1rem 5rem;
@@ -19,9 +34,9 @@ body {
 h2 {
   font-size: 1.875rem;
   font-weight: 600;
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-medium);
   margin-top: 2.5rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: var(--spacing-small);
 }
 
 h2:first-of-type {
@@ -31,7 +46,7 @@ h2:first-of-type {
 h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: var(--spacing-large);
   margin-bottom: 0.75rem;
 }
 
@@ -39,22 +54,30 @@ h4 {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--spacing-small);
 }
 
 p {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-medium);
 }
 
 strong, b {
   font-weight: 600;
 }
 
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--spacing-medium) 0;
+}
+
 /* Lists */
 ul {
   list-style-type: disc;
-  padding-left: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding-left: var(--spacing-large);
+  margin-bottom: var(--spacing-large);
 }
 
 ul ul {
@@ -69,7 +92,7 @@ li {
 
 /* Links */
 a {
-  color: #2563eb;
+  color: var(--primary-color);
   text-decoration: none;
 }
 
@@ -84,26 +107,26 @@ header {
 
 /* Footer styling */
 footer {
-  margin-top: 3rem;
+  margin-top: var(--spacing-xxlarge);
   font-size: 0.875rem;
-  color: #666;
-  border-top: 1px solid #eee;
-  padding-top: 1rem;
+  color: var(--secondary-text-color);
+  border-top: 1px solid var(--light-border-color);
+  padding-top: var(--spacing-medium);
 }
 
 /* Blog post specific styles */
 .post-date {
-  color: #666;
-  margin-bottom: 1.5rem;
+  color: var(--secondary-text-color);
+  margin-bottom: var(--spacing-large);
   font-size: 0.95rem;
 }
 
 .post h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: var(--spacing-small);
 }
 
 .back-to-blog {
-  margin-top: 2rem;
+  margin-top: var(--spacing-xlarge);
   font-size: 0.95rem;
 }
 
@@ -114,41 +137,41 @@ footer {
 }
 
 .post-list li {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-large);
 }
 
 .post-meta {
-  color: #666;
+  color: var(--secondary-text-color);
   font-size: 0.95rem;
   margin-bottom: 0.25rem;
 }
 
 /* Publications styling */
 .publication {
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-large);
 }
 
 .publication-meta {
   font-style: italic;
-  color: #444;
+  color: var(--secondary-text-color);
 }
 
 /* CV styling */
 .cv-section {
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing-xlarge);
 }
 
 .cv-section h2 {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--light-border-color);
   padding-bottom: 0.25rem;
 }
 
 .cv-entry {
-  margin-bottom: 1rem;
+  margin-bottom: var(--spacing-medium);
 }
 
 .cv-date {
-  color: #666;
+  color: var(--secondary-text-color);
   font-size: 0.95rem;
 }
 
@@ -156,15 +179,15 @@ footer {
 pre, code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.9em;
-  background-color: #f5f5f5;
+  background-color: var(--code-background);
   padding: 0.2em 0.4em;
   border-radius: 3px;
 }
 
 pre {
-  padding: 1rem;
+  padding: var(--spacing-medium);
   overflow-x: auto;
-  margin-bottom: 1.5rem;
+  margin-bottom: var(--spacing-large);
 }
 
 pre code {
@@ -174,40 +197,40 @@ pre code {
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #eee;
-  padding-left: 1rem;
+  border-left: 4px solid var(--light-border-color);
+  padding-left: var(--spacing-medium);
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 1.5rem;
-  color: #555;
+  margin-bottom: var(--spacing-large);
+  color: var(--blockquote-color);
 }
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
-    padding: 2rem 1rem;
+    padding: var(--spacing-xlarge) var(--spacing-medium);
   }
 }
 
 /* Back to home link */
 a[href="/"] {
   display: inline-block;
-  margin-top: 2rem;
+  margin-top: var(--spacing-xlarge);
   font-size: 0.95rem;
-  color: #666;
+  color: var(--secondary-text-color);
 }
 
 a[href="/"]:hover {
-  color: #2563eb;
+  color: var(--primary-color);
 }
 
 /* Spacing between major sections */
 #publications, #cv, #blog-posts, #find-me {
-  margin-top: 3rem;
+  margin-top: var(--spacing-xxlarge);
 }
 
 /* Add more space before the blog posts section */
 #blog-posts {
-  margin-top: 3rem;
-  padding-top: 1rem;
+  margin-top: var(--spacing-xxlarge);
+  padding-top: var(--spacing-medium);
 }
