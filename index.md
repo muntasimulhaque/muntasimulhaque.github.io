@@ -5,34 +5,9 @@ title: Home
 
 ## Muntasim Ul Haque  
 
-I'm a telecommunications professional with over 8 years of experience working on projects that keep people connected.
+I'm a telecommunications professional with over 8 years of experience working on projects that keep people connected. Presently I'm working in Bangladesh's submarine cable systems, ensuring reliable, high-speed networks. My work focuses on making networks resilient, efficient, and ready for the future. 
 
-Some things about me:
-* Working in Bangladesh's submarine cable systems, ensuring reliable, high-speed networks
-* My work focuses on making networks resilient, efficient, and ready for the future
-* Got hooked on the challenges of network and memory optimization
-* That passion has driven my work ever since!
-* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}  
-
-Find me around the web:
-* [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
-* [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}
-* [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
-* [Email](mailto:muntasim.u.h@gmail.com)
-
-#### Publications
-
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}.
-
-Journal Articles:
-* Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
-  [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}
-
-Conference Papers:
-* Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
-  DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
-
-#### CV
+Some things about me:  
 
 Education:
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
@@ -61,8 +36,13 @@ Skills:
 * Web Development: HTML, CSS, JavaScript, Markdown
 
 Publications:
-* Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.
-* Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.
+* Journal Articles
+	* nwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
+    [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}  
+
+* Conference Papers
+	* Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
+    DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}  
 
 Test Score:
 * IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
@@ -90,8 +70,14 @@ Awards and Scholarships:
 * Government scholarships for outstanding achievement in Higher Secondary and Secondary exams.
 * Talentpool scholarships for exceptional results in Junior and Primary public exams.
 
-#### Blogs
+Blogs:
 
 {% for post in site.posts %}
 * [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
+{% endfor %}  
+
+Find me around the web:
+* [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
+* [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}
+* [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
+* [Email](mailto:muntasim.u.h@gmail.com)
