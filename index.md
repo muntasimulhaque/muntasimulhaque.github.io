@@ -5,7 +5,7 @@ title: Home
 
 ## Muntasim Ul Haque  
 
-[LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"} [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"} [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"} [Email](mailto:muntasim.u.h@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"} | [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"} | [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"} | [Email](mailto:muntasim.u.h@gmail.com)  
 
 I'm a telecommunications professional with over 8 years of experience working on projects that keep people connected.
 
@@ -87,9 +87,3 @@ Awards and Scholarships:
 {% for post in site.posts %}
 * [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
-
-#### Find me around the web:
-* [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
-* [Google Scholar](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}
-* [X (formerly Twitter)](https://x.com/muntasimulhaque){:target="_blank"}
-* [Email](mailto:muntasim.u.h@gmail.com)
