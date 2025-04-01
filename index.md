@@ -60,6 +60,10 @@ Skills:
 * Software: LaTeX, Microsoft Office Suite, LibreOffice
 * Web Development: HTML, CSS, JavaScript, Markdown
 
+Publications:
+* Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.
+* Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.
+
 Test Score:
 * IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
 
