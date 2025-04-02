@@ -58,5 +58,3 @@ Awards and Scholarships:
 * OIC Scholarship awarded during undergraduate years at Islamic University of Technology.
 * Government scholarships for outstanding achievement in Higher Secondary and Secondary exams.
 * Talentpool scholarships for exceptional results in Junior and Primary public exams.
-
-[← Back to Home](/)
