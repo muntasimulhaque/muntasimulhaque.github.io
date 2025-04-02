@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IELTS Tips from a Band 8 Scorer
+title: "IELTS Tips from a Band 8 Scorer"
 date: 2024-12-24
 ---
 

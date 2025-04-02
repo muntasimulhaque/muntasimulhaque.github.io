@@ -1,22 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  {% seo title=false %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal site of Muntasim Ul Haque.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="UYjXZMa9J9gswoWCA2s4Y6R7bYg0VSPBKLaUyXrQwEg" />
+    
+    <title>{% if page.title and page.title != site.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    
+    <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 </head>
 <body>
-  <main>
-    {{ content }}
-  </main>
+    <header>
+        <div 
+            class="menu-toggle" 
+            id="menu-toggle" 
+            aria-label="Toggle navigation menu" 
+            role="button" 
+            aria-expanded="false"
+        >&#9776;</div>
+        
+        <nav id="main-nav" aria-label="Main Navigation">
+            <ul>
+                <li><a href="{{ '/' | relative_url }}" 
+                       {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a></li>
+                <li><a href="{{ '/publications' | relative_url }}" 
+                       {% if page.url contains '/publications' %}aria-current="page"{% endif %}>Publications</a></li>
+                <li><a href="{{ '/cv' | relative_url }}" 
+                       {% if page.url contains '/cv' %}aria-current="page"{% endif %}>CV</a></li>
+                <li><a href="{{ '/blog' | relative_url }}" 
+                       {% if page.url contains '/blog' %}aria-current="page"{% endif %}>Blogs</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  {% if site.show_footer %}
-  <footer>
-    <p>© {{ site.time | date: '%Y' }} {{ site.author }}. <a href="{{ site.github.repository_url }}" target="_blank" rel="noopener noreferrer">GitHub</a></p>
-  </footer>
-  {% endif %}
+    <main id="main-content">
+        <article>
+            {{ content }}
+        </article>
+    </main>
+
+    <footer>
+        <p>© {{ 'now' | date: "%Y" }} Muntasim Ul Haque. Fork on <a href="https://github.com/muntasimulhaque/muntasimulhaque.github.io" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        menuToggle.addEventListener('click', toggleMenu);
+        menuToggle.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                toggleMenu();
+            }
+        });
+
+        function toggleMenu() {
+            const nav = document.getElementById('main-nav');
+            const isExpanded = nav.classList.toggle('active');
+            menuToggle.setAttribute('aria-expanded', isExpanded);
+        }
+    </script>
 </body>
 </html>
