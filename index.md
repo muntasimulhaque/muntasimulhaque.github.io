@@ -5,7 +5,7 @@ title: Home
 
 ## Muntasim Ul Haque  
 
-I'm a telecommunications professional with over 8 years of experience working on projects that keep people connected. Presently I'm working in Bangladesh's submarine cable systems, ensuring reliable, high-speed networks. My work focuses on making networks resilient, efficient, and ready for the future. 
+I am a telecommunications engineer with 8+ years of experience in critical infrastructure, currently managing submarine cable systems in Bangladesh. I specialize in network resilience, efficiency optimization, and next-generation connectivity solutions, with expertise in both technical operations and project management. 
 
 Some things about me:  
 
