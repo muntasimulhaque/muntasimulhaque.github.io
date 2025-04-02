@@ -1,27 +1,50 @@
-url: https://muntasimulhaque.github.io
+title: Muntasim Ul Haque
+description: Personal site of Muntasim Ul Haque
+author: Muntasim Ul Haque
 
 # Site settings
-title: Muntasim Ul Haque
-name: Muntasim Ul Haque
-description: Personal Website of Muntasim Ul Haque
-timezone: Asia/Dhaka
+url: "https://muntasimulhaque.github.io"
+baseurl: ""
+show_footer: true
+show_back_to_blog: true
+
+# Blog settings
+permalink: /:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:title/
 
 # Build settings
 markdown: kramdown
-permalink: /:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+# GitHub metadata
+github:
+  repository_url: https://github.com/muntasimulhaque/muntasimulhaque.github.io
 
 # Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-compress-html
-  - jekyll-sitemap
+  - node_modules/
+  - vendor/
+  - README.md
