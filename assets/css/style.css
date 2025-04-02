@@ -22,9 +22,9 @@ body {
 
 .site-title {
   display: block;
-  font-size: 1.875rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+  font-size: 2.5rem; /* INCREASED from 1.875rem */
+  font-weight: 700; /* INCREASED from 600 */
+  margin-bottom: 0.8rem; /* INCREASED from 0.5rem */
   color: #1f1f1f; /* Same as your body text color */
   text-decoration: none;
 }
@@ -220,9 +220,10 @@ a[href="/"] {
   display: inline;
   margin-top: 0;
   font-size: inherit;
-  color: inherit;
+  color: #2563eb !important; /* Force the same blue color as other links */
 }
 
 a[href="/"]:hover {
-  color: inherit;
+  color: #2563eb !important;
+  text-decoration: underline;
 }
