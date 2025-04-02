@@ -15,6 +15,38 @@ body {
   padding: 4rem 1rem 5rem;
 }
 
+/* Site header styling */
+.site-header {
+  margin-bottom: 2.5rem;
+}
+
+.site-title {
+  display: block;
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #1f1f1f; /* Same as your body text color */
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-nav {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.site-nav a {
+  color: #2563eb; /* Consistent blue color for all nav links */
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
 /* Typography */
 h2 {
   font-size: 1.875rem;
@@ -183,14 +215,14 @@ blockquote {
   }
 }
 
-/* Back to home link */
+/* Override the special styling for home link that was causing color inconsistency */
 a[href="/"] {
-  display: inline-block;
-  margin-top: 2rem;
-  font-size: 0.95rem;
-  color: #666;
+  display: inline;
+  margin-top: 0;
+  font-size: inherit;
+  color: inherit;
 }
 
 a[href="/"]:hover {
-  color: #2563eb;
+  color: inherit;
 }
