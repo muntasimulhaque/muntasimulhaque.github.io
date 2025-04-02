@@ -23,9 +23,9 @@ body {
 /* Make the site title reasonably sized - not too large, not too small */
 .site-header .site-title {
   display: block;
-  font-size: 2.125rem !important; /* Reduced from 2.5rem to a more balanced size */
-  font-weight: 600 !important; /* Slightly reduced from 700 */
-  margin-bottom: 0.7rem; 
+  font-size: 1.5rem !important; /* Reduced from 2.5rem to a more balanced size */
+  font-weight: 500 !important; /* Slightly reduced from 700 */
+  margin-bottom: 0.5rem; 
   color: #1f1f1f !important; /* Same as body text */
   text-decoration: none !important; /* No underline */
 }
