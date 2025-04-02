@@ -15,22 +15,25 @@ body {
   padding: 4rem 1rem 5rem;
 }
 
-/* Site header styling */
+/* Site header styling with stronger specificity */
 .site-header {
   margin-bottom: 2.5rem;
 }
 
-.site-title {
+/* Make the site title much larger and styled like text instead of a link */
+.site-header .site-title {
   display: block;
-  font-size: 2.5rem; /* INCREASED from 1.875rem */
-  font-weight: 700; /* INCREASED from 600 */
-  margin-bottom: 0.8rem; /* INCREASED from 0.5rem */
-  color: #1f1f1f; /* Same as your body text color */
-  text-decoration: none;
+  font-size: 2.5rem !important; /* Much larger, with !important to override */
+  font-weight: 700 !important; /* Make it bold */
+  margin-bottom: 0.8rem; 
+  color: #1f1f1f !important; /* Same as body text */
+  text-decoration: none !important; /* No underline */
 }
 
-.site-title:hover {
-  text-decoration: none;
+/* Ensure the site title doesn't get underlined on hover */
+.site-header .site-title:hover {
+  text-decoration: none !important;
+  color: #1f1f1f !important;
 }
 
 .site-nav {
@@ -45,6 +48,16 @@ body {
 
 .site-nav a:hover {
   text-decoration: underline;
+}
+
+/* Ensure Home link has the same styling as other nav links */
+.site-nav a[href="/"] {
+  color: #2563eb !important;
+}
+
+.site-nav a[href="/"]:hover {
+  text-decoration: underline;
+  color: #2563eb !important;
 }
 
 /* Typography */
@@ -220,7 +233,7 @@ a[href="/"] {
   display: inline;
   margin-top: 0;
   font-size: inherit;
-  color: #2563eb !important; /* Force the same blue color as other links */
+  color: #2563eb !important;
 }
 
 a[href="/"]:hover {
