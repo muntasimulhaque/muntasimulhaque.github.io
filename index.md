@@ -5,14 +5,15 @@ title: Home
 
 ## Muntasim Ul Haque
 
-I'm a telecommunications professional with over 8 years of experience working on projects that keep people connected.
+I'm a telecommunications engineer with 8+ years building critical infrastructure. I manage submarine cable systems in Bangladesh, specializing in network resilience and next-generation connectivity solutions. My expertise spans both technical operations and strategic project management.
 
 Some things about me:
-* Working in Bangladesh's submarine cable systems, ensuring reliable, high-speed networks
-* My work focuses on making networks resilient, efficient, and ready for the future
-* Got hooked on the challenges of network and memory optimization
-* That passion has driven my work ever since!
-* Started my journey with a bachelor degree in Electrical and Electronic Engineering from the [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
+* Working on submarine cable systems since 2016, keeping Bangladesh connected
+* Deputy Manager (Development) at Bangladesh Submarine Cables PLC (BSCPLC)
+* Started in power generation before moving to telecommunications
+* OIC Scholarship recipient during my undergraduate years at [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
+* Live in Bangladesh, focused on building resilient network infrastructure
+* Passionate about network optimization and project management
 
 Other pages on this site:
 * [Publications](/publications/)
