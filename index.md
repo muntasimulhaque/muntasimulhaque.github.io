@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-I'm a telecommunications engineer with 8+ years building critical infrastructure. I manage submarine cable systems in Bangladesh, specializing in network resilience and next-generation connectivity solutions. My expertise spans both technical operations and strategic project management.
+I am a telecom engineer with 8+ years securing Bangladesh's undersea cable infrastructure—balancing operational excellence with next-generation connectivity strategies.
 
 Some things about me:
 * Working on submarine cable systems since 2016, keeping Bangladesh connected
