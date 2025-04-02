@@ -3,6 +3,8 @@ layout: default
 title: Publications
 ---
 
+[Publications](/publications/) · [CV](/cv/) · [Blog](/blog/)
+
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?hl=en&user=XO3Zz1EAAAAJ&view_op=list_works&authuser=3&sortby=pubdate){:target="_blank"}.
 
 Journal Articles:
