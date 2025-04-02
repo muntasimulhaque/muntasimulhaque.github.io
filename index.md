@@ -15,10 +15,7 @@ Some things about me:
 * Live in Bangladesh, focused on building resilient network infrastructure
 * Passionate about network optimization and project management
 
-Other pages on this site:
-* [Publications](/publications/)
-* [CV](/cv/)
-* [Blogs](/blog/)
+[Publications](/publications/) · [CV](/cv/) · [Blog](/blog/)
 
 Find me around the web:
 * [LinkedIn](https://www.linkedin.com/in/muntasimulhaque/){:target="_blank"}
