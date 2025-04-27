@@ -221,10 +221,39 @@ blockquote {
   color: #555;
 }
 
+/* Image styling - NEW */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 4px;
+}
+
+.post img {
+  max-width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
 /* Responsive adjustments */
 @media (max-width: 600px) {
   body {
     padding: 2rem 1rem;
+  }
+  
+  img {
+    margin: 1rem auto;
   }
 }
 
