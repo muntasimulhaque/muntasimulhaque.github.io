@@ -65,7 +65,7 @@ h2 {
   font-size: 1.875rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  line-height: 1.2; /* Added tighter line height for headings */
+  line-height: 1.4; /* Added adjusted line height for headings */
 }
 
 h3 {
@@ -73,7 +73,7 @@ h3 {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  line-height: 1.2; /* Added tighter line height for headings */
+  line-height: 1.4; /* Added adjusted line height for headings */
 }
 
 h4 {
@@ -81,12 +81,12 @@ h4 {
   font-weight: 600;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
-  line-height: 1.2; /* Added tighter line height for headings */
+  line-height: 1.4; /* Added adjusted line height for headings */
 }
 
 /* Post title specific styling */
 .post h2 {
-  line-height: 1.2; /* Tighter line spacing for post titles */
+  line-height: 1.4; /* Adjusted line spacing for post titles */
   margin-bottom: 0.5rem;
 }
 
@@ -144,6 +144,10 @@ footer {
   color: #666;
   margin-bottom: 1.5rem;
   font-size: 0.95rem;
+}
+
+.post h2 {
+  margin-bottom: 0.5rem;
 }
 
 .back-to-blog {
