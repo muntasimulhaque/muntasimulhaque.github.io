@@ -10,7 +10,7 @@ I was installing Linux Mint 22.1 Xfce on my Thinkpad X220 laptop which already h
 
 After going through some posts on Linux Mints forum, I found the solution. The issue was with the UEFI and Legacy boot. 
 
-My Thinkpad X220 is a pretty old laptop. Fortunatly (*read*, unfortunately) it has both UEFI and Legacy boot options. I faced this issue because my Windows 10 was using the Legacy boot option, while trying to use the UEFI boot with Linux Mint. They both have to be the same: either UEFI or Legacy. 
+My Thinkpad X220 is a pretty old laptop. Interestingly it has both UEFI and Legacy boot options. I faced this issue because my Windows 10 was using the Legacy boot option, while trying to use the UEFI boot with Linux Mint. They both have to be the same: either UEFI or Legacy. 
 
 The solution was pretty simple. I just had to go to the BIOS by pressing F1 key while booting the laptop. I found 3 options: Both UEFI and Legacy, UEFI only and Legacy only. 
 
