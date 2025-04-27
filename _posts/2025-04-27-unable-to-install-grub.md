@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unable to install GRUB in /dev/sda Error During Linux Mint Installation"
+title: '"Unable to install GRUB in /dev/sda" Error During Linux Mint Installation'
 date: 2025-04-27
 ---
 
