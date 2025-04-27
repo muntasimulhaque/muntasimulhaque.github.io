@@ -4,7 +4,7 @@ title: '"Unable to install GRUB in /dev/sda" Error During Linux Mint Installatio
 date: 2025-04-27
 ---
 
-I was installing Linux Mint 22.1 Xfce on my Thinkpad X220 laptop which already had Windows 10 installed. At the last moment, the installer failed to install GRUB in /dev/sda and showed the "Unable to install GRUB in /dev/sda" error with the message "Executing 'grub-install /dev/sda' failed. This is a fatal error."
+I was installing Linux Mint 22.1 Xfce on my Thinkpad X220 laptop which already had Windows 10 installed. At the last moment, the installer failed to install GRUB in /dev/sda and showed the `Unable to install GRUB in /dev/sda` error with the message `Executing 'grub-install /dev/sda' failed. This is a fatal error.`
 
 ![Unable to install GRUB in /dev/sda](/assets/images/2025-04-27-unable-to-install-grub/grub-error.png "Unable to install GRUB in /dev/sda")
 
