@@ -6,6 +6,8 @@ date: 2025-05-12
 
 I was a happy outliner app user, particularly Dynalist, until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by Andrej Karpathy. In this post he talked about why append and ... is his preferred note taking system and why he loves it. 
 
+https://x.com/karpathy/status/1902503836067229803 
+
 There are some people on X that I admire for their thinking process and Karpathy is one of them. I religiously read about whgatever he has to say, except for the things which I don;t understand and for those, I put them into pmy too tough list and move on. 
 
 His post tells the story of his note taking process and why it works for him. It's apparently simple. And that can work for or against you depending on your how you work. Unfortutenly it didn't work for me. 
