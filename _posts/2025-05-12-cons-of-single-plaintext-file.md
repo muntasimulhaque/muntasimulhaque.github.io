@@ -30,14 +30,12 @@ Another issue I faced is that, without some kind of structure or organizations, 
 
 As you use a single file for your notes, it grows in size fast. The bigger the file, the more sluggish it becomes and thus the more time it takes to load. Also, you risk losing data while syncing between devices. With some precautions and a seamless syncing though, this can be avoided. But still.
 
-Nonetheless, I've used a single plain text note or One Big Text FIle (OBTF) for all my note taking purposes, and it worked well for me. But as I looked ahead, I coul;dn't be optimistic for the future as the lack of orgazations would feel havy on me as I go ahead and my notes take on fat. I fear of not finding the exact thing when I need it and taking more time for a simple search.
+Nonetheless, I've used a single plain text note or One Big Text FIle (OBTF) for all my note taking purposes. And it worked well for me. But as I looked ahead, I can't be as optimistic for the future for the lack of orgazations and structure would weigh heavy on me going forward as my notes would gain weight. I'm afraid, finding what I would be looking for would take unnecessariliy long time even for a seemingly simple search.
 
-Karpathy mantioned using multiple notes or usage of tags, etc. can put more cognitive load on the user compared to putting everyting on a single note that he uses. But from my experience of the past MONTHS, I can say I can take this little surge on cognititve load for the better organization of my notes and having a good grasp on them.
+Karpathy said using multiple notes or usage of tags, specific structure, etc. put cognitive load on the user. From my experiences of the past one month or so, I can safely say that I can take on this little surge of cognititve load at the expense of a better organization of my notes.
 
-I switched back to my preferred note traking system: the outliners. I cam e back to using Dynalist. 
+This thought made me switch back to my preferred note taking system: using an outliner app. I came back to using Dynalist.
 
-Iknow Dynliat is on maintenance mode and is almost dead. the developer put all its respurces on developing Obsidian and kept it barely alive with occasional bug fixing at best. But I'm okay with it. Even with the free version, Dynalist has everything I need. It gives me the flexibiity to organization my notes the way I want without getting in my way. It can be as simple or as complex depending on the user. I don't go overboard and so rather like to keep it simple.
+I know Dynalist is on maintenance mode now. The developers have shifted focus and put all their resources on Obsidian. They have kept Dynalist barely alive with occasional bug fixing at most. But I'm okay with it. Even with the free version, Dynalist has everything I need out of note taking. It gives me the flexibiity to organize my notes the way I want without getting in the way. It can be as simple or as complex depending on however you want it to be. I don't go overboard and so rather keep it as simple as possible.
 
-I could use Workflowy whose development is now more active and now more feature-rich than Dynalist. But in my expeiecen, I found Dynalist noticeably faster than Workflowy. 
-
-So Dynalist it is for mr for now.
+I could use Workflowy instead, whose development is now more active and is more feature-rich. From in my experiences, I can tell Dynalist is noticeably faster than Workflowy, which is the dealbreaker for me. As long as the syncing works and the developers don't pull the plug on Dynalist, I hope to keep using it.
