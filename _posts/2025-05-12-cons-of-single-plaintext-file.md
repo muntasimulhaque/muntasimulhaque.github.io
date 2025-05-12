@@ -4,9 +4,7 @@ title: "Why I Came Back to Using an Outliner App From the One Big Text File (OBT
 date: 2025-05-12
 ---
 
-I was a happy outliner app user, particularly Dynalist, until I came across [this X post](https://muntasimulhaque.github.io/hello-world/){:target="_blank"} by Andrej Karpathy. In this post he talked about why append and ... is his preferred note taking system and why he loves it. 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Seeding my Bear ʕ•ᴥ•ʔ blog with more random posts, e.g. here&#39;s something I had on backlog for a while:<br><br># The append-and-review note<br><br>An approach to note taking that I stumbled on and has worked for me quite well for many years. I find that it strikes a good balance of being… <a href="https://t.co/aBYIbi0DRg">pic.twitter.com/aBYIbi0DRg</a></p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1902503836067229803?ref_src=twsrc%5Etfw">March 19, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+I was a happy outliner app user, particularly Dynalist, until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by Andrej Karpathy. In this post he talked about why append and ... is his preferred note taking system and why he loves it. 
 
 There are some people on X that I admire for their thinking process and Karpathy is one of them. I religiously read about whgatever he has to say, except for the things which I don;t understand and for those, I put them into pmy too tough list and move on. 
 
