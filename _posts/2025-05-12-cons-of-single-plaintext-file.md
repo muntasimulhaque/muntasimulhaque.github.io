@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why I Came Back to Using an Outliner App From the One Big Text File (OBTF)"
+title: "Why I Stopped Using the One Big Text File (OBTF) for Note Taking"
 date: 2025-05-12
 ---
 
