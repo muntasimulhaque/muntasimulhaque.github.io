@@ -34,7 +34,7 @@ You might not have to know the exact location of every note, but having a sense 
 
 The drawback to overreliance on the search is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for. Also, you risk losing data while syncing between devices, especially when you make lots of changes to a large file.
 
-Nonetheless, I've used a single plain text note or the One Big Text FIle (OBTF) for all my note taking purposes for a month or so. And I have to admit, it worked well for me. But looking ahead, things didn't look that good. 
+Nonetheless, I've used a single plain text note or the One Big Text FIle (OBTF) for all my note taking purposes for a month or so after reading Karpathy's post. And I have to admit, it worked well for me. But looking ahead, things didn't look that good. 
 
 The lack of orgazation and structure would weigh heavy on me going forward as the note gets bigger. Also, finding a particular note would take an unnecessariliy long time. Besides, for some notes I wouldn't even remember taking them after some time. If you don't know you have something, it's the same as not having it.
 
