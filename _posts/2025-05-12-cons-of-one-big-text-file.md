@@ -46,4 +46,4 @@ Even with the free version, Dynalist has everything I need for my note taking pu
 
 I could use Workflowy instead, which a the first outliner. It's development is more active and is more feature-rich now. From my experiences though, I found Dynalist to be noticeably faster than Workflowy. And that's a dealbreaker for me.
 
-I know that Dynalist is on maintenance mode now. The developers have shifted their focus and put all the resources on Obsidian instead. They have kept Dynalist barely alive with occasional bug fixing at best. But I'm okay with it. As long as Dynalist syncs across my devices and the developers don't pull the plug on Dynalist, I hope to keep using it.
+I know that Dynalist is on maintenance mode now. The developers have shifted their focus and put all the resources on Obsidian instead. They have kept Dynalist barely alive with occasional bug fixing at best. But I'm okay with it. As long as Dynalist syncs across my devices and the developers don't pull the plug on it, I hope to keep using it.
