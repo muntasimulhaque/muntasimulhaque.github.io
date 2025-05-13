@@ -38,7 +38,7 @@ Nonetheless, I've used a single plain text note or the One Big Text FIle (OBTF) 
 
 The lack of orgazation and structure would weigh heavy on me going forward as the note gets bigger. Also, finding a particular note would take an unnecessariliy long time. Besides, for some notes I wouldn't even remember taking them after some time. If you don't know you have something, it's the same as not having it.
 
-Karpathy said using multiple notes or usage of tags, structure, etc. put cognitive load on the user. For me, I would rather take on this little surge of cognititve load at the expense of a better organization for my notes. 
+Karpathy said using multiple notes or usage of tags, structure, etc. put cognitive load on the user. For me, I would rather take on this little surge of cognititve load at the expense of a better organization of my notes. 
 
 So I switched back to using my preferred note taking system: the outliner. I came back to [Dynalist](https://dynalist.io/){:target="_blank"}.
 
