@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-I am a telecom engineer with 8+ years securing Bangladesh's undersea cable infrastructure—balancing operational excellence with next-generation connectivity strategies.
+I am a telecom engineer with 9+ years securing Bangladesh's undersea cable infrastructure—balancing operational excellence with next-generation connectivity strategies.
 
 Some things about me:
 * Working on submarine cable systems since 2016, keeping Bangladesh connected
