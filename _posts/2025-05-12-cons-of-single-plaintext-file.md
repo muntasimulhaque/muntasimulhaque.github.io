@@ -28,7 +28,7 @@ Plain text note taking is great, but the use of a single plain text file for all
 
 Don't get me wrong. I love simplicity. That's my first priority for note taking and others. But I also know that trying to make a system too simple can make it rather complex. 
 
-Keeping everything in a single note file is, in my opinion, taking simplicity a bit too far. Here you are left at the mercy of the default search. It works fine until you have too much repetitions of the word you are looking for. In that case you can't help but introduce some kind of tagging e.g. hashtags, to search for that specific word faster.
+Keeping everything in a single note is, in my opinion, taking simplicity a bit too far. Here you are left at the mercy of the default search. It works fine until you have too much repetitions of the word you are looking for. In that case you can't help but have to introduce some kind of tagging e.g. hashtags, to search for that specific word faster.
 
 Another issue I found with the One Big Text File (OBTF) is, without some kind of structure or organization, you don't have much order. You won't know where a particular note is. You might not have to know the exact locatin of the note, but having a sense of where you can find it, will give you a better grasp. It's like a physical note book. You know the location of the notes, maybe not precisely, but you got the idea. 
 
