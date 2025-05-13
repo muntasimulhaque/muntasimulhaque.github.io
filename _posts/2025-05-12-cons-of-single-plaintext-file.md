@@ -10,9 +10,9 @@ The best thing about Karpathy's note taking system is, it's ridiculously simple.
 
 Unfortutenly it didn't work for me.
 
-Karpathy maintains only a single note for all his note taking purposes. He uses Apple Notes and it syncs to all his devices. He puts all kinds of notes in it: to do, to buy, ideas, code snippets and anything else that comes to his mind. He even uses it as a passing clipboard to copy and paste things between applications and devices.
+Karpathy maintains only a single note for all his note taking purposes. He uses Apple Notes and it syncs to all his devices. He puts all kinds of notes in it: to do, to buy, ideas, code snippets and anything else that comes to mind. He even uses it as a passing clipboard to copy and paste things between applications and devices.
 
-This method of note taking is so simple, it only makes sense to use it. You just open your note takng app and jot down whatever is on your mind. That's it. No cateogry, no formatting and almost no tagging. Karpathy occasionally goes down his notes and pulls the notes up to the top that he deems worthy of his attention or has more priority.
+This method of note taking is so simple it only makes sense to use it. Just open your note takng app and jot down whatever is on your mind. That's it. No cateogry, no formatting and almost no tagging. Karpathy occasionally goes down his notes and pulls the notes up to the top that he deems worthy of his attention or has more priority.
 
 This note taking method's utter simplicity is what makes you try it for yourself. It's very similar to the plain text note taking. I know other people who swear by this everything in a single plain text note. This note taking is also known as One Big Text File or OBTF, in short.
 
