@@ -32,7 +32,7 @@ Another issue I found with the One Big Text File (OBTF) is, without some kind of
 
 You might not have to know the exact location of every note, but having a sense of where you can find it will give you a better grasp. It's like the physical note book. You know the location of the notes, maybe not precisely, but you know where to look for things. 
 
-Without this, you are left at the mercy of the search alone. The drawback to overreliance on the search is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for. Also, you risk losing data while syncing between devices, especially when you make lots of changes to a large file.
+The drawback to overreliance on the search is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for. Also, you risk losing data while syncing between devices, especially when you make lots of changes to a large file.
 
 Nonetheless, I've used a single plain text note or the One Big Text FIle (OBTF) for all my note taking purposes for a month or so. And I have to admit, it worked well for me. But looking ahead, things didn't look that good. 
 
