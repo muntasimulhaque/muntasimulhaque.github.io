@@ -10,19 +10,19 @@ The best thing about this note taking system is, it's ridiculously simple. Thing
 
 Unfortutenly it didn't work for me.
 
-Karpathy maintains only a single note for all his note taking purposes. He uses Apple Notes, which syncs to all his devices. He puts all kinds of notes in it: todo, to buy, ideas, code snippets and whatever else comes to his mind. He even uses it as a passing clipboard to copy and paste notes. 
+Karpathy maintains only a single note for all his note taking purposes. He uses Apple Notes and it syncs to all his devices. He puts all kinds of notes in it: to do, to buy, ideas, code snippets and anything else that comes to his mind. He even uses it as a passing clipboard to copy and paste things between applications and devices.
 
-This method of note taking is so simple, it only makes sense to use it. You just open your note takng app and jot down whatever is on your mind. That's it. No cateogry, no formatting and almost no tagging. Karpathy occasionally goes thorugh his notes and pull the note up to the top, whichever he deems worthy of his attention.
+This method of note taking is so simple, it only makes sense to use it. You just open your note takng app and jot down whatever is on your mind. That's it. No cateogry, no formatting and almost no tagging. Karpathy occasionally goes down his notes and pulls the notes up to the top that he deems worthy of his attention or has more priority.
 
-This note taking method's utter simplicity is what makes you try it for yourself. It's very similar to the plain text note taking. 
+This note taking method's utter simplicity is what makes you try it for yourself. It's very similar to the plain text note taking. I know other people who swear by this everything in a single plain text note. This note taking is also known as One Big Text File or OBTF, in short.
 
-I used the plain text note taking on different occasions earlier, especially while I was using the termianl to do everything on Linux. Back then, I was taking plain text notes for journaling using the vi text editor.
+I was and still is a user of the plain text note taking. I used it extensively while I was using the termianl to do everything on Linux. Back then, I was taking plain text notes for journaling purposes using the vi text editor.
 
-Those days are long gone though. But my love and admiration for the plain text still remain. 
+Those days are long gone. But my love and admiration for the plain text still remain. 
 
-I love the idea of plain text note taking and prefer it over proprietary formats, because plain text notes are future-proof. They are most likely to be supported in the future on any device. But the same can't be said for the proprietary formats.
+I love the idea of plain text note taking and prefer it over proprietary formats because plain text notes are future-proof. They are sure to be supported on any device at any point in the future. But I can't say the same for the proprietary formats.
 
-While plain text note taking is great, the use of a single plain text file for all your notes may not be so. Especially not for those who thrive on note organizations and structures.
+The plain text note taking is great, but the use of a single plain text file for all your notes may not be so. Especially not for those who thrive on proper organizations and structures of their notes.
 
 Don't get me wrong. I love simplicity. That's my first priority. But I also know that trying to make a system too simple can make it rather complex. 
 
