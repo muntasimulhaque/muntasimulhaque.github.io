@@ -40,10 +40,10 @@ The lack of orgazation and structure would weigh heavy on me going forward as th
 
 Karpathy said using multiple notes or usage of tags, structure, etc. put cognitive load on the user. For me, I would rather take on this little surge of cognititve load at the expense of a better organization of my notes. 
 
-So I switched back to using my preferred note taking system: the outliner. I came back to [Dynalist](https://dynalist.io/){:target="_blank"}.
+So I switched back to using my preferred note taking system: the outliner. I came back to Dynalist.
 
 Even with the free version, Dynalist has everything I need for my note taking purposes. It gives me the flexibiity to organize my notes the way I want without getting in the way. It can be as simple or as complex depending on however I want it to be. For my use case, I don't go overboard and rather keep it as simple as possible.
 
-I could use Workflowy instead, which a the first outliner. It's development is more active and is more feature-rich now. From my experiences though, I found Dynalist is noticeably faster than Workflowy. And that's a dealbreaker for me. As long as Dynalist syncs across my devices and the developers don't pull the plug on Dynalist, I hope to keep using it.
+I could use Workflowy instead, which a the first outliner. It's development is more active and is more feature-rich now. From my experiences though, I found Dynalist to be noticeably faster than Workflowy. And that's a dealbreaker for me. As long as Dynalist syncs across my devices and the developers don't pull the plug on Dynalist, I hope to keep using it.
 
 I know that Dynalist is on maintenance mode now. The developers have shifted their focus and put all the resources on Obsidian instead. They have kept Dynalist barely alive with occasional bug fixing at best. But I'm okay with it. 
