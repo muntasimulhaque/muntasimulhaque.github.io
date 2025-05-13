@@ -30,7 +30,7 @@ Keeping everything in a single note is, in my opinion, taking simplicity a bit t
 
 Another issue I found with the One Big Text File (OBTF) is, without some kind of structure or organization, you don't have much order. You won't know where a particular note is. 
 
-You might not have to know the exact locatin of every note, but having a sense of where you can find it will give you a better grasp. It's like the physical note book. You know the location of the notes, maybe not precisely, but you know where to look for things. 
+You might not have to know the exact location of every note, but having a sense of where you can find it will give you a better grasp. It's like the physical note book. You know the location of the notes, maybe not precisely, but you know where to look for things. 
 
 Without this, you are left at the mercy of the search alone. The drawback to overreliance on the search is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for. Also, you risk losing data while syncing between devices, especially when you make lots of changes to a large file.
 
