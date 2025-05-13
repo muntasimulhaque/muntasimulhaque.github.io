@@ -14,7 +14,7 @@ Karpathy maintains only a single note for all his note taking purposes. He uses 
 
 This method of note taking is so simple it only makes sense to use it. Just open your note takng app and jot down whatever is on your mind. That's it. No cateogry, no formatting and almost no tagging. Karpathy often goes through the notes and pulls a note up that he deems worthy of his attention.
 
-This note taking method's utter simplicity is what makes you try it for yourself. It's very similar to the plain text note taking. I know other people who swear by this method of putting everything in a single plain text note. This note taking is also known as One Big Text File or OBTF, in short.
+This note taking method's utter simplicity is what makes you try it for yourself. It's very similar to the plain text note taking. I know people who swear by this method of putting everything in a single plain text note. This note taking is also known as One Big Text File or OBTF, in short.
 
 I was and still is a user of the plain text note taking. I used it extensively while I was using the termianl to do everything on Linux. Back then, I was taking plain text notes for journaling purposes using the vi text editor.
 
