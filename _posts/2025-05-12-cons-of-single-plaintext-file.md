@@ -22,7 +22,7 @@ Those days are long gone. But my love and admiration for the plain text still re
 
 I love the idea of plain text note taking and prefer it over proprietary formats because plain text note is future-proof. They are sure to be supported on any device at any point in the future. But I can't say the same for the proprietary formats.
 
-Plain text note taking is great, but the use of a single plain text file for all your notes may not work for you. Especially if you thrive on proper organizations and structures of notes.
+Plain text note taking is great, but the use of a single plain text file for all your notes may not work for everyone. Especially those who thrive on proper organizations and structures of their notes.
 
 Don't get me wrong. I love simplicity. That's my first priority for note taking and others. But I also know that trying to make a system too simple can make it rather complex. 
 
