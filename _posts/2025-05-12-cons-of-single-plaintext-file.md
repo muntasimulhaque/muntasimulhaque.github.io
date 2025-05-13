@@ -4,7 +4,7 @@ title: "Why I Came Back to Using an Outliner App From the One Big Text File (OBT
 date: 2025-05-12
 ---
 
-I was a happy outliner app user, particularly [Dynalist](https://dynalist.io/){:target="_blank"}, until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by [Andrej Karpathy](https://x.com/karpathy){:target="_blank"}. In this post Karpathy talked about why [append-and-review note](https://karpathy.bearblog.dev/the-append-and-review-note/){:target="_blank"} is his preferred note taking system and most importantly, why it works for him. 
+I had my pretty simple note taking system until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by [Andrej Karpathy](https://x.com/karpathy){:target="_blank"}. In this post Karpathy talked about why [append-and-review note](https://karpathy.bearblog.dev/the-append-and-review-note/){:target="_blank"} is his preferred note taking system and most importantly, why it works for him. 
 
 Karpathy is one of those people on X, whose posts I read religiously for whatever they have to say. In this post, he talked about his note taking process and why he chose it. 
 
