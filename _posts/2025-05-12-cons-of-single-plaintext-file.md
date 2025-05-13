@@ -24,22 +24,22 @@ I love the idea of plain text note taking and prefer it over proprietary formats
 
 The plain text note taking is great, but the use of a single plain text file for all your notes may not be so. Especially not for those who thrive on proper organizations and structures of their notes.
 
-Don't get me wrong. I love simplicity. That's my first priority. But I also know that trying to make a system too simple can make it rather complex. 
+Don't get me wrong. I love simplicity. That's my first priority for note taking and others. But I also know that trying to make a system too simple can make it rather complex. 
 
-Keeping everything in a single note file is, in my opinion, taking simplicity a bit too far. 
+Keeping everything in a single note file is, in my opinion, taking simplicity a bit too far. Here you are left at the mercy of the default search. It works fine until you have too much repetitions of the word you are looking for. In that case you can't help but introduce some kind of tagging e.g. hashtags, to search for that specific word faster.
 
-Here you are left at the mercy of the default search. It works fine until you have too many repetitions of the word that you are looking for. Then you can't help but introduce some kind of tagging e.g. hashtags, to search for the specific word faster.
+Another issue I found with the One Big Text File (OBTF) is, without some kind of structure or organization, you don't have much order. You won't know where a particular note is. You might not have to know the exact locatin of the note, but having a sense of where you can find it, will give you a better grasp. It's like a physical note book. You know the location of the notes, maybe not precisely, but you got the idea. 
 
-Another issue I found with the One Big Text File (OBTF) is, without some kind of structure or organizations, you don't have much order. You won't know where a certain note is. You are left at the mercy of the search alone. The drawback to that is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for.
+Without this, you are left at the mercy of the search alone. The drawback to overreliance on the search is, the bigger the file gets, the slower the search becomes and the more time it usually takes for you to find what you are looking for. Also, you risk losing data while syncing between devices, especially when you make lots of changes to a large file.
 
-Also, you risk losing data while syncing between devices. With some precautions and a seamless syncing though, this can be avoided. But still.
+Nonetheless, I've used a single plain text note or the One Big Text FIle (OBTF) for all my note taking purposes for a month or so. And it worked well for me. But as I thought things through, things didn't look good for me. 
 
-Nonetheless, I've used the One Big Text FIle (OBTF) for all my note taking purposes for a month or so. And it worked well for me. But as I thought things through, things looked bleak. The lack of orgazation and structure would weigh heavy on me going forward as my notes gain weight. I'm afraid, finding a specific note would take an unnecessariliy long time, even for a seemingly simple search.
+The lack of orgazation and structure would weigh heavy on me going forward as my note gets bigger. Also, finding a particular note would take an unnecessariliy long time. Besides, for some notes, I wouldn't even remember taking some notes after some time. If you don't know you have something, it's the same as not having it.
 
-Karpathy said using multiple notes or usage of tags, specific structure, etc. put cognitive load on the user. I would rather take on this little surge of cognititve load at the expense of a better organization for my notes.
+Karpathy said using multiple notes or usage of tags, structure, etc. put cognitive load on the user. For me, I would rather take on this little surge of cognititve load at the expense of a better organization for my notes. So I switched back to using my preferred note taking system: the outliner. I came back to Dynalist.
 
-Finally I switched back to my preferred note taking system: using an outliner app. I came back to using Dynalist.
+I know that Dynalist is on maintenance mode now. The developers have shifted their focus and put all the resources on Obsidian instead. They have kept Dynalist barely alive with occasional bug fixing at best. But I'm okay with it. 
 
-Dynalist is on maintenance mode now. The developers have shifted focus and put all their resources on Obsidian instead. They have kept Dynalist barely alive with occasional bug fixing at most. But I'm okay with it. Even with the free version, Dynalist has everything I need for my note taking purposes. It gives me the flexibiity to organize my notes the way I want without getting in the way. It can be as simple or as complex depending on however you want it to be. For my use case, I don't go overboard with it and rather keep it as simple as it suits my taste.
+Even with the free version, Dynalist has everything I need for my note taking purposes. It gives me the flexibiity to organize my notes the way I want without getting in the way. It can be as simple or as complex depending on however I want it to be. For my use case, I don't go overboard and rather keep it as simple as possible.
 
-I could use Workflowy instead, whose development is now more active and is more feature-rich. From my experiences though, I found Dynalist noticeably faster than Workflowy. That's a dealbreaker for me. As long as it syncs across my devices and the developers don't pull the plug on Dynalist, I hope to keep using it.
+I could use Workflowy instead, which a the first outliner. It's development is more active and is more feature-rich now. From my experiences though, I found Dynalist is noticeably faster than Workflowy. And that's a dealbreaker for me. As long as Dynalist syncs across my devices and the developers don't pull the plug on Dynalist, I hope to keep using it.
