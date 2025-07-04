@@ -45,15 +45,12 @@ With over 10 years of experience, I've worked across both power generation and t
 
 #### Publications
 
-You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"}.
+* [Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"} IJIRTCC 2024   
+Ahmed Selim Anwar, Sujan Kumar Bhowmik, Raqqib Bin Kadir, Muntasim Ul Haque, Siddikur Rahman, Istiaque Ahmed Badhan  
+* [Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"} ICISET 2016   
+Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim-Ul-Haque    
 
-**Journal Articles:**
-* Anwar, A. S., Bhowmik, S. K., Kadir, R.B., **Haque, M.U.**, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. *International Journal on Recent and Innovation Trends in Computing and Communication, 12*(2), 872-889.  
-  [Link](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"}
-
-**Conference Papers:**
-* Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
-  DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
+Also on [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"}    
 
 #### Training and Certification
 
