@@ -1,15 +1,10 @@
 title: Muntasim Ul Haque
-description: Personal site of Muntasim Ul Haque
+description: Personal site of Muntasim Ul Haque - Telecommunications professional specializing in submarine cable infrastructure
 author: Muntasim Ul Haque
 
 # Site settings
 url: "https://muntasimulhaque.github.io"
 baseurl: ""
-show_footer: true
-show_back_to_blog: true
-
-# Blog settings
-permalink: /:title/
 
 # Collections
 collections:
@@ -20,23 +15,8 @@ collections:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Default front matter
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-    values:
-      layout: "default"
+  - jekyll-feed  # Keep if you want RSS feed for your blog
 
 # GitHub metadata
 github:
