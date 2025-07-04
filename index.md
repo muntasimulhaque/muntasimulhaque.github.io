@@ -70,12 +70,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 ## Blog Posts
 
 {% for post in site.posts %}
-### [{{ post.title }}]({{ post.url | relative_url }})
-<small>{{ post.date | date: "%B %d, %Y" }}</small>  
-{% if post.excerpt %}
-{{ post.excerpt | strip_html | truncatewords: 30 }}  
-[Read more...]({{ post.url | relative_url }})
-{% endif %}
+* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
 ---
