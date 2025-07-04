@@ -14,19 +14,19 @@ With over 10 years of experience, I've worked across both power generation and t
 * An OIC Scholarship recipient during my B.S. in Electrical and Electronic Engineering at [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 * Live in Bangladesh, committed to building the resilient network infrastructure that will power the digital future
 
-## Professional Experience
+## Experience
 
 **Bangladesh Submarine Cables PLC (BSCPLC)**
-- *Deputy Manager (Development)*, Jan 2025 – Present
-- *Deputy Manager (SEA-ME-WE 6 Project)*, Additional Charge, Oct 2022 – Jan 2025
-- *Assistant Manager (Development)*, Oct 2022 – Jan 2025
-- *Assistant Manager (Bandwidth Planning)*, May 2024 – Jul 2024
-- *Assistant Manager (International Internet Gateway Network Operation Center)*, Jul 2021 – Oct 2022
-- *Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station)*, Oct 2020 – Mar 2021
-- *Assistant Manager (Operation, Kuakata Submarine Cable Landing Station)*, May 2016 – Jul 2021
+- Deputy Manager (Development), Jan 2025 – Present
+- Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Jan 2025
+- Assistant Manager (Development), Oct 2022 – Jan 2025
+- Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
+- Assistant Manager (International Internet Gateway Network Operation Center), Jul 2021 – Oct 2022
+- Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
+- Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
 
 **United Ashuganj Energy Limited (UAEL)**
-- *Engineer (Turbine and Boilers Operation and Maintenance)*, Mar 2015 – Apr 2016
+- Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
 ## Education
 
