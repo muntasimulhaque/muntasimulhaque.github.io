@@ -16,8 +16,6 @@ With over 10 years of experience, I've worked across both power generation and t
 * An OIC Scholarship recipient during my B.S. in Electrical and Electronic Engineering at [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 * Live in Bangladesh, committed to building the resilient network infrastructure that will power the digital future
 
----
-
 ## Professional Experience
 
 **Bangladesh Submarine Cables PLC (BSCPLC)**
@@ -32,13 +30,9 @@ With over 10 years of experience, I've worked across both power generation and t
 **United Ashuganj Energy Limited (UAEL)**
 - *Engineer (Turbine and Boilers Operation and Maintenance)*, Mar 2015 – Apr 2016
 
----
-
 ## Education
 
 * **B.S. in Electrical and Electronic Engineering**, Islamic University of Technology, 2014
-
----
 
 ## Skills
 
@@ -50,8 +44,6 @@ With over 10 years of experience, I've worked across both power generation and t
 * **Cybersecurity Tools**: Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
 * **Software**: LaTeX, Microsoft Office Suite, LibreOffice
 * **Web Development**: HTML, CSS, JavaScript, Markdown
-
----
 
 ## Publications
 
@@ -65,16 +57,6 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 * Kadir, R.B., Anwar, A. S. & **Haque, M.U.** (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). *2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)*.  
   DOI: [10.1109/ICISET.2016.7856490](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"}
 
----
-
-## Blog Posts
-
-{% for post in site.posts %}
-* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
-{% endfor %}
-
----
-
 ## Training and Certification
 
 * Cyber Security for Everyone, Cyber Bangla, Sep 2023
@@ -85,8 +67,6 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 * Industrial Training Certificate, Islamic University of Technology, Nov 2013
 * The Industrial Attachment Course, Bangladesh Power Development Board, Oct 2013
 
----
-
 ## Awards and Scholarships
 
 * Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
@@ -94,8 +74,6 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 * OIC Scholarship awarded during undergraduate years at Islamic University of Technology
 * Government scholarships for outstanding achievement in Higher Secondary and Secondary exams
 * Talentpool scholarships for exceptional results in Junior and Primary public exams
-
----
 
 ## Extracurricular Activities
 
@@ -105,8 +83,12 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 * Man of the Tournament in inter-office Cricket competition for exceptional performance
 * Winner of inter-office Badminton Doubles, praised for versatile, ambidextrous gameplay
 
----
-
 ## Test Scores
 
 * IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
+
+## Blog Posts
+
+{% for post in site.posts %}
+* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+{% endfor %}
