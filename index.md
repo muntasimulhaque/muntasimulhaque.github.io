@@ -4,8 +4,6 @@ title: Muntasim Ul Haque
 description: Personal site of Muntasim Ul Haque - Telecommunications professional specializing in submarine cable infrastructure
 ---
 
-## About Me
-
 With over 10 years of experience, I've worked across both power generation and telecommunications, now focused on securing Bangladesh's submarine cable infrastructure. From the power sector to the world of undersea cables, the mission has always been the same: keeping things connected and resilient.
 
 * Deputy Manager (Development) at [Bangladesh Submarine Cables PLC (BSCPLC)](https://bsccl.com.bd/){:target="_blank"}
