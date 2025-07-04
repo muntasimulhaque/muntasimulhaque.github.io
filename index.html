@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muntasim Ul Haque</title>
+    <meta name="description" content="The personal website of Muntasim Ul Haque, focusing on telecommunications, submarine cable infrastructure, and professional experience.">
+    <meta name="author" content="Muntasim Ul Haque">
+    <style>
+        :root {
+            /* Colors */
+            --color-text: #1f1f1f;
+            --color-background: #fcfcfc;
+            --color-link: #2563eb;
+            --color-muted: #666;
+            --color-border: #eee;
+
+            /* Layout */
+            --content-width: 45rem;
+            --grid-padding: 1rem;
+            --vertical-spacing: 3rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            color: var(--color-text);
+            background-color: var(--color-background);
+            
+            /* Grid Layout */
+            display: grid;
+            grid-template-columns: 
+                minmax(var(--grid-padding), 1fr)
+                minmax(0, var(--content-width))
+                minmax(var(--grid-padding), 1fr);
+            margin: 0;
+            padding: var(--vertical-spacing) 0 calc(var(--vertical-spacing) + 1rem);
+        }
+
+        /* Header & Navigation */
+        header {
+            grid-column: 2;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        .site-title {
+            display: block;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--color-text);
+            text-decoration: none;
+        }
+
+        .site-nav {
+            font-size: 1rem;
+        }
+
+        .site-nav a {
+            color: var(--color-link);
+            text-decoration: none;
+            margin-right: 0.5rem;
+        }
+
+        .site-nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main content area */
+        main {
+            grid-column: 2;
+        }
+        
+        section {
+            padding-top: 2rem;
+            margin-bottom: 2rem;
+            border-top: 1px solid var(--color-border);
+        }
+        
+        section:first-of-type {
+            padding-top: 0;
+            border-top: none;
+        }
+
+        /* Footer */
+        footer {
+            grid-column: 2;
+            margin-top: 2rem;
+            font-size: 0.875rem;
+            color: var(--color-muted);
+            border-top: 1px solid var(--color-border);
+            padding-top: 1rem;
+            text-align: center;
+        }
+        
+        footer p a {
+             margin: 0 0.5rem;
+        }
+
+        /* Typography */
+        h2 {
+            font-size: 1.875rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.4;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        strong, b {
+            font-weight: 600;
+        }
+
+        /* Lists */
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ul ul {
+            list-style-type: disc;
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+        }
+
+        li {
+            margin: 0.25rem 0;
+        }
+
+        /* Links */
+        a {
+            color: var(--color-link);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* CV specific styling */
+        .cv-entry {
+            margin-bottom: 1.25rem;
+        }
+        
+        .cv-date {
+            color: var(--color-muted);
+            font-size: 0.95rem;
+        }
+        
+        /* Publication styling */
+        .publication {
+            margin-bottom: 1.5rem;
+        }
+        
+        .publication-meta {
+            font-style: italic;
+            color: #444;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            :root {
+                --grid-padding: 0.75rem;
+                --vertical-spacing: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="/" class="site-title">Muntasim Ul Haque</a>
+        <nav class="site-nav">
+            <a href="#about">About</a> ·
+            <a href="#cv">CV</a> ·
+            <a href="#publications">Publications</a> ·
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <p>With over 10 years of experience, I’ve worked across both power generation and telecommunications, now focused on securing Bangladesh’s submarine cable infrastructure. From the power sector to the world of undersea cables, the mission has always been the same: keeping things connected and resilient.</p>
+            <p>Some things about me:</p>
+            <ul>
+                <li>Deputy Manager (Development) at <a href="https://bsccl.com.bd/" target="_blank" rel="noopener">Bangladesh Submarine Cables PLC (BSCPLC)</a>.</li>
+                <li>Worked on SEA-ME-WE 5 and SEA-ME-WE 6 submarine cable projects, strengthening Bangladesh’s international connectivity.</li>
+                <li><a href="https://www.linkedin.com/posts/muntasimulhaque_i-am-honored-to-have-received-the-integrity-activity-7246364149318856704-aKEW" target="_blank" rel="noopener">Integrity Award 2024</a> recipient from BSCPLC for professional excellence.</li>
+                <li>Letter of Appreciation from BSCPLC for minimizing the impact of a nationwide internet blackout.</li>
+                <li>Started in power generation before moving to telecommunications.</li>
+                <li>An OIC Scholarship recipient during my B.S. in Electrical and Electronic Engineering at the <a href="https://www.iutoic-dhaka.edu/" target="_blank" rel="noopener">Islamic University of Technology</a>.</li>
+                <li>Live in Bangladesh, committed to building the resilient network infrastructure that will power the digital future.</li>
+            </ul>
+        </section>
+
+        <section id="cv">
+            <h2>CV</h2>
+            
+            <h3>Education</h3>
+            <div class="cv-entry">
+                <strong>B.S. in Electrical and Electronic Engineering</strong>, Islamic University of Technology
+                <div class="cv-date">2014</div>
+            </div>
+
+            <h3>Professional Experience</h3>
+            <div class="cv-entry">
+                <strong>Bangladesh Submarine Cables PLC (BSCPLC)</strong>
+                <ul>
+                    <li>Deputy Manager (Development), Jan 2025 – Present</li>
+                    <li>Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Jan 2025</li>
+                    <li>Assistant Manager (Development), Oct 2022 – Jan 2025</li>
+                    <li>Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024</li>
+                    <li>Assistant Manager (International Internet Gateway Network Operation Center), Jul 2021 – Oct 2022</li>
+                    <li>Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021</li>
+                    <li>Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021</li>
+                </ul>
+            </div>
+            <div class="cv-entry">
+                <strong>United Ashuganj Energy Limited (UAEL)</strong>
+                <ul>
+                    <li>Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016</li>
+                </ul>
+            </div>
+
+            <h3>Skills</h3>
+            <ul>
+                <li><b>Programming/Scripting:</b> C, Python, MATLAB, GNU Octave, Bash</li>
+                <li><b>Simulation:</b> MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer</li>
+                <li><b>Machine Learning:</b> Anaconda, Jupyter Notebook, Google Colab</li>
+                <li><b>UNIX/Linux:</b> GNU Core Utils, Debian/Ubuntu's APT, Bash, git, vi, Vim</li>
+                <li><b>Networking:</b> SSH, Wireshark, Cisco IOS, Cisco IOS XR</li>
+                <li><b>Cybersecurity Tools:</b> Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper</li>
+                <li><b>Software:</b> LaTeX, Microsoft Office Suite, LibreOffice</li>
+                <li><b>Web Development:</b> HTML, CSS, JavaScript, Markdown</li>
+            </ul>
+
+            <h3>Test Score</h3>
+            <div class="cv-entry">
+                <strong>IELTS Overall Band 8.0</strong>
+                <div class="cv-date">Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0 | Sep 2024</div>
+            </div>
+
+             <h3>Awards and Scholarships</h3>
+            <ul>
+                <li>Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024</li>
+                <li>Appreciation letter from BSCPLC for minimizing the duration of the nationwide internet blackout, Apr 2018</li>
+                <li>OIC Scholarship awarded during undergraduate years at Islamic University of Technology.</li>
+                <li>Government scholarships for outstanding achievement in Higher Secondary and Secondary exams.</li>
+                <li>Talentpool scholarships for exceptional results in Junior and Primary public exams.</li>
+            </ul>
+
+        </section>
+
+        <section id="publications">
+            <h2>Publications</h2>
+            <p>You can also find my articles on my <a href="https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar profile</a>.</p>
+
+            <div class="publication">
+                <h3>Journal Articles</h3>
+                <p>Anwar, A. S., Bhowmik, S. K., Kadir, R.B., <strong>Haque, M.U.</strong>, Rahman, S. & Badhan, I.A. (2024). Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System. <em>International Journal on Recent and Innovation Trends in Computing and Communication, 12</em>(2), 872-889. <a href="https://ijritcc.org/index.php/ijritcc/article/view/11127" target="_blank" rel="noopener">[Link]</a></p>
+            </div>
+
+            <div class="publication">
+                <h3>Conference Papers</h3>
+                <p>Kadir, R.B., Anwar, A. S. & <strong>Haque, M.U.</strong> (2016). Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM). <em>2016 International Conference on Innovations in Science, Engineering and Technology (ICISET)</em>. DOI: <a href="https://doi.org/10.1109/ICISET.2016.7856490" target="_blank" rel="noopener">10.1109/ICISET.2016.7856490</a></p>
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p><i>(Coming soon)</i></p>
+            </section>
+
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank" rel="noopener">LinkedIn</a> · 
+            <a href="https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · 
+            <a href="https://x.com/muntasimulhaque" target="_blank" rel="noopener">X (Twitter)</a> · 
+            <a href="mailto:muntasim.u.h@gmail.com">Email</a>
+        </p>
+    </footer>
+
+</body>
+</html>
