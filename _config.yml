@@ -1,19 +1,47 @@
 title: Muntasim Ul Haque
-description: Personal site for Muntasim Ul Haque
+description: Personal site of Muntasim Ul Haque
 author: Muntasim Ul Haque
+
 # Site settings
-url: "https://muntasimulhaque.github.io "
+url: "https://muntasimulhaque.github.io"
 baseurl: ""
 show_footer: true
+show_back_to_blog: true
+
+# Blog settings
+permalink: /:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+
+# Default front matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
 # GitHub metadata
 github:
-  repository_url: https://github.com/muntasimulhaque/muntasimulhaque.github.io 
+  repository_url: https://github.com/muntasimulhaque/muntasimulhaque.github.io
+
 # Exclude files from processing
 exclude:
   - Gemfile
