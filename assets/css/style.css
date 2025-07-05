@@ -196,12 +196,6 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-/* Focus states */
-a:focus {
-  outline: 2px solid var(--color-link);
-  outline-offset: 2px;
-}
-
 /* Horizontal rule for section breaks */
 hr {
   border: 0;
