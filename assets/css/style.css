@@ -6,7 +6,6 @@
   --color-muted: #666;
   --color-border: #eee;
   --color-section-border: #ddd;
-  --color-section-bg: #f8f8f8;
 
   /* Layout */
   --content-width: 42rem;
@@ -72,12 +71,38 @@ main > h2:first-of-type {
 }
 
 /* Blog post styling */
+.post {
+  line-height: 1.7;
+}
+
 .post img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 1.5rem auto;
-  border-radius: 4px;
+}
+
+.post-date {
+  color: var(--color-muted);
+  margin-bottom: 1.5rem;
+}
+
+/* Back to blog link */
+.navigation-links {
+  margin-top: 3rem;
+}
+
+.back-to-blog {
+  font-size: 0.9rem;
+}
+
+.back-to-blog a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.back-to-blog a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
@@ -173,13 +198,11 @@ hr {
     font-size: 1.25rem;
   }
   
-  /* Remove this redundant rule (h3 already inherits from body) */
-  h3 {
-    font-size: 1.25rem;
-  }
-  
-  /* Adjust image margins on mobile */
   .post img {
     margin: 1rem auto;
+  }
+  
+  .navigation-links {
+    margin-top: 2rem;
   }
 }
