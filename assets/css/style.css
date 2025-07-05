@@ -41,7 +41,7 @@ body {
 /* Site header styling */
 .site-header {
   grid-column: 2;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2.0rem;
 }
 
 .site-header .site-title {
@@ -56,20 +56,6 @@ body {
 .site-header .site-title:hover {
   text-decoration: none;
   color: var(--color-text);
-}
-
-.site-nav {
-  margin-bottom: 2rem;
-  font-size: 1rem;
-}
-
-.site-nav a {
-  color: var(--color-link);
-  text-decoration: none;
-}
-
-.site-nav a:hover {
-  text-decoration: underline;
 }
 
 /* Main content area */
