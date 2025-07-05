@@ -1,9 +1,10 @@
 :root {
   /* Colors */
-  --color-text: #1f1f1f;
-  --color-background: #fcfcfc;
-  --color-link: #2563eb;
-  --color-muted: #666;
+  --color-text: #1a1a1a; /* Slightly softer than pure black */
+  --color-background: #fafafa; /* Warmer light gray */
+  --color-link: #1a73e8; /* More accessible blue */
+  --color-link-hover: #0d5bba;
+  --color-muted: #5f6368; /* Better contrast ratio */
   --color-border: #eee;
   --color-section-border: #ddd;
 
@@ -12,6 +13,8 @@
   --grid-padding: 1rem;
   --vertical-spacing: 4rem;
   --section-spacing: 3rem;
+
+  --transition-speed: 0.2s;
 }
 
 * {
@@ -20,10 +23,16 @@
   box-sizing: border-box;
 }
 
+/* Add will-change for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  will-change: scroll-position;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* More robust font stack */
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.65; /* Better paragraph readability */
   color: var(--color-text);
   background-color: var(--color-background);
   
@@ -73,6 +82,8 @@ main > h2:first-of-type {
 /* Blog post styling */
 .post {
   line-height: 1.7;
+  max-width: 38rem; /* Optimal reading width */
+  margin: 0 auto; /* Center content */
 }
 
 .post img {
@@ -80,6 +91,10 @@ main > h2:first-of-type {
   height: auto;
   display: block;
   margin: 1.5rem auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 3px;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 
 .post-date {
@@ -115,12 +130,17 @@ footer {
   padding-top: 1rem;
 }
 
+/* Gentle hover effect for footer links */
+footer a:hover {
+  opacity: 0.9;
+}
+
 /* Typography */
 h2 {
   font-size: 1.875rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  line-height: 1.4;
+  line-height: 1.3; /* Tighter heading spacing */
 }
 
 h3 {
@@ -128,7 +148,7 @@ h3 {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  line-height: 1.4;
+  line-height: 1.3; /* Tighter heading spacing */
 }
 
 h4 {
@@ -136,7 +156,7 @@ h4 {
   font-weight: 600;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
-  line-height: 1.4;
+  line-height: 1.3; /* Tighter heading spacing */
 }
 
 p {
@@ -168,10 +188,18 @@ li {
 a {
   color: var(--color-link);
   text-decoration: none;
+  transition: color var(--transition-speed) ease;
 }
 
 a:hover {
   text-decoration: underline;
+  color: var(--color-link-hover);
+}
+
+/* Focus states */
+a:focus {
+  outline: 2px solid var(--color-link);
+  outline-offset: 2px;
 }
 
 /* Horizontal rule for section breaks */

@@ -29,3 +29,10 @@ exclude:
   - node_modules/
   - vendor/
   - README.md
+
+timezone: Asia/Dhaka
+future: false
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
