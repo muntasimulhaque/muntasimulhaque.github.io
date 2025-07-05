@@ -53,11 +53,6 @@ body {
   text-decoration: none;
 }
 
-.site-header .site-title:hover {
-  text-decoration: none;
-  color: var(--color-text);
-}
-
 /* Main content area */
 main {
   grid-column: 2;
