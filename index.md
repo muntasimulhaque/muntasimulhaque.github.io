@@ -50,7 +50,7 @@ Ahmed Selim Anwar, Sujan Kumar Bhowmik, Raqqib Bin Kadir, Muntasim Ul Haque, Sid
 * [Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"} ICISET 2016   
 Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque    
 
-My [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile      
+Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile      
 
 #### Training and Certification
 
