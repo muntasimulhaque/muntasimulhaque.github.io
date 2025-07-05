@@ -85,5 +85,5 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&
 #### Blog Posts
 
 {% for post in site.posts %}
-* [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
+{{ post.date | date: "%B %d, %Y" }} - [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
