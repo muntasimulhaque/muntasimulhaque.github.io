@@ -54,7 +54,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 
 #### Projects
 
-* Introduction to Notebook Projects on DataLab (DataCamp)  
+* Introduction to Notebook Projects (DataCamp)  
 
 #### Training and Certification
 
