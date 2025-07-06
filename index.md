@@ -15,6 +15,7 @@ With over 10 years of experience, I've worked across both power generation and t
 * An OIC Scholarship recipient during my B.S. in Electrical and Electronic Engineering at [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
 * Live in Bangladesh, committed to building the resilient network infrastructure that will power the digital future
 
+---
 #### Experience
 
 * **Bangladesh Submarine Cables PLC (BSCPLC)**
@@ -28,10 +29,12 @@ With over 10 years of experience, I've worked across both power generation and t
 * **United Ashuganj Energy Limited (UAEL)**
     * Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
+---
 #### Education
 
 * B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
 
+---
 #### Skills
 
 * **Programming/Scripting:** C, Python, MATLAB, GNU Octave, Bash
@@ -43,6 +46,7 @@ With over 10 years of experience, I've worked across both power generation and t
 * **Software:** LaTeX, Microsoft Office Suite, LibreOffice
 * **Web Development:** HTML, CSS, JavaScript, Markdown
 
+---
 #### Publications
 
 * [Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"} IJIRTCC 2024
@@ -54,6 +58,7 @@ With over 10 years of experience, I've worked across both power generation and t
 
 Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile
 
+---
 #### Training and Certification
 
 * Cyber Security for Everyone, Cyber Bangla, Sep 2023
@@ -64,6 +69,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 * Industrial Training Certificate, Islamic University of Technology, Nov 2013
 * The Industrial Attachment Course, Bangladesh Power Development Board, Oct 2013
 
+---
 #### Awards and Scholarships
 
 * Integrity Award 2024 by BSCPLC for exemplary integrity during FY2023-24, Sep 2024
@@ -72,6 +78,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 * Government scholarships for outstanding achievement in Higher Secondary and Secondary exams
 * Talentpool scholarships for exceptional results in Junior and Primary public exams
 
+---
 #### Extracurricular Activities
 
 * Founding Member of Esonance - Organized the Electrical and Electronic Engineering fest at IUT
@@ -80,10 +87,12 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 * Man of the Tournament in inter-office Cricket competition for exceptional performance
 * Winner of inter-office Badminton Doubles, praised for versatile, ambidextrous gameplay
 
+---
 #### Test Scores
 
 * IELTS Overall Band 8.0 (Listening 8.5, Reading 8.0, Writing 7.5, Speaking 7.0), Sep 2024
 
+---
 <h4 id="blog-posts">Blog Posts</h4>
 
 {% for post in site.posts %}
