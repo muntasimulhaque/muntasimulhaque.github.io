@@ -30,7 +30,16 @@ A telecommunications professional with over a decade of experience, focused on b
 
 #### Education
 
-* B.S. in Electrical and Electronic Engineering, Islamic University of Technology, 2014
+* Bachelor of Science in Electrical and Electronic Engineering, Islamic University of Technology, 2014  
+
+#### Publications
+
+* [Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"} IJIRTCC 2024  
+    *Ahmed Selim Anwar, Sujan Kumar Bhowmik, Raqqib Bin Kadir, Muntasim Ul Haque, Siddikur Rahman, Istiaque Ahmed Badhan*
+* [Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"} ICISET 2016  
+    *Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque*
+
+Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile  
 
 #### Skills
 
@@ -41,18 +50,7 @@ A telecommunications professional with over a decade of experience, focused on b
 * **Web Development:** HTML, CSS, JavaScript, Markdown
 * **Developer Tools:** Linux (Debian, Ubuntu, APT), GNU Core Utils, Git, GitHub, Vim/vi, nano
 * **Cybersecurity:** Burp Suite, Nmap, Metasploit, Nessus, ZAP, John the Ripper
-* **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook, Visio, Project), LibreOffice, LaTeX
-
-#### Publications
-
-* [Challenges in Implementing Machine Learning-Driven IoT Solutions in Semiconductor Design and Wireless Communication System](https://ijritcc.org/index.php/ijritcc/article/view/11127){:target="_blank"} IJIRTCC 2024
-    
-    *Ahmed Selim Anwar, Sujan Kumar Bhowmik, Raqqib Bin Kadir, Muntasim Ul Haque, Siddikur Rahman, Istiaque Ahmed Badhan*
-* [Analysis of Charge-Shared Matchline Sensing Schemes and Current Race Scheme in High-Speed Ternary Content Addressable Memory (TCAM)](https://doi.org/10.1109/ICISET.2016.7856490){:target="_blank"} ICISET 2016
-    
-    *Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque*
-
-Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile  
+* **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook, Visio, Project), LibreOffice, LaTeX  
 
 #### Training and Certification
 
