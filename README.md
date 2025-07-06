@@ -9,7 +9,7 @@ Here's what you'll find:
 - A simple and responsive layout that looks good on any device
 - Built-in SEO so the content shows up in search
 - All content written in simple Markdown
-- A lightweight blog for the articles
+- A lightweight blog for posts
 
 Feel free to fork this repo if you want to use it as a starting point for your own GitHub Pages site! 
 
