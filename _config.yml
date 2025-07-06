@@ -2,6 +2,17 @@ title: Muntasim Ul Haque
 description: Personal site of Muntasim Ul Haque - Telecommunications professional specializing in submarine cable infrastructure
 author: Muntasim Ul Haque
 
+# Social Links
+social:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/muntasimulhaque/
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en
+  - title: X (Twitter)
+    url: https://x.com/muntasimulhaque
+  - title: Email
+    url: mailto:muntasim.u.h@gmail.com
+
 # Site settings
 url: "https://muntasimulhaque.github.io"
 baseurl: ""
@@ -16,7 +27,7 @@ collections:
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed  # Keep if you want RSS feed for your blog
+  - jekyll-feed # Keep if you want RSS feed for your blog
 
 # GitHub metadata
 github:

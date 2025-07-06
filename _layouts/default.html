@@ -20,10 +20,10 @@
 
   <footer>
     <p>
-      <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · 
-      <a href="https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> · 
-      <a href="https://x.com/muntasimulhaque" target="_blank" rel="noopener noreferrer">X (Twitter)</a> · 
-      <a href="mailto:muntasim.u.h@gmail.com">Email</a>
+      {% for link in site.social %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.title }}</a>
+        {% unless forloop.last %} · {% endunless %}
+      {% endfor %}
     </p>
   </footer>
 </body>
