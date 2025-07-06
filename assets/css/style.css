@@ -63,9 +63,16 @@ main {
 }
 
 .post {
+  /* Use a system serif font stack for post readability */
+  font-family: ui-serif, Georgia, "Times New Roman", serif;
   line-height: 1.7;
   max-width: 38rem;
   margin: 0 auto;
+}
+
+/* Keep post headings in the default sans-serif font for contrast */
+.post h2, .post h3, .post h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .post img {
