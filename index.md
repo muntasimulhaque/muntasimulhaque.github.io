@@ -35,8 +35,8 @@ A telecommunications professional with over a decade of experience, focused on b
 #### Skills
 
 * **Data Science & Machine Learning:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL, MySQL, Microsoft SQL Server), Excel, Jupyter Notebook, Google Colab
-* **Other Programming:** C, Bash, MATLAB, GNU Octave
 * **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
+* **Other Programming:** C, Bash, MATLAB, GNU Octave
 * **Simulation:** PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
 * **Web Development:** HTML, CSS, JavaScript, Markdown
 * **Developer Tools:** Linux (Debian, Ubuntu, APT), GNU Core Utils, Git, GitHub, Vim/vi, nano
