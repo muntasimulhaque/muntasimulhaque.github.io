@@ -10,6 +10,7 @@ Here's what you'll find:
 - Built-in SEO so the content shows up in search
 - All content written in simple Markdown
 - A lightweight blog for posts
+- No JavaScript - pure HTML/CSS for better performance and accessibility
 
 Feel free to fork this repo if you want to use it as a starting point for your own GitHub Pages site! 
 
