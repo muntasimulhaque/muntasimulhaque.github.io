@@ -7,24 +7,63 @@
   <meta name="description" content="{{ page.description | default: site.description | escape }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   {% seo title=false %}
-  <link rel="preload" href="{{ '/assets/css/style.css' | relative_url }}" as="style">
 </head>
 <body>
-  <div class="site-header">
-    <a href="/" class="site-title">Muntasim Ul Haque</a>
-  </div>
-  
+  <header>
+    <div class="container header-container">
+      <div class="logo">Muntasim<span>UlHaque</span></div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <main>
     {{ content }}
   </main>
 
   <footer>
-    <p>
-      <a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank" rel="noopener noreferrer">LinkedIn</a> · 
-      <a href="https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> · 
-      <a href="https://x.com/muntasimulhaque" target="_blank" rel="noopener noreferrer">X (Twitter)</a> · 
-      <a href="mailto:muntasim.u.h@gmail.com">Email</a>
-    </p>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="footer-logo">Muntasim Ul Haque</div>
+          <p>Telecommunications professional specializing in submarine cable infrastructure with over 10 years of experience across power generation and telecommunications sectors.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/muntasimulhaque/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://x.com/muntasimulhaque" target="_blank">Twitter</a></li>
+            <li><a href="https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+            <li><a href="mailto:muntasim.u.h@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        &copy; {{ site.time | date: '%Y' }} Muntasim Ul Haque. All rights reserved. Designed and built with pure HTML/CSS.
+      </div>
+    </div>
   </footer>
 </body>
 </html>
