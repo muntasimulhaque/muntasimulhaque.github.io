@@ -2,7 +2,7 @@
 
 This is the source code repository for Muntasim Ul Haque's personal website hosted on GitHub Pages. 
 
-Built with Jekyll using a clean, minimalist design that is content first. 
+It's built with Jekyll using a clean, minimalist design that is content first. 
 
 Here's what you'll find:
 
