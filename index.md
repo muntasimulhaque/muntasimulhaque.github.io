@@ -26,7 +26,18 @@ A telecommunications professional with over a decade of experience, focused on b
     * Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
     * Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
 * **United Ashuganj Energy Limited (UAEL)**
-    * Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
+    * Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016  
+
+#### Skills
+
+* **Data Science & Machine Learning:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL, MySQL, Microsoft SQL Server), Excel, Jupyter Notebook, Google Colab
+* **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
+* **Other Programming:** C, Bash, MATLAB, GNU Octave
+* **Simulation:** PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
+* **Web Development:** HTML, CSS, JavaScript, Markdown
+* **Developer Tools:** Linux (Debian, Ubuntu, APT), GNU Core Utils, Git, GitHub, Vim/vi, nano
+* **Cybersecurity:** Burp Suite, Nmap, Metasploit, Nessus, ZAP, John the Ripper
+* **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook, Visio, Project), LibreOffice, LaTeX  
 
 #### Education
 
@@ -40,17 +51,6 @@ A telecommunications professional with over a decade of experience, focused on b
     Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque
 
 Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile  
-
-#### Skills
-
-* **Data Science & Machine Learning:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL, MySQL, Microsoft SQL Server), Excel, Jupyter Notebook, Google Colab
-* **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
-* **Other Programming:** C, Bash, MATLAB, GNU Octave
-* **Simulation:** PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
-* **Web Development:** HTML, CSS, JavaScript, Markdown
-* **Developer Tools:** Linux (Debian, Ubuntu, APT), GNU Core Utils, Git, GitHub, Vim/vi, nano
-* **Cybersecurity:** Burp Suite, Nmap, Metasploit, Nessus, ZAP, John the Ripper
-* **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook, Visio, Project), LibreOffice, LaTeX  
 
 #### Training and Certification
 
