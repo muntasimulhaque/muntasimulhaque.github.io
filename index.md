@@ -34,13 +34,13 @@ A telecommunications professional with over a decade of experience, focused on b
 
 #### Skills
 
-* **Data Science & Machine Learning:** Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Colab
-* **Programming & Databases:** Python, SQL, PostgreSQL, MySQL, Microsoft SQL Server, C, Bash, MATLAB, GNU Octave
+* **Data Science & Machine Learning:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL, MySQL, Microsoft SQL Server), Excel, Jupyter Notebook, Google Colab
+* **Other Programming:** C, Bash, MATLAB, GNU Octave
 * **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
 * **Simulation:** PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
 * **Web Development:** HTML, CSS, JavaScript, Markdown
-* **Developer Tools:** Linux (Debian, Ubuntu, APT), Git, GitHub, Vim/vi, GNU Core Utils
-* **Cybersecurity:** Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
+* **Developer Tools:** Linux (Debian, Ubuntu, APT), GNU Core Utils, Git, GitHub, Vim/vi, nano
+* **Cybersecurity:** Burp Suite, Nmap, Metasploit, Nessus, ZAP, John the Ripper
 * **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Outlook, Visio, Project), LibreOffice, LaTeX
 
 #### Publications
