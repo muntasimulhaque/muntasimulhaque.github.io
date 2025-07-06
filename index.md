@@ -52,17 +52,39 @@ A telecommunications professional with over a decade of experience, focused on b
     
     *Raqqib Bin Kadir, Ahmed Selim Anwar, Muntasim Ul Haque*
 
-Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile
+Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile  
 
 #### Training and Certification
 
-* Cyber Security for Everyone, Cyber Bangla, Sep 2023
-* Segment Routing Workshop, Bangladesh Network Operators Group, Jul 2022
-* e-Nothi training, Department of ICT, MoPT&IT, Nov 2019
-* SEA-ME-WE 5 Cable System Type-B2/B3 Training, NEC Corporation, Nov 2016
-* SEA-ME-WE 5 Cable System Type-B1 Training, NEC Corporation, Aug 2016
-* Industrial Training Certificate, Islamic University of Technology, Nov 2013
-* The Industrial Attachment Course, Bangladesh Power Development Board, Oct 2013
+* **Python**
+    * Intermediate Python (DataCamp)
+    * Introduction to Python (DataCamp)
+* **SQL**
+    * Intermediate SQL (DataCamp)
+    * Introduction to SQL (DataCamp)
+* **Data Analysis in Excel**
+    * Data Preparation in Excel (DataCamp)
+    * Introduction to Excel (DataCamp)
+* **AI & Prompt Engineering**
+    * Intermediate ChatGPT (DataCamp)
+    * Introduction to ChatGPT (DataCamp)
+    * Understanding ChatGPT (DataCamp)
+    * Understanding Prompt Engineering (DataCamp)
+* **Git & GitHub**
+    * Intermediate GitHub Concepts (DataCamp)
+    * Introduction to GitHub Concepts (DataCamp)
+    * Intermediate Git (DataCamp)
+    * Introduction to Git (DataCamp)
+* **Data Science**
+    * Understanding Data Science (DataCamp)
+* **Cybersecurity**
+    * Cyber Security for Everyone (Cyber Bangla)
+* **Networking & Telecom**
+    * Segment Routing Workshop (Bangladesh Network Operators Group)
+    * SEA-ME-WE 5 Cable System Type-B1/B2/B3 Training (NEC Corporation)
+* **Industry & Professional Development**
+    * e-Nothi training (Department of ICT, MoPT&IT)
+    * Industrial Training (Islamic University of Technology & Bangladesh Power Development Board)
 
 #### Awards and Scholarships
 
