@@ -4,7 +4,7 @@ title: "Why I Stopped Using the One Big Text File (OBTF) for Note Taking"
 date: 2025-05-12
 ---
 
-I had my pretty simple note taking system until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by [Andrej Karpathy](https://x.com/karpathy){:target="_blank"}. Karpathy is one of those people on X, whose posts I read religiously for whatever they have to say. In this post he talked about why [append-and-review note](https://karpathy.bearblog.dev/the-append-and-review-note/){:target="_blank"} is his preferred note taking system and more importantly, why it works for him. 
+I had my pretty simple note taking system until I came across [this X post](https://x.com/karpathy/status/1902503836067229803){:target="_blank"} by [Andrej Karpathy](https://x.com/karpathy){:target="_blank"}. Karpathy is one of those people on X, whose posts I read religiously for whatever he has to say. In this post he talked about why [append-and-review note](https://karpathy.bearblog.dev/the-append-and-review-note/){:target="_blank"} is his preferred note taking system and more importantly, why it works for him. 
 
 The best thing about Karpathy's note taking system is, it's ridiculously simple. Things that are this simple can both work for or against you, depending on how you work. 
 
