@@ -1,10 +1,10 @@
 :root {
   /* Colors */
-  --color-text: #1a1a1a; /* Slightly softer than pure black */
-  --color-background: #fafafa; /* Warmer light gray */
-  --color-link: #1a73e8; /* More accessible blue */
+  --color-text: #1a1a1a;
+  --color-background: #fafafa;
+  --color-link: #1a73e8;
   --color-link-hover: #0d5bba;
-  --color-muted: #5f6368; /* Better contrast ratio */
+  --color-muted: #5f6368;
   --color-border: #eee;
   --color-section-border: #ddd;
 
@@ -23,7 +23,6 @@
   box-sizing: border-box;
 }
 
-/* Add will-change for smooth scrolling */
 html {
   scroll-behavior: smooth;
   will-change: scroll-position;
@@ -32,11 +31,10 @@ html {
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.65; /* Better paragraph readability */
+  line-height: 1.65;
   color: var(--color-text);
   background-color: var(--color-background);
   
-  /* Grid Layout */
   display: grid;
   grid-template-columns: 
     minmax(var(--grid-padding), 1fr)
@@ -46,7 +44,6 @@ body {
   padding: var(--vertical-spacing) 0 calc(var(--vertical-spacing) + 1rem);
 }
 
-/* Site header styling */
 .site-header {
   grid-column: 2;
   margin-bottom: 2.0rem;
@@ -61,16 +58,14 @@ body {
   text-decoration: none;
 }
 
-/* Main content area */
 main {
   grid-column: 2;
 }
 
-/* Blog post styling */
 .post {
   line-height: 1.7;
-  max-width: 38rem; /* Optimal reading width */
-  margin: 0 auto; /* Center content */
+  max-width: 38rem;
+  margin: 0 auto;
 }
 
 .post img {
@@ -89,7 +84,6 @@ main {
   margin-bottom: 2.5rem;
 }
 
-/* Back to blog link */
 .navigation-links {
   margin-top: 3rem;
 }
@@ -107,7 +101,6 @@ main {
   text-decoration: underline;
 }
 
-/* Footer */
 footer {
   grid-column: 2;
   margin-top: 3rem;
@@ -117,17 +110,15 @@ footer {
   padding-top: 1rem;
 }
 
-/* Gentle hover effect for footer links */
 footer a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
-/* Typography */
 h2 {
   font-size: 1.875rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  line-height: 1.3; /* Tighter heading spacing */
+  line-height: 1.3;
 }
 
 h3 {
@@ -135,11 +126,11 @@ h3 {
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  line-height: 1.3; /* Tighter heading spacing */
+  line-height: 1.3;
 }
 
-/* h4 is now the main section separator */
-main h4 {
+/* Apply separator styles to h4, but NOT on post pages */
+body:not(.layout-post) main h4 {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 1.3;
@@ -148,14 +139,13 @@ main h4 {
   border-top: 1px solid var(--color-border);
 }
 
-/* Removes top border from the very first heading */
-main > h4:first-of-type {
+body:not(.layout-post) main > h4:first-of-type {
   border-top: none;
   padding-top: 0;
 }
 
-/* Hides the "Introduction" heading but keeps it for screen readers */
-main > h4:first-of-type {
+/* Hide the "Introduction" heading on the main page */
+body.layout-default main > h4:first-of-type {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
@@ -173,7 +163,6 @@ strong, b {
   font-weight: 600;
 }
 
-/* Lists */
 ul {
   list-style-type: disc;
   padding-left: 1.5rem;
@@ -190,7 +179,6 @@ li {
   margin: 0.25rem 0;
 }
 
-/* Links */
 a {
   color: var(--color-link);
   text-decoration: none;
@@ -202,14 +190,6 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-/* REMOVED - Timeline styles are no longer used */
-/* ul.timeline ... */
-
-
-/* REMOVED - Horizontal rule is no longer used for sections */
-/* hr { ... } */
-
-/* Responsive adjustments */
 @media (max-width: 600px) {
   :root {
     --grid-padding: 0.75rem;
