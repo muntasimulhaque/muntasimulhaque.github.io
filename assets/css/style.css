@@ -66,31 +66,6 @@ main {
   grid-column: 2;
 }
 
-/* Section Styling */
-main > section {
-  padding-top: var(--section-spacing);
-  margin-top: var(--section-spacing);
-  border-top: 1px solid var(--color-border);
-}
-
-main > section:first-of-type {
-  margin-top: 0;
-  padding-top: 0;
-  border-top: 0;
-}
-
-main > section > h4 { /* Original h2 style from your prompt */
-  font-size: 1.875rem;
-  font-weight: 600;
-  margin: 0 0 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--color-section-border);
-}
-
-main > section:first-of-type > h4 {
-  display: none; /* Hides heading for the intro section */
-}
-
 /* Blog post styling */
 .post {
   line-height: 1.7;
@@ -163,12 +138,18 @@ h3 {
   line-height: 1.3; /* Tighter heading spacing */
 }
 
-h4 {
+/* h4 is now the main section separator */
+main h4 {
   font-size: 1.25rem;
   font-weight: 600;
-  margin-top: 1.25rem;
-  margin-bottom: 0.5rem;
-  line-height: 1.3; /* Tighter heading spacing */
+  line-height: 1.3;
+  padding-bottom: 0.5rem;
+  margin: 0 0 1.5rem;
+}
+
+main > h4:first-of-type,
+main > p:first-of-type + h4 {
+    display: none; /* Hide the "Introduction" heading */
 }
 
 p {
@@ -208,27 +189,28 @@ a:hover {
   color: var(--color-link-hover);
 }
 
-/* Timeline for Experience Section */
-.timeline {
+/* Timeline Style for a Markdown List */
+ul.timeline {
+    list-style: none;
     position: relative;
     padding-left: 2rem;
     border-left: 2px solid var(--color-border);
 }
 
-.timeline-item {
+ul.timeline li {
     position: relative;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
-.timeline-item:last-child {
+ul.timeline li:last-child {
     margin-bottom: 0;
 }
 
-.timeline-item::before {
+ul.timeline li::before {
     content: '';
     position: absolute;
-    left: -2.6rem;
-    top: 0.35rem;
+    left: -2.7rem;
+    top: 0.45rem;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -236,17 +218,20 @@ a:hover {
     border: 2px solid var(--color-background);
 }
 
-.timeline-title {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0;
+ul.timeline p {
+    margin-bottom: 0;
 }
 
-.timeline-meta {
+ul.timeline p:first-of-type {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+ul.timeline p:last-of-type {
     font-size: 0.9rem;
     color: var(--color-muted);
-    margin: 0.15rem 0 0;
 }
+
 
 /* Horizontal rule for section breaks */
 hr {
@@ -268,7 +253,7 @@ hr {
     font-size: 15px;
   }
   
-  h2, .site-header .site-title, main > section > h4 {
+  h2, .site-header .site-title, main h4 {
     font-size: 1.25rem;
   }
   
