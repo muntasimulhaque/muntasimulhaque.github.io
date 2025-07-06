@@ -1,20 +1,20 @@
 :root {
   /* Colors */
-  --color-text: #1a1a1a; /* Slightly softer than pure black */
-  --color-background: #fafafa; /* Warmer light gray */
-  --color-link: #1a73e8; /* More accessible blue */
+  --color-text: #1a1a1a;
+  --color-background: #fafafa;
+  --color-link: #1a73e8;
   --color-link-hover: #0d5bba;
-  --color-muted: #5f6368; /* Better contrast ratio */
+  --color-muted: #5f6368;
   --color-border: #eee;
   --color-section-border: #ddd;
-  --color-timeline: #e0e0e0;
-  --color-timeline-dot: #666;
+  --color-section-bg: rgba(0,0,0,0.015); /* Very subtle section background */
 
   /* Layout */
   --content-width: 42rem;
   --grid-padding: 1rem;
   --vertical-spacing: 4rem;
   --section-spacing: 3rem;
+  --section-radius: 6px; /* Soft corners for sections */
 
   --transition-speed: 0.2s;
 }
@@ -25,20 +25,17 @@
   box-sizing: border-box;
 }
 
-/* Add will-change for smooth scrolling */
 html {
   scroll-behavior: smooth;
-  will-change: scroll-position;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.65; /* Better paragraph readability */
+  line-height: 1.7; /* Improved readability */
   color: var(--color-text);
   background-color: var(--color-background);
   
-  /* Grid Layout */
   display: grid;
   grid-template-columns: 
     minmax(var(--grid-padding), 1fr)
@@ -51,7 +48,7 @@ body {
 /* Site header styling */
 .site-header {
   grid-column: 2;
-  margin-bottom: 2.0rem;
+  margin-bottom: 2.5rem;
 }
 
 .site-header .site-title {
@@ -68,153 +65,76 @@ main {
   grid-column: 2;
 }
 
-/* Section separators */
+/* Section styling */
 .section {
-  margin: var(--section-spacing) 0;
-  padding: 1.5rem 0;
+  background: var(--color-section-bg);
+  border-radius: var(--section-radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 3px solid var(--color-section-border);
+  transition: transform 0.2s ease;
+}
+
+.section:hover {
+  transform: translateY(-2px);
+}
+
+/* Timeline for experience */
+.timeline {
   position: relative;
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-.section + .section {
-  border-top: 1px solid var(--color-border);
-}
-
-.section:first-child {
-  padding-top: 0;
-  border-top: none;
-}
-
-/* Section headers */
-.section h2 {
-  font-size: 1.875rem;
-  font-weight: 600;
-  margin: 0 0 1.5rem 0;
-  color: var(--color-text);
-  position: relative;
-}
-
-.section h2::after {
-  content: '';
+.timeline::before {
+  content: "";
   position: absolute;
-  bottom: -0.5rem;
   left: 0;
-  width: 3rem;
-  height: 2px;
-  background-color: var(--color-section-border);
-}
-
-/* Timeline for experience section */
-.experience-timeline {
-  position: relative;
-  margin-left: 1rem;
-}
-
-.experience-timeline::before {
-  content: '';
-  position: absolute;
-  left: -1rem;
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: var(--color-timeline);
+  background-color: var(--color-border);
 }
 
-.experience-item {
+.timeline-item {
   position: relative;
   margin-bottom: 2rem;
-  padding-left: 2rem;
+  padding-bottom: 0.5rem;
 }
 
-.experience-item::before {
-  content: '';
+.timeline-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.timeline-item::before {
+  content: "";
   position: absolute;
   left: -1.5rem;
-  top: 0.2rem;
-  width: 8px;
-  height: 8px;
-  background-color: var(--color-timeline-dot);
+  top: 0.25rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
+  background-color: var(--color-muted);
+  border: 2px solid var(--color-background);
+  z-index: 1;
 }
 
-.experience-item:last-child {
-  margin-bottom: 0;
-}
-
-.experience-company {
-  font-weight: 600;
-  font-size: 1.1rem;
+.timeline-date {
+  font-size: 0.875rem;
+  color: var(--color-muted);
   margin-bottom: 0.25rem;
-  color: var(--color-text);
 }
 
-.experience-role {
-  color: var(--color-muted);
-  font-size: 0.95rem;
-  margin-bottom: 0.5rem;
-}
-
-.experience-duration {
-  color: var(--color-muted);
-  font-size: 0.9rem;
-  font-style: italic;
-  margin-bottom: 0.75rem;
-}
-
-/* Skills section enhancement */
-.skills-category {
-  margin-bottom: 1.5rem;
-}
-
-.skills-category:last-child {
-  margin-bottom: 0;
-}
-
-.skills-category h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-  color: var(--color-text);
-}
-
-.skills-list {
-  color: var(--color-muted);
+.timeline-content {
   line-height: 1.6;
-}
-
-/* Publications section */
-.publication-item {
-  margin-bottom: 1.5rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--color-border);
-}
-
-.publication-item:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
-.publication-title {
-  font-weight: 600;
-  margin-bottom: 0.25rem;
-}
-
-.publication-authors {
-  color: var(--color-muted);
-  font-size: 0.95rem;
-  margin-bottom: 0.25rem;
-}
-
-.publication-venue {
-  color: var(--color-muted);
-  font-size: 0.9rem;
-  font-style: italic;
 }
 
 /* Blog post styling */
 .post {
   line-height: 1.7;
-  max-width: 38rem; /* Optimal reading width */
-  margin: 0 auto; /* Center content */
+  max-width: 38rem;
+  margin: 0 auto;
 }
 
 .post img {
@@ -224,8 +144,6 @@ main {
   margin: 1.5rem auto;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   border-radius: 3px;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
 }
 
 .post-date {
@@ -261,78 +179,92 @@ footer {
   padding-top: 1rem;
 }
 
-/* Gentle hover effect for footer links */
-footer a:hover {
-  opacity: 0.9;
-}
-
 /* Typography */
 h2 {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 1rem;
-  line-height: 1.3; /* Tighter heading spacing */
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 3rem;
+  height: 2px;
+  background-color: var(--color-section-border);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  line-height: 1.3; /* Tighter heading spacing */
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
-  line-height: 1.3; /* Tighter heading spacing */
 }
 
 p {
   margin-bottom: 1rem;
 }
 
-strong, b {
-  font-weight: 600;
-}
-
 /* Lists */
 ul {
-  list-style-type: disc;
-  padding-left: 1.5rem;
+  list-style-type: none;
+  padding-left: 0;
   margin-bottom: 1.5rem;
 }
 
-ul ul {
-  list-style-type: disc;
-  margin-top: 0.25rem;
-  margin-bottom: 0;
+ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
 }
 
-li {
-  margin: 0.25rem 0;
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-muted);
 }
 
-/* Links */
-a {
-  color: var(--color-link);
-  text-decoration: none;
-  transition: color var(--transition-speed) ease;
+/* Skill chips */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: var(--color-link-hover);
+.skill-chip {
+  background-color: rgba(0,0,0,0.03);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
 }
 
-/* Horizontal rule for section breaks */
-hr {
-  border: 0;
-  height: 1px;
-  background-color: var(--color-border);
-  margin: var(--section-spacing) 0;
+/* Blog list */
+#blog-posts ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#blog-posts li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+#blog-posts li:last-child {
+  border-bottom: none;
 }
 
 /* Responsive adjustments */
@@ -351,27 +283,15 @@ hr {
     font-size: 1.25rem;
   }
   
+  .section {
+    padding: 1rem;
+  }
+  
   .post img {
     margin: 1rem auto;
   }
   
   .navigation-links {
     margin-top: 2rem;
-  }
-  
-  .experience-timeline {
-    margin-left: 0.5rem;
-  }
-  
-  .experience-item {
-    padding-left: 1.5rem;
-  }
-  
-  .experience-item::before {
-    left: -1rem;
-  }
-  
-  .experience-timeline::before {
-    left: -0.5rem;
   }
 }
