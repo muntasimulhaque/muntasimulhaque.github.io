@@ -1,19 +1,9 @@
 ---
 layout: default
 title: Muntasim Ul Haque
-description: Personal site of Muntasim Ul Haque - Telecommunications professional specializing in submarine cable infrastructure
+description: A telecommunications professional with over a decade of experience, focused on building and securing resilient submarine cable infrastructure in Bangladesh.
 ---
-#### Introduction
-
-A telecommunications professional with over a decade of experience, focused on building and securing resilient submarine cable infrastructure in Bangladesh. 
-
-* Deputy Manager (Development) at [Bangladesh Submarine Cables PLC (BSCPLC)](https://bsccl.com.bd/){:target="_blank"}
-* Worked on SEA-ME-WE 5 and SEA-ME-WE 6 submarine cable projects, strengthening Bangladesh's international connectivity
-* [Integrity Award 2024](https://www.linkedin.com/posts/muntasimulhaque_i-am-honored-to-have-received-the-integrity-activity-7246364149318856704-aKEW){:target="_blank"} recipient from BSCPLC for professional excellence
-* Letter of Appreciation from BSCPLC for minimizing the impact of a nationwide internet blackout
-* Started in power generation before moving to telecommunications
-* An OIC Scholarship recipient during my B.S. in Electrical and Electronic Engineering at [Islamic University of Technology](https://www.iutoic-dhaka.edu/){:target="_blank"}
-* Live in Bangladesh, committed to building the resilient network infrastructure that will power the digital future
+A telecommunications professional with over a decade of experience, focused on building and securing resilient submarine cable infrastructure in Bangladesh.
 
 #### Experience
 
@@ -34,14 +24,20 @@ A telecommunications professional with over a decade of experience, focused on b
 
 #### Skills
 
-* **Programming/Scripting:** C, Python, MATLAB, GNU Octave, Bash
-* **Simulation:** MATLAB, PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
-* **Machine Learning:** Anaconda, Jupyter Notebook, Google Colab
-* **UNIX/Linux:** GNU Core Utils, Debian/Ubuntu's APT, Bash, git, vi, Vim
-* **Networking:** SSH, Wireshark, Cisco IOS, Cisco IOS XR
-* **Cybersecurity Tools:** Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
-* **Software:** LaTeX, Microsoft Office Suite, LibreOffice
-* **Web Development:** HTML, CSS, JavaScript, Markdown
+* **Data Science & Machine Learning:**
+    * **Concepts:** Data Analysis, Machine Learning, Supervised & Unsupervised Learning
+    * **Python Stack:** Pandas, NumPy, Matplotlib, Jupyter Notebook, Google Colab
+    * **Databases:** SQL, PostgreSQL, MySQL, Microsoft SQL Server
+* **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
+* **Programming & Scripting:** Python, C, Bash, MATLAB, GNU Octave
+* **Networking & Infrastructure:**
+    * **Core:** Routing, Switching, IP Networking, TCP/IP, Wireshark
+    * **Hardware:** Cisco Routers & Switches (IOS, IOS-XR, Nexus)
+    * **Specialized:** Submarine Cables, Optical Fiber, Network Operations Center (NOC)
+* **Operating Systems & Version Control:** Linux (Debian, Ubuntu), Git, GitHub
+* **Cybersecurity:** Metasploit, Burp Suite, Nmap, Nessus, ZAP, John the Ripper
+* **Software & Productivity:** Microsoft Office Suite (Excel, Word, PowerPoint, Pivot Tables), LibreOffice, LaTeX
+* **Professional Skills:** Problem Solving, Critical Thinking, Business Analysis, Leadership
 
 #### Publications
 
