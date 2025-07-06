@@ -18,38 +18,16 @@ With over 10 years of experience, I've worked across both power generation and t
 ---
 #### Experience
 
-* **Deputy Manager (Development)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · Jan 2025 – Present*
-
-* **Deputy Manager (SEA-ME-WE 6 Project), Additional Charge**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · Oct 2022 – Jan 2025*
-
-* **Assistant Manager (Development)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · Oct 2022 – Jan 2025*
-
-* **Assistant Manager (Bandwidth Planning)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · May 2024 – Jul 2024*
-
-* **Assistant Manager (International Internet Gateway Network Operation Center)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · Jul 2021 – Oct 2022*
-
-* **Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · Oct 2020 – Mar 2021*
-
-* **Assistant Manager (Operation, Kuakata Submarine Cable Landing Station)**
-    
-    *Bangladesh Submarine Cables PLC (BSCPLC) · May 2016 – Jul 2021*
-
-* **Engineer (Turbine and Boilers Operation and Maintenance)**
-    
-    *United Ashuganj Energy Limited (UAEL) · Mar 2015 – Apr 2016*
-*{: .timeline }
+* **Bangladesh Submarine Cables PLC (BSCPLC)**
+    * Deputy Manager (Development), Jan 2025 – Present
+    * Deputy Manager (SEA-ME-WE 6 Project), Additional Charge, Oct 2022 – Jan 2025
+    * Assistant Manager (Development), Oct 2022 – Jan 2025
+    * Assistant Manager (Bandwidth Planning), May 2024 – Jul 2024
+    * Assistant Manager (International Internet Gateway Network Operation Center), Jul 2021 – Oct 2022
+    * Deputy Manager (Maintenance, Kuakata Submarine Cable Landing Station), Oct 2020 – Mar 2021
+    * Assistant Manager (Operation, Kuakata Submarine Cable Landing Station), May 2016 – Jul 2021
+* **United Ashuganj Energy Limited (UAEL)**
+    * Engineer (Turbine and Boilers Operation and Maintenance), Mar 2015 – Apr 2016
 
 ---
 #### Education
