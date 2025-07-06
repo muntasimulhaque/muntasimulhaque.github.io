@@ -41,21 +41,37 @@ body {
     minmax(0, var(--content-width))
     minmax(var(--grid-padding), 1fr);
   margin: 0;
-  padding: var(--vertical-spacing) 0 calc(var(--vertical-spacing) + 1rem);
+  padding: var(--vertical-spacing) 0;
 }
 
 .site-header {
   grid-column: 2;
-  margin-bottom: 2.0rem;
+  margin-bottom: 3rem;
 }
 
 .site-header .site-title {
   display: block;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   color: var(--color-text);
   text-decoration: none;
+}
+
+.site-social-links {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}
+
+.site-social-links a {
+  color: var(--color-muted);
+  text-decoration: none;
+  transition: color var(--transition-speed) ease;
+}
+
+.site-social-links a:hover {
+  color: var(--color-link);
+  text-decoration: underline;
 }
 
 main {
@@ -106,19 +122,6 @@ main {
 
 .back-to-blog a:hover {
   text-decoration: underline;
-}
-
-footer {
-  grid-column: 2;
-  margin-top: 3rem;
-  font-size: 0.875rem;
-  color: var(--color-muted);
-  border-top: 1px solid var(--color-border);
-  padding-top: 1rem;
-}
-
-footer a:hover {
-  opacity: 0.8;
 }
 
 h2 {
