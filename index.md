@@ -52,6 +52,10 @@ A telecommunications professional with over a decade of experience, focused on b
 
 Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1EAAAAJ&hl=en){:target="_blank"} profile  
 
+#### Projects
+
+* Introduction to Notebook Projects on DataLab (DataCamp)  
+
 #### Training and Certification
 
 * **Python**
