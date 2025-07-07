@@ -86,8 +86,7 @@ main {
   /* Use a system serif font stack for post readability */
   font-family: ui-serif, Georgia, "Times New Roman", serif;
   line-height: 1.7;
-  max-width: 38rem;
-  margin: 0 auto;
+  font-size: 17px; /* Increased for better readability at wider widths */
 }
 
 /* Keep post headings in the default sans-serif font for contrast */
