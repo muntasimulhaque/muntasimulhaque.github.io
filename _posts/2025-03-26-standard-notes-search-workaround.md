@@ -4,7 +4,7 @@ title: Workaround for Missing in-note Search Feature of Standard Notes for Andro
 date: 2025-03-26
 ---
 
-[Standard Notes](https://standardnotes.com/){:target="_blank"} is a great note taking app. The killer feature for me is it's end-to-end encryption feature. Only a couple of note taking apps have end-to-end encryption till date. 
+[Standard Notes](https://standardnotes.com/){:target="_blank"} is a great note taking app. The killer feature for me is its end-to-end encryption feature. Only a couple of note taking apps have end-to-end encryption till date. 
 
 I don't have that much demand from a note taking app. I don't like the idea of a note-taking app being everything and a kitchen sink. It has to have this no-frills look and be simple enough to quickly jot things down. All I want from what I call a perfect note-taking app is there in Standard Notes, except the in-note search functionality. 
 
