@@ -69,16 +69,16 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Data Visualization in Excel (DataCamp)
     * Data Preparation in Excel (DataCamp)
     * Introduction to Excel (DataCamp)
-* **AI & Prompt Engineering**
-    * Intermediate ChatGPT (DataCamp)
-    * Introduction to ChatGPT (DataCamp)
-    * Understanding ChatGPT (DataCamp)
-    * Understanding Prompt Engineering (DataCamp)
 * **Git & GitHub**
     * Intermediate GitHub Concepts (DataCamp)
     * Introduction to GitHub Concepts (DataCamp)
     * Intermediate Git (DataCamp)
     * Introduction to Git (DataCamp)
+* **AI & Prompt Engineering**
+    * Intermediate ChatGPT (DataCamp)
+    * Introduction to ChatGPT (DataCamp)
+    * Understanding ChatGPT (DataCamp)
+    * Understanding Prompt Engineering (DataCamp)
 * **Data Science**
     * Understanding Data Science (DataCamp)
 * **Cybersecurity**
