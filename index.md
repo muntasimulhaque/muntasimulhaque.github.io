@@ -31,7 +31,7 @@ A telecommunications professional with over a decade of experience, focused on b
 #### Skills
 
 * **Data Science & Machine Learning:** Python (NumPy, Pandas, Matplotlib), SQL (PostgreSQL, MySQL, Microsoft SQL Server), Excel (PivotTable, PivotChart), Jupyter Notebook, Google Colab
-* **AI & Prompt Engineering:** ChatGPT, GPT, Prompt Engineering
+* **AI & Prompt Engineering:** Prompt Engineering, ChatGPT, GPT
 * **Programming & Scripting:** C, Bash, MATLAB, GNU Octave
 * **Simulation:** PSpice, HSPICE, GNS3, EVE-NG, Cisco Packet Tracer
 * **Web Development:** HTML, CSS, JavaScript, Markdown
@@ -81,6 +81,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Intermediate Git (DataCamp)
     * Introduction to Git (DataCamp)
 * **AI & Prompt Engineering**
+    * ChatGPT Fundamentals (DataCamp)
     * Intermediate ChatGPT (DataCamp)
     * Introduction to ChatGPT (DataCamp)
     * Understanding ChatGPT (DataCamp)
