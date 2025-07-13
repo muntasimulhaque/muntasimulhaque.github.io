@@ -71,7 +71,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Joining Data in SQL (DataCamp)
     * Intermediate SQL (DataCamp)
     * Introduction to SQL (DataCamp)
-* **Data Analysis using Excel**
+* **Excel**
     * Data Analysis in Excel (DataCamp)
     * Data Visualization in Excel (DataCamp)
     * Data Preparation in Excel (DataCamp)
