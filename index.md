@@ -75,10 +75,10 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Introduction to SQL (DataCamp)
 * **Excel**
     * Excel Fundamentals (DataCamp)
-    * Data Analysis in Excel (DataCamp)
-    * Data Visualization in Excel (DataCamp)
-    * Data Preparation in Excel (DataCamp)
-    * Introduction to Excel (DataCamp)
+        * Introduction to Excel (DataCamp)
+        * Data Preparation in Excel (DataCamp)
+        * Data Visualization in Excel (DataCamp)
+        * Data Analysis in Excel (DataCamp)
 * **Git & GitHub**
     * Intermediate GitHub Concepts (DataCamp)
     * Introduction to GitHub Concepts (DataCamp)
@@ -86,10 +86,10 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Introduction to Git (DataCamp)
 * **AI & Prompt Engineering**
     * ChatGPT Fundamentals (DataCamp)
-    * Intermediate ChatGPT (DataCamp)
+        * Intermediate ChatGPT (DataCamp)
+        * Understanding Prompt Engineering (DataCamp)
+        * Understanding ChatGPT (DataCamp)
     * Introduction to ChatGPT (DataCamp)
-    * Understanding ChatGPT (DataCamp)
-    * Understanding Prompt Engineering (DataCamp)
 * **Data Science**
     * Understanding Data Science (DataCamp)
 * **Cybersecurity**
