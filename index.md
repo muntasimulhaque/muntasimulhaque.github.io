@@ -70,6 +70,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
     * Intermediate Python (DataCamp)
     * Introduction to Python (DataCamp)
 * **SQL**
+    * Data Manipulation in SQL (DataCamp)
     * Joining Data in SQL (DataCamp)
     * Intermediate SQL (DataCamp)
     * Introduction to SQL (DataCamp)
