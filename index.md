@@ -66,6 +66,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 #### Training and Certification
 
 * **Python**
+    * Joining Data with pandas (DataCamp)
     * Data Manipulation with pandas (DataCamp)
     * Intermediate Python (DataCamp)
     * Introduction to Python (DataCamp)
