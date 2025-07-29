@@ -54,6 +54,8 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 
 #### Projects
 
+* [Impact Analysis of GoodThought NGO Initiatives](https://github.com/muntasimulhaque/Impact-Analysis-of-GoodThought-NGO-Initiatives){:target="_blank"}  
+    A SQL project to analyze the impact of an NGO initiatives.
 * [Case Study: Analyzing Customer Churn in Excel](https://www.datacamp.com/completed/statement-of-accomplishment/course/756cc91ad2964ef3f0322deff18f219654b2acb8){:target="_blank"}  
     A Microsoft Excel case study to investigate a dataset from an example telecom company and analyze their churn rates.
 * [Investigating Netflix Movies](https://github.com/muntasimulhaque/Investigating-Netflix-Movies){:target="_blank"}  
