@@ -54,6 +54,8 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 
 #### Projects
 
+* [Analyzing Crime in Los Angeles](https://github.com/muntasimulhaque/Analyzing-Crime-in-Los-Angeles){:target="_blank"}  
+    A Python project on analyzing crime in Los Angeles.
 * [Impact Analysis of GoodThought NGO Initiatives](https://github.com/muntasimulhaque/Impact-Analysis-of-GoodThought-NGO-Initiatives){:target="_blank"}  
     A SQL project to analyze the impact of an NGO initiatives.
 * [Case Study: Analyzing Customer Churn in Excel](https://www.datacamp.com/completed/statement-of-accomplishment/course/756cc91ad2964ef3f0322deff18f219654b2acb8){:target="_blank"}  
