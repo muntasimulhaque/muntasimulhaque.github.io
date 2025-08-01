@@ -54,6 +54,8 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 
 #### Projects
 
+* [Exploring NYC Public School Test Result Scores](https://github.com/muntasimulhaque/Exploring-NYC-Public-School-Test-Result-Scores){:target="_blank"}  
+    A Python project using pandas to explore NYC Public School Test Result Scores.
 * [Analyzing Crime in Los Angeles](https://github.com/muntasimulhaque/Analyzing-Crime-in-Los-Angeles){:target="_blank"}  
     A Python project on analyzing crime in Los Angeles.
 * [Impact Analysis of GoodThought NGO Initiatives](https://github.com/muntasimulhaque/Impact-Analysis-of-GoodThought-NGO-Initiatives){:target="_blank"}  
