@@ -72,6 +72,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 #### Training and Certification
 
 * **Python**
+    * Introduction to Data Visualization with Matplotlib (DataCamp)
     * Python Data Fundamentals (DataCamp)
         * Exploratory Data Analysis in Python (DataCamp)
         * Introduction to Statistics in Python (DataCamp)
