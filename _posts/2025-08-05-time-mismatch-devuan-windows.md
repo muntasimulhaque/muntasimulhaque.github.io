@@ -47,7 +47,7 @@ Now, link /etc/localtime with your correct time zone. For me, the command is:
 sudo ln -sf /usr/share/zoneinfo/Asia/Dhaka /etc/localtime
 ```
 
-Change the /Asia/Dhaka part with your time zone. To do this, after typing up to this `sudo ln -sf /usr/share/zoneinfo/`, press the first letter of your continent name and press Tab key. this would auto-fill your continent, and then type in the first couple of letter of your time zone's city name, and you get the idea.
+Change the /Asia/Dhaka part with your time zone. To do this, after typing up to `sudo ln -sf /usr/share/zoneinfo/`, press the first letter of your continent name and press Tab key. this would auto-fill your continent, and then type in the first couple of letter of your time zone's city name, and you get the idea.
 
 So, this solved the issue for me. I simply rebooted the system, and it worked. Hope it works for you, too.
 
