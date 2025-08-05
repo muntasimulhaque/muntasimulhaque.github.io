@@ -245,35 +245,35 @@ blockquote p {
     --section-spacing: 2rem;
   }
   
-  /* Reduced base font size */
+  /* Base body font size remains at 15px */
   body {
-    font-size: 14px; /* Reduced from 15px */
+    font-size: 15px;
   }
   
   /* Smaller headings */
   h2, .site-header .site-title, main h4 {
-    font-size: 1.2rem; /* Reduced from 1.25rem */
+    font-size: 1.2rem;
   }
   
   /* Added h3 mobile size */
   h3 {
-    font-size: 1.1rem; /* New mobile size */
+    font-size: 1.1rem;
   }
   
-  /* Smaller post content */
+  /* Post content reduced to match body size on mobile */
   .post {
-    font-size: 15px; /* Reduced from 17px */
+    font-size: 15px;
   }
   
   /* Smaller metadata */
   .post-date,
   .navigation-links {
-    font-size: 14px; /* Reduced from 16px */
+    font-size: 14px;
   }
   
   /* Smaller social links */
   .site-social-links {
-    font-size: 0.85rem; /* Reduced from 0.9rem */
+    font-size: 0.85rem;
   }
 
   .post img {
