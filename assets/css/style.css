@@ -110,6 +110,23 @@ main {
   margin-bottom: 2.5rem;
 }
 
+/* Add this after your .post-date styles */
+.post pre {
+  background: rgba(0,0,0,0.03);
+  border-left: 3px solid var(--color-border);
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1.5rem 0; /* This adds space above and below */
+  font-family: monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+/* Ensure paragraphs after code blocks have proper spacing */
+.post pre + p {
+  margin-top: 1.5rem;
+}
+
 .navigation-links {
   margin-top: 3rem;
 }
