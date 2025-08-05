@@ -206,6 +206,21 @@ a:hover {
   color: var(--color-link-hover);
 }
 
+/* Add blockquote styling */
+blockquote {
+  border-left: 4px solid var(--color-border);
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  background: rgba(0,0,0,0.02);
+  color: var(--color-muted);
+  font-style: italic;
+}
+
+/* Optional: Style nested paragraphs inside blockquotes */
+blockquote p {
+  margin-bottom: 0.5rem;
+}
+
 @media (max-width: 600px) {
   :root {
     --grid-padding: 0.75rem;
