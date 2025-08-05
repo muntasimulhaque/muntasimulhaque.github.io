@@ -54,6 +54,8 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=XO3Zz1E
 
 #### Projects
 
+* [Visualizing the History of Nobel Prize Winners](https://github.com/muntasimulhaque/Visualizing-the-History-of-Nobel-Prize-Winners){:target="_blank"}  
+    A Python project on visualizing the history of Nobel Prize winners.
 * [Exploring NYC Public School Test Result Scores](https://github.com/muntasimulhaque/Exploring-NYC-Public-School-Test-Result-Scores){:target="_blank"}  
     A Python project using pandas to explore NYC Public School Test Result Scores.
 * [Analyzing Crime in Los Angeles](https://github.com/muntasimulhaque/Analyzing-Crime-in-Los-Angeles){:target="_blank"}  
