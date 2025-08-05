@@ -15,6 +15,5 @@ apt purge libspa-0.2-modules
 apt autoremove
 apt install pulseaudio-module-bluetooth libspa-0.2-bluetooth
 ```  
-
-
+  
 Hope it works for you, too.
