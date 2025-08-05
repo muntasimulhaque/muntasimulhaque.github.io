@@ -6,7 +6,7 @@ date: 2025-08-05
 
 I have Devuan 5.0 Daedalus and Windows 10 dual boot. 
 
-Devuan is baqsically Debian without systemd. Instead of systemd, it offers sysvinit, or openrc or runit. Anyway, the point is, I was facing time mismatch between Devuan and Windows. 
+Devuan is basically Debian without systemd. Instead of systemd, it offers sysvinit, or openrc or runit. Anyway, the point is, I was facing time mismatch between Devuan and Windows. 
 
 Time works differently in Windows and Linux. Windows expects BIOS time in Local Time. But Linux expects the BIOS time in UTC. I'm in Dhaka (Bangladesh), which is UTC+6. My BIOS time is set to Bangladeshi Local Time. So, windows shows me the corrent time, but Devuan adds 6 hours extra to it. 
 
