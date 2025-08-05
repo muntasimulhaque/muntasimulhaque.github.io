@@ -10,6 +10,7 @@ While connecting my bluetooth earbuds to my Devuan 5.0 Daedalus Xfce edition, I 
 br-connection-profile-unavailable
 ```
 
+
 After trying lots of things, executing the following commands one after another worked.
 
 ```
@@ -17,5 +18,6 @@ apt purge libspa-0.2-modules
 apt autoremove
 apt install pulseaudio-module-bluetooth libspa-0.2-bluetooth
 ```
+
 
 Hope it works for you, too.
