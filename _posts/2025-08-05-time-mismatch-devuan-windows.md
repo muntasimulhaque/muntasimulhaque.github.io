@@ -10,7 +10,7 @@ Devuan is basically Debian without systemd. Instead of systemd, it offers sysvin
 
 Time works differently in Windows and Linux. Windows expects BIOS time in Local Time. But Linux expects the BIOS time in UTC. I'm in Dhaka (Bangladesh), which is UTC+6. My BIOS time is set to Bangladeshi Local Time. So, Windows showed me the corrent time, but Devuan added 6 hours extra to it. 
 
-It's not Devuan specific. It's fundamental to how Linux works. And I faced the same issues with other distros like Ubuntu, Mint, etc. But as they use systemd, I could resolve this issue with a simple command: `timedatectl set-local-rtc true --adjust-system-time`.
+It's not Devuan specific though. It's fundamental to how Linux works. And I faced the same issues with other distros like Ubuntu, Mint, etc. But as they use systemd, I could resolve this issue with a simple command: `timedatectl set-local-rtc true --adjust-system-time`.
 
 But, I can't use `timedatectl` in Devuan Linux as it doesn't have systemd. Instead I can use hwclock or something else. 
 
