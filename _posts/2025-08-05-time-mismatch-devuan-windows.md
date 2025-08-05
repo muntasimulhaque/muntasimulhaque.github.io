@@ -32,7 +32,7 @@ Now, after this change, execute the following command:
 sudo hwclock --hctosys --localtime
 ```
 
-This would set the system clock as per the the hardware clock and ask the system to to interpret the hardware clock as local time.
+This would set the system clock as per the the hardware clock and ask the system to interpret the hardware clock as local time.
 
 Now, check your the system and hardware clock time with the following commands:
 
