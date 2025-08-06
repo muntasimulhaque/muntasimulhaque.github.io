@@ -241,7 +241,7 @@ blockquote p {
   background-color: rgba(175,184,193,0.2);
   border-radius: 6px;
   padding: 0.2em 0.4em;
-  color: #e01e5a; /* GitHub's pinkish color for inline code */
+  color: #24292e; /* GitHub's pinkish color for inline code */
 }
 
 /* Updated Code Blocks - GitHub Light Theme */
