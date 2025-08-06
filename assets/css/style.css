@@ -241,6 +241,7 @@ blockquote p {
   border-radius: 6px;
   padding: 0.2em 0.4em;
   color: #24292e; /* GitHub's pinkish color for inline code */
+  font-family: monospace;
 }
 
 /* Updated Code Blocks - GitHub Light Theme */
@@ -253,6 +254,7 @@ blockquote p {
   margin: 1.5rem 0;
   line-height: 1.45;
   color: #24292e; /* Dark text for better contrast */
+  font-family: monospace;
 }
 
 .post pre code {
@@ -261,6 +263,7 @@ blockquote p {
   border-radius: 0;
   color: inherit; /* Inherits color from pre */
   white-space: pre;
+  font-family: monospace;
 }
 
 @media (max-width: 600px) {
