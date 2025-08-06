@@ -84,9 +84,9 @@ main {
 
 .post {
   /* Use a system serif font stack for post readability */
-  font-family: ui-serif, Georgia, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.7;
-  font-size: 18px; /* Increased for better readability at wider widths */
+  font-size: 17px; /* Increased for better readability at wider widths */
 }
 
 /* Keep post headings in the default sans-serif font for contrast */
