@@ -94,6 +94,14 @@ main {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
+/* NEW: Larger post title */
+.post-title {
+  font-size: 2.25rem; /* Increased from 1.875rem */
+  font-weight: 700; /* Slightly bolder */
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
 .post img {
   max-width: 100%;
   height: auto;
@@ -147,7 +155,7 @@ main {
 }
 
 h2 {
-  font-size: 2.0rem;
+  font-size: 1.875rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
   line-height: 1.3;
@@ -285,7 +293,6 @@ blockquote p {
   blockquote {
     padding: 0.5rem;
   }
-  }
   
   /* Smaller headings */
   h2, .site-header .site-title, main h4 {
@@ -300,6 +307,12 @@ blockquote p {
   /* Post content reduced to match body size on mobile */
   .post {
     font-size: 15px;
+  }
+  
+  /* NEW: Slightly larger post title on mobile */
+  .post-title {
+    font-size: 1.8rem;
+    line-height: 1.25;
   }
   
   /* Smaller metadata */
