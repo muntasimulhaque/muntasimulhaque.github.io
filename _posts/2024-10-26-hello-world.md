@@ -28,7 +28,7 @@ Coming back to the point, blogging here wasn't something I set out to do at the 
 
 I am a believer of sharing knowledge with others. I've shared my knowledge with others before, I am sharing now and I will continue to share in the days to come.
 
-#### What's next?
+### What's next?
 
 This site will act mainly as my academic portfolio. I don't have any master-plan of doing anything big here. 
 
