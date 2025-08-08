@@ -10,11 +10,9 @@ My Microsoft Office 365 suit of applications, e.g. Word, Excel, PowerPoint, etc.
 
 It's hideous. Looks aweful. 
 
-I tried many things and at last found a solution in the [Microsoft Tech Community website](https://techcommunity.microsoft.com/discussions/microsoft-365/thick-window-title-bar-in-office-365-applications/2980542/replies/4158320){:target="_blank"}, posted by a user named Rashid_Mehmood. 
+I tried many things and at last found a solution in the [Microsoft Tech Community website](https://techcommunity.microsoft.com/discussions/microsoft-365/thick-window-title-bar-in-office-365-applications/2980542/replies/4158320){:target="_blank"}, posted by a user named Rashid_Mehmood. This worked for me. 
 
-This worked for me. It's a registry hack. 
-
-Just copy the code below in a text editor, maybe use the default windows notepad, and save it as .reg file format, e.g. office.reg
+It's a registry hack. Just copy the code below in a text editor, maybe use the default windows notepad, and save it as `.reg` file format, e.g. office.reg
 
 ```
 Windows Registry Editor Version 5.00
@@ -35,6 +33,6 @@ Windows Registry Editor Version 5.00
 "Microsoft.Office.UXPlatform.RibbonTouchOptimization"="false"
 ```  
 
-After saving the file, double click on it and it would change the relevant registry and will give you back the sane regular titlebar.
+After saving the file, double click on it. This would change the relevant registry and will give you back the sane regular titlebar.
 
 Hope this works for you.
