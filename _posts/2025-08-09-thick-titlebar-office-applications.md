@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Thick Window Title Bar in Microsoft Office 365"
+title: "Microsoft Office 365 Thick Window Title Bar"
 date: 2025-08-09
 ---
 
@@ -35,6 +35,6 @@ Windows Registry Editor Version 5.00
 "Microsoft.Office.UXPlatform.RibbonTouchOptimization"="false"
 ```  
 
-Double clicking on this file changed the relevant registry and gave me back that sane regular titlebar.
+After saving the file, double click on it and it would change the relevant registry and will give you back the sane regular titlebar.
 
-Hope this works for you, too.
+Hope this works for you.
