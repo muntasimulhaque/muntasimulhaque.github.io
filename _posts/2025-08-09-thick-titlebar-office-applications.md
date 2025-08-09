@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Microsoft Office 365 Thick Window Title Bar"
+title: "Microsoft Office 365 Thick Window Title Bar Issue"
 date: 2025-08-09
 ---
 
