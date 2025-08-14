@@ -10,7 +10,7 @@ My Microsoft Office 365 suit of applications, e.g. Word, Excel, PowerPoint, etc.
 
 It's hideous. Looks aweful. 
 
-I tried many things and at last found a solution in the [Microsoft Tech Community website](https://techcommunity.microsoft.com/discussions/microsoft-365/thick-window-title-bar-in-office-365-applications/2980542/replies/4158320){:target="_blank"}, posted by a user named Rashid_Mehmood. This worked for me. 
+I tried many things and at last found a solution in the [Microsoft Tech Community website](https://techcommunity.microsoft.com/discussions/microsoft-365/thick-window-title-bar-in-office-365-applications/2980542/replies/4158320){:target="_blank"}, posted by a user named **Rashid_Mehmood**. This worked for me. 
 
 It's a registry hack. Just copy the code below in a text editor, maybe use the default windows notepad, and save it as `.reg` file format, e.g. office.reg
 
