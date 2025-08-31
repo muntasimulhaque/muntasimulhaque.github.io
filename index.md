@@ -54,7 +54,7 @@ Details on my [Google Scholar](https://scholar.google.com/citations?user=qsD8a0M
 
 #### Projects
 
-* [Customer Analytics - Preparing Data for Modeling](hhttps://github.com/muntasimulhaque/Customer-Analytics-Preparing-Data-for-Modeling){:target="_blank"}  
+* [Customer Analytics - Preparing Data for Modeling](https://github.com/muntasimulhaque/Customer-Analytics-Preparing-Data-for-Modeling){:target="_blank"}  
     A Python project on customer analytics for preparing Data for modeling.
 * [Visualizing the History of Nobel Prize Winners](https://github.com/muntasimulhaque/Visualizing-the-History-of-Nobel-Prize-Winners){:target="_blank"}  
     A Python project on visualizing the history of Nobel Prize winners.
