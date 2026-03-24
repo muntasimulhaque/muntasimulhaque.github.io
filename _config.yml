@@ -1,0 +1,47 @@
+title: Muntasim Ul Haque
+description: Personal site of Muntasim Ul Haque - Telecommunications professional specializing in submarine cable infrastructure
+author: Muntasim Ul Haque
+
+# Social Links
+social:
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/muntasimulhaque/
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=qsD8a0MAAAAJ&hl=en
+  - title: GitHub
+    url: https://github.com/muntasimulhaque 
+
+# Site settings
+url: "https://muntasimulhaque.github.io"
+baseurl: ""
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed # Keep if you want RSS feed for your blog
+
+# GitHub metadata
+github:
+  repository_url: https://github.com/muntasimulhaque/muntasimulhaque.github.io
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - README.md
+
+timezone: Asia/Dhaka
+future: false
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
