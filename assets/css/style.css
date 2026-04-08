@@ -83,21 +83,21 @@ main {
 }
 
 .post {
-  /* Use a system serif font stack for post readability */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.7;
-  font-size: 17px; /* Increased for better readability at wider widths */
+  /* System serif stack for long-form reading */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.8; /* Slightly more leading — serif letterforms need it */
+  font-size: 17px;
 }
 
-/* Keep post headings in the default sans-serif font for contrast */
-.post h2, .post h3, .post h4 {
+/* Keep post headings in sans-serif for contrast against the serif body */
+.post h2, .post h3, .post h4, .post-title {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* NEW: Larger post title */
 .post-title {
-  font-size: 2.25rem; /* Increased from 1.875rem */
-  font-weight: 700; /* Slightly bolder */
+  font-size: 2.25rem;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -124,7 +124,7 @@ main {
   border-left: 3px solid var(--color-border);
   padding: 1rem;
   overflow-x: auto;
-  margin: 1.5rem 0; /* This adds space above and below */
+  margin: 1.5rem 0;
   font-family: monospace;
   line-height: 1.4;
 }
@@ -231,12 +231,12 @@ a:hover {
 }
 
 blockquote {
-  border-left: 4px solid #d0d7de; /* GitHub's border color */
+  border-left: 4px solid #d0d7de;
   padding: 0 1em;
-  color: #57606a; /* Muted text color */
-  background-color: #f6f8fa; /* Light gray background */
+  color: #57606a;
+  background-color: #f6f8fa;
   margin: 1.5rem 0;
-  font-style: normal; /* GitHub avoids italics */
+  font-style: normal;
 }
 
 blockquote p {
@@ -248,20 +248,20 @@ blockquote p {
   background-color: rgba(175,184,193,0.2);
   border-radius: 6px;
   padding: 0.2em 0.4em;
-  color: #24292e; /* GitHub's pinkish color for inline code */
+  color: #24292e;
   font-family: monospace;
 }
 
 /* Updated Code Blocks - GitHub Light Theme */
 .post pre {
-  background-color: #f6f8fa; /* GitHub's light background */
-  border: 1px solid #e1e4e8; /* Light border */
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
   border-radius: 6px;
   padding: 1rem;
   overflow-x: auto;
   margin: 1.5rem 0;
   line-height: 1.45;
-  color: #24292e; /* Dark text for better contrast */
+  color: #24292e;
   font-family: monospace;
 }
 
@@ -269,7 +269,7 @@ blockquote p {
   background: none !important;
   padding: 0;
   border-radius: 0;
-  color: inherit; /* Inherits color from pre */
+  color: inherit;
   white-space: pre;
   font-family: monospace;
 }
