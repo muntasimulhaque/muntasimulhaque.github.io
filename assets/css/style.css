@@ -83,14 +83,13 @@ main {
 }
 
 .post {
-  /* System serif stack for long-form reading */
-  font-family: Georgia, "Times New Roman", Times, serif;
-  line-height: 1.8; /* Slightly more leading — serif letterforms need it */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.7;
   font-size: 17px;
 }
 
-/* Keep post headings in sans-serif for contrast against the serif body */
-.post h2, .post h3, .post h4, .post-title {
+/* Keep post headings in the default sans-serif font for contrast */
+.post h2, .post h3, .post h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
