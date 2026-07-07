@@ -15,17 +15,15 @@ social:
 url: "https://muntasimulhaque.github.io"
 baseurl: ""
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:title/
+# Permalinks
+permalink: /:title/
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed # Keep if you want RSS feed for your blog
+  - jekyll-feed
+  - jekyll-sitemap
 
 # GitHub metadata
 github:
@@ -33,15 +31,7 @@ github:
 
 # Exclude files from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/
   - README.md
 
 timezone: Asia/Dhaka
 future: false
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
