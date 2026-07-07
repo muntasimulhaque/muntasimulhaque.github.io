@@ -176,6 +176,17 @@ body:not(.layout-post) main > h4:first-of-type {
   padding-top: 0;
 }
 
+/* Hide the "Blog Posts" heading on the main page (anchor still works) */
+body.layout-default main > h4:first-of-type {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 p {
   margin-bottom: 1rem;
 }
